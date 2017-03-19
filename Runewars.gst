@@ -212,7 +212,7 @@
         <selectionEntry id="0f6b-bc65-ac8c-5973" name="Terrifying Heraldry" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="6057-2eb2-85e8-0a8d" name="Terrifying Heraldry - Passive" hidden="false">
+            <rule id="6057-2eb2-85e8-0a8d" name=" Terrifying Heraldry - Passive Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -289,7 +289,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Seige Equipment? - General" hidden="false" collective="false">
+    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Heavy" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
