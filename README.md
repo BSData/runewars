@@ -23,6 +23,7 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
 ## Reporting Bugs / Errors ##
+[Reporting Bugs / Errors]: #reporting
 Please open an issue here on this github repository (second tab at the top). This is for reporting issues with the data files (e.g an incorrect restriction or a mis
 
 ## Links ##
