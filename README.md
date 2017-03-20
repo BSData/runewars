@@ -1,4 +1,4 @@
-RuneWars : The Minatures Game
+RuneWars : The Miniatures Game
 ========
 
 #### Contents ####
