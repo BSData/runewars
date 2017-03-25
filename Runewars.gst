@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="4" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="5" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -131,11 +131,54 @@
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="09ce-b554-c398-00dc" name="Wind Rune" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="43b7-e4a0-26c6-16f0" name="Wind Rune - Skill Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Perform a speed [Natural Rune] shift. Then, perform a reform
+This shift cannot be used to disengage.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3544-0cc5-9735-8e29" name="Tempered Steel" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="d7d6-8e69-54f3-f38e" name="Tempered Steel - Melee / Ranged Surge Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Surge : Exhaust this card to add a hit.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="993b-5c86-de69-2f9d" name="Runes - General" hidden="false" collective="false">
+    <selectionEntryGroup id="993b-5c86-de69-2f9d" name="Magic? - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -196,6 +239,29 @@
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="a15e-216f-08ae-9777" name="Close Quarters Targeting" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="a918-a61b-3633-9721" name="Close Quarters Targeting - Ranged Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>You can target enemies engaged with you.
+
+You do not suffer the moral test for being engaged with the defender of this ranged attack (other allies engaged with the defender suffer the moral test as normal.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -209,7 +275,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bebb-5fd8-bf4a-c688" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="0f6b-bc65-ac8c-5973" name="Terrifying Heraldry" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0f6b-bc65-ac8c-5973" name="Terrifying Heraldry" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="6057-2eb2-85e8-0a8d" name=" Terrifying Heraldry - Passive Ability" hidden="false">
