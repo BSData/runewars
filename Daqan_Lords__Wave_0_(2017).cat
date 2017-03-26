@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="6" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="7" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -939,7 +939,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7b0c-b091-7826-b054" name="Musician?" hidden="false" collective="false">
+    <selectionEntryGroup id="7b0c-b091-7826-b054" name="Horns" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -949,7 +949,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0f63-93e1-81c6-f7ed" name="Musician? - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="0f63-93e1-81c6-f7ed" name="Horns - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -972,7 +972,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7b4b-1a3c-8c05-7e1c" name="Standard Bearer?" hidden="false" collective="false">
+    <selectionEntryGroup id="7b4b-1a3c-8c05-7e1c" name="Banners" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -982,7 +982,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5f67-3017-6d7a-182f" name="Standard Bearer? - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="5f67-3017-6d7a-182f" name="Banners - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1005,7 +1005,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9ad2-ba27-7ee5-7683" name="Heavy" hidden="false" collective="false">
+    <selectionEntryGroup id="9ad2-ba27-7ee5-7683" name="Seige" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1015,7 +1015,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fc2d-c5b3-d2b1-515f" name="Heavy - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="fc2d-c5b3-d2b1-515f" name="Seige - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1024,7 +1024,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d6f-b5a5-7e37-a4da" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e3d5-aff1-d3cf-c1b3" name="Front Line Rune Golem" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e3d5-aff1-d3cf-c1b3" name="Front Line Rune Golem" book="Core Set" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="923b-54e1-e765-7408" name="Front Line Rune Golem" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
                   <profiles/>
@@ -1058,7 +1058,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1076,7 +1076,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="761f-72c8-09c2-bc90" name="Magic?" hidden="false" collective="false">
+    <selectionEntryGroup id="761f-72c8-09c2-bc90" name="Sigils" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1086,7 +1086,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8632-b3af-e7f3-3290" name="Magic? - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="8632-b3af-e7f3-3290" name="Sigils - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1109,7 +1109,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0060-8d35-5c00-ed4e" name="Hat?" hidden="false" collective="false">
+    <selectionEntryGroup id="0060-8d35-5c00-ed4e" name="Feather Crown" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1119,7 +1119,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4b61-f039-f3c2-0188" name="Hat? - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="4b61-f039-f3c2-0188" name="Feather Crown - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1131,12 +1131,12 @@
             <selectionEntry id="1fff-efcd-2e4c-f184" name="Latari Training" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="8738-34f8-7d14-d6c1" name="Ranged Ability (Latari Training)" hidden="false">
+                <rule id="8738-34f8-7d14-d6c1" name="Latari Training - Ranged Surge+ Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>1 Surge : After this attack perform a move with speed equal to the surge spoent. You may ?curved_template? This can ? per attack.</description>
+                  <description>1 Surge : After this attack perform a move with speed equal to the surge spent. You may not perform a turn or hook. This cannot ooccur more than once per attack.</description>
                 </rule>
               </rules>
               <infoLinks/>
