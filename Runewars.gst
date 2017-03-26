@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="10" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="11" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -44,14 +44,7 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="3ff1-c335-bd67-644a" name="Seige" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryEntry>
-        <categoryEntry id="f592-f0f0-d7b6-4eab" name="Hero" hidden="false">
+        <categoryEntry id="3ff1-c335-bd67-644a" name="Siege" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -64,7 +57,33 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="a20e-e06c-42d8-c597" name="Unique" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="7704-395b-403a-557b" value="1">
+          <repeats>
+            <repeat field="eec9-41b4-b794-8076" scope="roster" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c10-92e1-e29a-2943" type="min"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7704-395b-403a-557b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6067-963d-89f4-9344" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="5cf1-ff93-7471-c1b5" name="Equipment - General" hidden="false" collective="false">
       <profiles/>
@@ -370,7 +389,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Seige - General" hidden="false" collective="false">
+    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Siege - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
