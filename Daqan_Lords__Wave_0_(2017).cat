@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="7" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="10" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -66,7 +66,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Two Surge : Receive 1 inspiration token.</description>
+          <description>2 Surge : Receive 1 inspiration token.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -235,7 +235,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="1f7f-7412-95fd-4bf7" name="Melee Ability (Oathsworn Cavalry)" hidden="false">
+        <rule id="1f7f-7412-95fd-4bf7" name="Oathsword Cavalry - Melee Surge Ability" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -420,7 +420,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="Brutal [Unstable Runes]">
+            <modifier type="set" field="name" value="Brutal [Unstable Rune]">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -465,7 +465,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="28.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0064-bcf2-1f35-bd60" name="4 Trays" hidden="false" collective="false" type="upgrade">
@@ -478,7 +478,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="50.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8fbc-28dd-1e63-db48" name="6 Trays" hidden="false" collective="false" type="upgrade">
@@ -491,7 +491,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="74.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -546,7 +546,7 @@
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a302-c69c-4005-ebe6" name="Kari Wraithstalker" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a302-c69c-4005-ebe6" name="Kari Wraithstalker" book="Core Set" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="de72-a6aa-6f3a-b02c" name="Kari Wraithstalker" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
           <profiles/>
@@ -569,12 +569,12 @@
           <modifiers/>
           <description>Your army can include 1 non-unique infantry unit from the Latari Elves</description>
         </rule>
-        <rule id="57fe-6668-d2d7-a9d9" name="Melee Ability (Kari Wraithstalker)" hidden="false">
+        <rule id="57fe-6668-d2d7-a9d9" name="Kari Wraithstalker - Melee Surge+ Ability" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>1  Surge+: Choose another enemy unit at range 1-5. That enemy suffers 2 damage per spent Surge.</description>
+          <description>1  Surge+ : Choose another enemy unit at range 1-5. That enemy suffers 2 damage per spent Surge.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -798,12 +798,12 @@
             <selectionEntry id="f5a7-57d5-3fd0-5f5d" name="Wraith Step" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="4814-77ad-4131-ef14" name="Skill (Wraith Step)" hidden="false">
+                <rule id="4814-77ad-4131-ef14" name="Wraith Step - Skill Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>If you are engaged with an enemy unit, pick up and face your unit so it is touching ? that enemy ?</description>
+                  <description>If you are engaged with an enemy unit, pick up and face your unit so it is touching and aligned with that enemy unit&apos;s back.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -922,6 +922,38 @@
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="755c-4885-27d1-5eb1" name="Lance Corporal" book="Daqan Infantry Command" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a397-db6b-aab5-30f4" name="Lance Corporal" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="4"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="0d74-7d26-80b2-ff16" name="Lance Corporal - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you reveal your command tool, you may exhaust this card to treat your selected modifier as white until the end of the round.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1043,16 +1075,16 @@
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Brutal [Unstable Rune]">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </infoLink>
               </infoLinks>
-              <modifiers>
-                <modifier type="set" field="name" value="Brutal [Unstable Rune]">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>

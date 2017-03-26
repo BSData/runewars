@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="8" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="10" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -204,7 +204,7 @@ This shift cannot be used to disengage.</description>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7e89-2dae-48ea-724e" name="Rank Discipline" hidden="false" collective="false" type="upgrade">
@@ -278,6 +278,27 @@ You do not suffer the moral test for being engaged with the defender of this ran
               <infoLinks/>
               <modifiers/>
               <description>At the start of the End Phase, each unit engaged with you receives 1 panic token.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="635a-ae4f-1bf3-0854" name="Heraldic Surcoats" book="Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="6029-14c1-4d9f-4033" name="Heraldic Surcoats - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>When you suffer a moral test, your opponent draws 1 fewer card, to a minimum of 1.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -394,7 +415,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <selectionEntry id="50a9-4de6-6871-3486" name="Reaping Blade" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="1dd5-104b-1c46-bde6" name="Reaping Blade (Melee Ability)" hidden="false">
+            <rule id="1dd5-104b-1c46-bde6" name="Reaping Blade - Melee Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
