@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="11" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="12" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -58,14 +58,14 @@
   <selectionEntries/>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="a20e-e06c-42d8-c597" name="Unique" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a20e-e06c-42d8-c597" name="Unique" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers>
         <modifier type="increment" field="7704-395b-403a-557b" value="1">
           <repeats>
-            <repeat field="eec9-41b4-b794-8076" scope="roster" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+            <repeat field="eec9-41b4-b794-8076" scope="roster" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
           </repeats>
           <conditions/>
           <conditionGroups/>
