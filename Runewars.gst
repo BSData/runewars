@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="12" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="13" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -58,7 +58,7 @@
   <selectionEntries/>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="a20e-e06c-42d8-c597" name="Unique" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="a20e-e06c-42d8-c597" name="Unique" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -97,7 +97,7 @@
         <selectionEntry id="5cde-b969-918f-c94e" name="Shield Wall" book="Starter, Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="5852-c31f-821c-a842" name="Shield Wall" hidden="false">
+            <rule id="5852-c31f-821c-a842" name="Shield Wall - Passive Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>

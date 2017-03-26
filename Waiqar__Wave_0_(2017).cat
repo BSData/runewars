@@ -307,7 +307,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="8d63-116a-5c94-5373" name="Ranged Ability" hidden="false">
+        <rule id="8d63-116a-5c94-5373" name="Reanimate Archers - Ranged Ability" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -452,14 +452,14 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="f3df-f0b7-9568-6bfe" name="Melee Ability" book="Carrion Lancers" hidden="false">
+        <rule id="f3df-f0b7-9568-6bfe" name="Carrion Lancers - Melee Ability" book="Carrion Lancers" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>1 Surge : Add mortal strike if the defender has a blight token.</description>
         </rule>
-        <rule id="3fab-0f9c-4b28-149c" name="Skill (Carrion Lancers)" hidden="false">
+        <rule id="3fab-0f9c-4b28-149c" name="Carrion Lancers - Skill Ability" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -616,7 +616,7 @@
           <modifiers/>
           <description>Each unit in your army is treated as having the available upgrades in the row of its costing table with the next highest cost.</description>
         </rule>
-        <rule id="f908-7ba1-a3df-3fee" name="Ardus Ix&apos;Erebus (Melee Ability)" hidden="false">
+        <rule id="f908-7ba1-a3df-3fee" name="Ardus Ix&apos;Erebus - Melee Ability" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
