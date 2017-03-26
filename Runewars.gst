@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="5" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="11" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -44,14 +44,7 @@
           <modifiers/>
           <constraints/>
         </categoryEntry>
-        <categoryEntry id="3ff1-c335-bd67-644a" name="Seige" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryEntry>
-        <categoryEntry id="f592-f0f0-d7b6-4eab" name="Hero" hidden="false">
+        <categoryEntry id="3ff1-c335-bd67-644a" name="Siege" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -64,7 +57,33 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="a20e-e06c-42d8-c597" name="Unique" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="7704-395b-403a-557b" value="1">
+          <repeats>
+            <repeat field="eec9-41b4-b794-8076" scope="roster" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c10-92e1-e29a-2943" type="min"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7704-395b-403a-557b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6067-963d-89f4-9344" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="5cf1-ff93-7471-c1b5" name="Equipment - General" hidden="false" collective="false">
       <profiles/>
@@ -96,16 +115,15 @@
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c4f2-4fb0-036b-ac61" name="Master Crafted Weapons" book="Starter, Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c4f2-4fb0-036b-ac61" name="Master Crafted Weapons" book="Core Set, Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="5cbf-bb72-bb95-2a09" name="Master Crafted Weapons - Melee Ability" hidden="false">
+            <rule id="5cbf-bb72-bb95-2a09" name="Master Crafted Weapons - Melee Surge Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Melee.
-2 Surge : Add a damage.</description>
+              <description>2 Surge : Add a hit.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -116,19 +134,6 @@
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6145-b142-575a-bc68" name="Fire Rune" book="Carrion Lancers" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="09ce-b554-c398-00dc" name="Wind Rune" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
@@ -178,7 +183,7 @@ This shift cannot be used to disengage.</description>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="993b-5c86-de69-2f9d" name="Magic? - General" hidden="false" collective="false">
+    <selectionEntryGroup id="993b-5c86-de69-2f9d" name="Sigils - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -202,7 +207,15 @@ This shift cannot be used to disengage.</description>
         </selectionEntry>
         <selectionEntry id="baeb-ddfc-5071-d907" name="Moment of Inspiration" book="Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules/>
+          <rules>
+            <rule id="c6ec-16b6-eb27-52bb" name="Moment of Inspiration - Melee Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>You may exhaust this card to add 1 white die.</description>
+            </rule>
+          </rules>
           <infoLinks/>
           <modifiers/>
           <constraints/>
@@ -210,7 +223,7 @@ This shift cannot be used to disengage.</description>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7e89-2dae-48ea-724e" name="Rank Discipline" hidden="false" collective="false" type="upgrade">
@@ -266,7 +279,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="dafc-f19e-db1b-2401" name="Standard Bearer? - General" hidden="false" collective="false">
+    <selectionEntryGroup id="dafc-f19e-db1b-2401" name="Banners - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -296,11 +309,32 @@ You do not suffer the moral test for being engaged with the defender of this ran
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="635a-ae4f-1bf3-0854" name="Heraldic Surcoats" book="Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="6029-14c1-4d9f-4033" name="Heraldic Surcoats - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>When you suffer a moral test, your opponent draws 1 fewer card, to a minimum of 1.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4228-c1b3-e02a-f5f5" name="Musician? - General" hidden="false" collective="false">
+    <selectionEntryGroup id="4228-c1b3-e02a-f5f5" name="Horns - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -309,7 +343,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab96-11f1-9101-f38e" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="0ed2-8fd2-2425-75d2" name="Trumpets" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0ed2-8fd2-2425-75d2" name="Trumpets" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="0f48-bef8-7e2e-48d8" name="Trumpets - Passive" hidden="false">
@@ -317,7 +351,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The bank and hard bank modifers cannot reduce your speed.</description>
+              <description>The turn and hook modifers cannot reduce your speed.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -330,7 +364,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2ae1-f74f-ccc0-c098" name="Metered March" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2ae1-f74f-ccc0-c098" name="Metered March" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="c597-0f72-f834-4b64" name="Metered March - Passive" hidden="false">
@@ -355,7 +389,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Heavy" hidden="false" collective="false">
+    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Siege - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -367,7 +401,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d666-4b2a-f65e-0e17" name="Trinkets? - General" hidden="false" collective="false">
+    <selectionEntryGroup id="d666-4b2a-f65e-0e17" name="Amulets - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -376,7 +410,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f44f-f1f5-8d47-5d4e" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="c940-b86b-eb5c-4803" name="Heartseeker" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c940-b86b-eb5c-4803" name="Heartseeker" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="92f9-6fcc-bc63-c64e" name="Heartseeker (Ranged Ability)" hidden="false">
@@ -400,7 +434,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <selectionEntry id="50a9-4de6-6871-3486" name="Reaping Blade" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="1dd5-104b-1c46-bde6" name="Reaping Blade (Melee Ability)" hidden="false">
+            <rule id="1dd5-104b-1c46-bde6" name="Reaping Blade - Melee Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -434,12 +468,12 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <selectionEntry id="7660-776c-a6b6-51bd" name="Dispatch Runner" book="Oathsworn Cavalry, Reanimates" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="0c0d-437e-5e55-ef20" name="Dispatch Runner" hidden="false">
+            <rule id="0c0d-437e-5e55-ef20" name="Dispatch Runner - Skill Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Exhaust this card to cause another ally at range 1-3 to make a mele attack. Then, that ally receives 1 stun token.</description>
+              <description>Exhaust this card to cause another ally at range 1-3 to make a melee attack. Then, that ally receives 1 stun token.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -455,12 +489,12 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <selectionEntry id="674b-efbd-d8bc-f429" name="War Crier" book="Spearmen" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="a495-0da5-b4bf-864e" name="War Crier" hidden="false">
+            <rule id="a495-0da5-b4bf-864e" name="War Crier - Skill Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>?</description>
+              <description>Spend 1 bane from your unit to choose 1 enemy unit at range 1-3. That unit receives 1 bane of that type.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -474,6 +508,18 @@ You do not suffer the moral test for being engaged with the defender of this ran
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f793-94c7-db86-ce6a" name="Feather Crowns - General" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4831-5aa0-3dbb-4e28" type="max"/>
+      </constraints>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>

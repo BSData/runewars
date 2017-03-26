@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="6" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="12" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -22,7 +22,7 @@
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="cdc4-0a4a-7e22-2ae1" name="New EntryLink" hidden="false" targetId="a302-c69c-4005-ebe6" type="selectionEntry" categoryEntryId="f592-f0f0-d7b6-4eab">
+    <entryLink id="cdc4-0a4a-7e22-2ae1" name="New EntryLink" hidden="false" targetId="a302-c69c-4005-ebe6" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -36,7 +36,7 @@
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="cf85-1669-4feb-336b" name="New EntryLink" hidden="false" targetId="7098-d05f-4e4a-5b73" type="selectionEntry" categoryEntryId="f592-f0f0-d7b6-4eab">
+    <entryLink id="cf85-1669-4feb-336b" name="New EntryLink" hidden="false" targetId="7098-d05f-4e4a-5b73" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -66,7 +66,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Two Surge : Receive 1 inspiration token.</description>
+          <description>2 Surge : Receive 1 inspiration token.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -235,7 +235,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="1f7f-7412-95fd-4bf7" name="Melee Ability (Oathsworn Cavalry)" hidden="false">
+        <rule id="1f7f-7412-95fd-4bf7" name="Oathsword Cavalry - Melee Surge Ability" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -420,7 +420,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="Brutal [Unstable Runes]">
+            <modifier type="set" field="name" value="Brutal [Unstable Rune]">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -465,7 +465,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="28.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0064-bcf2-1f35-bd60" name="4 Trays" hidden="false" collective="false" type="upgrade">
@@ -478,7 +478,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="50.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8fbc-28dd-1e63-db48" name="6 Trays" hidden="false" collective="false" type="upgrade">
@@ -491,7 +491,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="74.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -546,7 +546,7 @@
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a302-c69c-4005-ebe6" name="Kari Wraithstalker" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a302-c69c-4005-ebe6" name="Kari Wraithstalker" book="Core Set" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="de72-a6aa-6f3a-b02c" name="Kari Wraithstalker" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
           <profiles/>
@@ -569,12 +569,12 @@
           <modifiers/>
           <description>Your army can include 1 non-unique infantry unit from the Latari Elves</description>
         </rule>
-        <rule id="57fe-6668-d2d7-a9d9" name="Melee Ability (Kari Wraithstalker)" hidden="false">
+        <rule id="57fe-6668-d2d7-a9d9" name="Kari Wraithstalker - Melee Surge+ Ability" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>1  Surge+: Choose another enemy unit at range 1-5. That enemy suffers 2 damage per spent Surge.</description>
+          <description>1  Surge+ : Choose another enemy unit at range 1-5. That enemy suffers 2 damage per spent Surge.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -634,6 +634,13 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+        </entryLink>
+        <entryLink id="7cba-2c9b-8294-b3d3" name="New EntryLink" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
         </entryLink>
       </entryLinks>
@@ -697,7 +704,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7069-9273-44f9-b20c" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -745,6 +754,13 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+        </entryLink>
+        <entryLink id="257c-5539-9b14-b5a8" name="New EntryLink" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
         </entryLink>
       </entryLinks>
@@ -798,12 +814,12 @@
             <selectionEntry id="f5a7-57d5-3fd0-5f5d" name="Wraith Step" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="4814-77ad-4131-ef14" name="Skill (Wraith Step)" hidden="false">
+                <rule id="4814-77ad-4131-ef14" name="Wraith Step - Skill Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>If you are engaged with an enemy unit, pick up and face your unit so it is touching ? that enemy ?</description>
+                  <description>If you are engaged with an enemy unit, pick up and face your unit so it is touching and aligned with that enemy unit&apos;s back.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -924,6 +940,38 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="18.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="755c-4885-27d1-5eb1" name="Lance Corporal" book="Daqan Infantry Command" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a397-db6b-aab5-30f4" name="Lance Corporal" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="4"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="0d74-7d26-80b2-ff16" name="Lance Corporal - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you reveal your command tool, you may exhaust this card to treat your selected modifier as white until the end of the round.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -939,7 +987,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7b0c-b091-7826-b054" name="Musician?" hidden="false" collective="false">
+    <selectionEntryGroup id="7b0c-b091-7826-b054" name="Horns" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -949,7 +997,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0f63-93e1-81c6-f7ed" name="Musician? - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="0f63-93e1-81c6-f7ed" name="Horns - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -972,7 +1020,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7b4b-1a3c-8c05-7e1c" name="Standard Bearer?" hidden="false" collective="false">
+    <selectionEntryGroup id="7b4b-1a3c-8c05-7e1c" name="Banners" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -982,7 +1030,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5f67-3017-6d7a-182f" name="Standard Bearer? - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="5f67-3017-6d7a-182f" name="Banners - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1005,7 +1053,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9ad2-ba27-7ee5-7683" name="Heavy" hidden="false" collective="false">
+    <selectionEntryGroup id="9ad2-ba27-7ee5-7683" name="Siege" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1015,7 +1063,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fc2d-c5b3-d2b1-515f" name="Heavy - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="fc2d-c5b3-d2b1-515f" name="Siege - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1024,7 +1072,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d6f-b5a5-7e37-a4da" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e3d5-aff1-d3cf-c1b3" name="Front Line Rune Golem" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e3d5-aff1-d3cf-c1b3" name="Front Line Rune Golem" book="Core Set" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="923b-54e1-e765-7408" name="Front Line Rune Golem" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
                   <profiles/>
@@ -1043,22 +1091,22 @@
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Brutal [Unstable Rune]">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </infoLink>
               </infoLinks>
-              <modifiers>
-                <modifier type="set" field="name" value="Brutal [Unstable Rune]">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1076,7 +1124,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="761f-72c8-09c2-bc90" name="Magic?" hidden="false" collective="false">
+    <selectionEntryGroup id="761f-72c8-09c2-bc90" name="Sigils" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1086,7 +1134,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8632-b3af-e7f3-3290" name="Magic? - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="8632-b3af-e7f3-3290" name="Sigils - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1109,7 +1157,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0060-8d35-5c00-ed4e" name="Hat?" hidden="false" collective="false">
+    <selectionEntryGroup id="0060-8d35-5c00-ed4e" name="Feather Crown" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1119,7 +1167,7 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4b61-f039-f3c2-0188" name="Hat? - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="4b61-f039-f3c2-0188" name="Feather Crown - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1131,12 +1179,12 @@
             <selectionEntry id="1fff-efcd-2e4c-f184" name="Latari Training" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="8738-34f8-7d14-d6c1" name="Ranged Ability (Latari Training)" hidden="false">
+                <rule id="8738-34f8-7d14-d6c1" name="Latari Training - Ranged Surge+ Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>1 Surge : After this attack perform a move with speed equal to the surge spoent. You may ?curved_template? This can ? per attack.</description>
+                  <description>1 Surge : After this attack perform a move with speed equal to the surge spent. You may not perform a turn or hook. This cannot ooccur more than once per attack.</description>
                 </rule>
               </rules>
               <infoLinks/>
