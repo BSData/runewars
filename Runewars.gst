@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="16" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="17" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -166,7 +166,7 @@ This shift cannot be used to disengage.</description>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Surge : Exhaust this card to add a hit.</description>
+              <description>Surge : Exhaust this card to add 1 hit.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -177,6 +177,27 @@ This shift cannot be used to disengage.</description>
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3f21-7545-b6b9-62e4" name="Fire Rune" book="Daqan Infantry Command" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="a5b1-3ed5-e287-f078" name="Fire Rune - Skill Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Perform a Ranged Attack rolling 1 red die. Each Hit of this attack causes the defender to suffer damage equal to Unstable Rune&apos;s instead of your threat.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -194,7 +215,15 @@ This shift cannot be used to disengage.</description>
       <selectionEntries>
         <selectionEntry id="64f8-b6e3-dd5d-18ff" name="Flank Guards" book="Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules/>
+          <rules>
+            <rule id="0518-d2da-4e6a-50f6" name="Flank Guards - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>While you are defending, enemies do not add an extra die for flanking you.</description>
+            </rule>
+          </rules>
           <infoLinks/>
           <modifiers/>
           <constraints/>
@@ -202,7 +231,7 @@ This shift cannot be used to disengage.</description>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="baeb-ddfc-5071-d907" name="Moment of Inspiration" book="Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
@@ -377,7 +406,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The turn and hook modifers cannot reduce your speed.</description>
+              <description>The Turn and Hook modifers cannot reduce your speed.</description>
             </rule>
           </rules>
           <infoLinks/>

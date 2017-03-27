@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="14" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="15" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -965,7 +965,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="18.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="755c-4885-27d1-5eb1" name="Lance Corporal" book="Daqan Infantry Command" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="755c-4885-27d1-5eb1" name="Lance Corporal" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
               <profiles>
                 <profile id="a397-db6b-aab5-30f4" name="Lance Corporal" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
                   <profiles/>
@@ -988,13 +988,141 @@
                 </rule>
               </rules>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="13ca-fa7a-ddaf-2792" name="Uncontrolled Geomancer" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="2dc8-97c5-bc85-352a" name="Uncontrolled Geomancer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="1b98-d231-f38b-67a2" name="Uncontrolled Geomancer - Skill Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Each unit at range 1 - Unstable Rune&apos;s (including you) suffers damage equal to the number of trays in its unit. If Unstable Rune&apos;s is 0, this effect does nothing.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d20a-5c00-a9c1-a931" name="Grayhaven Channeler" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a266-a206-fe16-800f" name="Grayhaven Channeler" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="d2c3-66dc-a8cc-5123" name="Grayhaven Channeler - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>After energy tokens are cast during setup and the End Phase, you may exhaust this card to recast up to 2 energy tokens in the energy pool.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c01f-e137-7ea9-7f9b" name="Citadel Weapons Master" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="d4ca-3dbb-b327-53eb" name="Citadel Weapons Master" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="5c6e-ac35-9a3b-e3eb" name="Citadel Weapons Master - Melee Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Add a red die.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1030,7 +1158,88 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf13-f883-b449-1a84" type="max"/>
           </constraints>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="c014-9bd9-8e90-bb15" name="Aggressive Cornicen" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="e827-98e8-925c-fdd9" name="Aggressive Cornicen" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="e37a-4386-3832-753d" name="Aggressive Cornicen - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you perform a March, threat it as modifed by Charge. You do not receive panic tookens for failing to collide with an enemy during a charge.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c4f6-99d6-9d59-0405" name="Marching Cornicen" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="99b8-b8fa-7dd6-9033" name="Marching Cornicen" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="85a6-176f-fc59-8341" name="Marching Cornicen - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you perform a March, you may treat it as modified by Turn.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -1063,7 +1272,89 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e92-1b05-141a-df08" type="max"/>
           </constraints>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="50d4-81b3-c353-0593" name="Raven-Pennon Bearer" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c313-26a6-e161-e5e1" name="Raven-Pennon Bearer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="1042-3d7a-bfbd-58aa" name="Raven-Pennon Bearer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>You may exhaust this card to activate at an iniative value 1 higher or lower than your selected initiative.
+Use this ability when the unit would activate if it had the altered initiative.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bede-221a-ee33-0dee" name="Eagle-Banner Bearer" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="fd90-b06d-32f7-70eb" name="Eagle-Banner Bearer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="641c-914e-5e7f-ae99" name="Eagle-Banner Bearer - Melee Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spend any number of your inspiration tokens. Add that number of [Mortal Strike].</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
