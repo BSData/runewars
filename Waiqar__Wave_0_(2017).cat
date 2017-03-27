@@ -621,7 +621,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>This attack is treated as having the Surge abilities (both melee and ranged of allies at range 1-3.</description>
+          <description>This attack is treated as having the Surge abilities (both melee and ranged) of allies at range 1-3.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -650,9 +650,17 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="8b95-fdd4-5c65-c212" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="21a9-ef2d-b0ae-226f" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b95-fdd4-5c65-c212" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b95-fdd4-5c65-c212" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -763,8 +771,18 @@
                 </rule>
               </rules>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="set" field="3fe4-91f8-926b-ddb0" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e5f3-9b30-0362-1a93" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3fe4-91f8-926b-ddb0" type="max"/>
+              </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>

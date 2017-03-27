@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="13" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="15" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -15,7 +15,7 @@
         <characteristicType id="9cf6-3b5e-3c94-0ef4" name="Melee Die"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="f9ab-8b42-328f-3746" name="Upgrade Model">
+    <profileType id="f9ab-8b42-328f-3746" name="Champion Model">
       <characteristicTypes>
         <characteristicType id="1523-b236-6620-1be9" name="Defence"/>
         <characteristicType id="478e-fdd9-620e-774b" name="Wound Threshold"/>
@@ -530,35 +530,42 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When you collide with an enemy unit during a charge, that unit recives [X] panic token(s).</description>
+      <description>When a unit with this keyword collides with an enemy unit during a charge, that unit recives X panic tokens.</description>
     </rule>
     <rule id="4bc3-5a1a-a748-31de" name="Brutal [X]" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While attacking, your threat is increased by [X].</description>
+      <description>While attacking, a unit with this keyword has its threat increased by X.</description>
     </rule>
     <rule id="4309-11a6-e7f5-5a76" name="Precise [X]" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When rerolling dice during an attack, you are treated as having [X] additional full rank of trays.</description>
+      <description>When rerolling dice during an attack, a unit with this keyword is treated as having X additional full rank of trays.</description>
     </rule>
     <rule id="94ec-3f37-454f-92ad" name="Steadfast [X]" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While you are suffering a moral test, treat [X] cards as having 1 additional moral icon.</description>
+      <description>While a unit with this keyword is suffering a mooral test, the cards of the type specified by X are treated as having one additional moral icon.</description>
     </rule>
     <rule id="aa91-b501-7649-91ea" name="Regenerate [X]" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the end of the Activation Phase, if there are any empty slots in your trays, place up to [X] new [unit] figures in the empty slots.</description>
+      <description>At the end of the Activation Phase, if a unit with this keyword has any empty slots in its trays, slot X new figures corresponding with that unit&apos;s card in the empty slots.</description>
+    </rule>
+    <rule id="8d09-61a0-2bab-847a" name="Resillient [X]" book="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a unit with this keyword would receive the bane specifed by X, the unit does not recieve that bane.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

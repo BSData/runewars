@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="12" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="13" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -603,9 +603,17 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="88d7-89b5-4402-965c" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="267a-1efc-8195-0663" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d7-89b5-4402-965c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="88d7-89b5-4402-965c" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -921,7 +929,7 @@
                 </profile>
               </profiles>
               <rules>
-                <rule id="efa0-d352-a284-ac9d" name="Kari Wraithstalker (Melee Ability)" hidden="false">
+                <rule id="efa0-d352-a284-ac9d" name="Kari Wraithstalker - Melee Surge+ Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -931,8 +939,18 @@
                 </rule>
               </rules>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="set" field="a04a-1a5f-ebe7-857d" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a302-c69c-4005-ebe6" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a04a-1a5f-ebe7-857d" type="max"/>
+              </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
