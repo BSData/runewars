@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="15" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="16" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -94,7 +94,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb91-c7fd-cf18-30be" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="5cde-b969-918f-c94e" name="Shield Wall" book="Starter, Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5cde-b969-918f-c94e" name="Shield Wall" book="Core Set, Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="5852-c31f-821c-a842" name="Shield Wall - Passive Ability" hidden="false">
@@ -123,7 +123,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>2 Surge : Add a hit.</description>
+              <description>2 Surge : Add 1 hit.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -279,7 +279,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="dafc-f19e-db1b-2401" name="Banners - General" hidden="false" collective="false">
+    <selectionEntryGroup id="dafc-f19e-db1b-2401" name="Heraldry - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -288,7 +288,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bebb-5fd8-bf4a-c688" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="0f6b-bc65-ac8c-5973" name="Terrifying Heraldry" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0f6b-bc65-ac8c-5973" name="Terrifying Heraldry" book="Core Set, Reanimate Archers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="6057-2eb2-85e8-0a8d" name=" Terrifying Heraldry - Passive Ability" hidden="false">
@@ -330,11 +330,37 @@ You do not suffer the moral test for being engaged with the defender of this ran
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="909a-b66c-9933-234a" name="Bull Pennon" book="Core Set" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="470d-3202-8e05-8d3d" name="New InfoLink" hidden="false" targetId="3acc-998c-be8b-5314" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Bull Pennon - Impact 1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4228-c1b3-e02a-f5f5" name="Horns - General" hidden="false" collective="false">
+    <selectionEntryGroup id="4228-c1b3-e02a-f5f5" name="Music - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -346,7 +372,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <selectionEntry id="0ed2-8fd2-2425-75d2" name="Trumpets" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="0f48-bef8-7e2e-48d8" name="Trumpets - Passive" hidden="false">
+            <rule id="0f48-bef8-7e2e-48d8" name="Trumpets - Passive Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -367,7 +393,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <selectionEntry id="2ae1-f74f-ccc0-c098" name="Metered March" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="c597-0f72-f834-4b64" name="Metered March - Passive" hidden="false">
+            <rule id="c597-0f72-f834-4b64" name="Metered March - Passive Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -389,7 +415,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Siege - General" hidden="false" collective="false">
+    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Heavy - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -401,7 +427,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d666-4b2a-f65e-0e17" name="Amulets - General" hidden="false" collective="false">
+    <selectionEntryGroup id="d666-4b2a-f65e-0e17" name="Unique - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -413,7 +439,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
         <selectionEntry id="c940-b86b-eb5c-4803" name="Heartseeker" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="92f9-6fcc-bc63-c64e" name="Heartseeker (Ranged Ability)" hidden="false">
+            <rule id="92f9-6fcc-bc63-c64e" name="Heartseeker - Ranged Ability" book="Core Set" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -444,7 +470,9 @@ You do not suffer the moral test for being engaged with the defender of this ran
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9997-196e-d0eb-2a5d" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -486,7 +514,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="674b-efbd-d8bc-f429" name="War Crier" book="Spearmen" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="674b-efbd-d8bc-f429" name="War Crier" book="Core Set, Spearmen" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="a495-0da5-b4bf-864e" name="War Crier - Skill Ability" hidden="false">
@@ -511,7 +539,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f793-94c7-db86-ce6a" name="Feather Crowns - General" hidden="false" collective="false">
+    <selectionEntryGroup id="f793-94c7-db86-ce6a" name="Training - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -519,7 +547,34 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4831-5aa0-3dbb-4e28" type="max"/>
       </constraints>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="c59f-9a4b-8be3-5b09" name="Rank Discipline" book="Core Set" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5d98-f53c-4fd4-cfe7" name="New InfoLink" hidden="false" targetId="4309-11a6-e7f5-5a76" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Rank Discipline - Precise 1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
