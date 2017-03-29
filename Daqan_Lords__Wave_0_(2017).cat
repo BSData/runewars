@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="15" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="16" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -61,7 +61,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="e398-5da5-5fae-872f" name="Spearmen - Melee Ability" book="Spearmen" hidden="false">
+        <rule id="e398-5da5-5fae-872f" name="Spearmen - Melee Surge Ability" book="Spearmen" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -249,7 +249,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="Impact [1]">
+            <modifier type="set" field="name" value="Impact 1">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -405,12 +405,12 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="6a6a-8204-420e-c43f" name="Rune Golems - Skill" hidden="false">
+        <rule id="6a6a-8204-420e-c43f" name="Rune Golems - Skill Ability" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Each enemy unit engaged with you receives [Unstable Rune] stun tokens. 
+          <description>Each enemy unit engaged with you receives [Stable Rune] stun tokens. 
 </description>
         </rule>
       </rules>
@@ -420,7 +420,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="name" value="Brutal [Unstable Rune]">
+            <modifier type="set" field="name" value="Brutal [Stable Rune]">
               <repeats/>
               <conditions/>
               <conditionGroups/>
