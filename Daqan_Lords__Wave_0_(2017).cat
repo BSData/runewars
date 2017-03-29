@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="16" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="17" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -604,7 +604,7 @@
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="88d7-89b5-4402-965c" value="0.0">
+        <modifier type="set" field="88d7-89b5-4402-965c" value="0">
           <repeats/>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="267a-1efc-8195-0663" type="atLeast"/>
@@ -622,26 +622,14 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
         </entryLink>
         <entryLink id="cb2c-e4f8-dc1c-ce33" name="New EntryLink" hidden="false" targetId="0060-8d35-5c00-ed4e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
         </entryLink>
         <entryLink id="7cba-2c9b-8294-b3d3" name="New EntryLink" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
@@ -798,13 +786,12 @@
             <selectionEntry id="ab58-1d4d-75f6-074c" name="The Dawnblade" book="Lord Hawthorne" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="76e4-b35f-6dd4-9054" name="The Dawnblade" hidden="false">
+                <rule id="76e4-b35f-6dd4-9054" name="The Dawnblade - Melee Surge Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Melee.
-1 Surge : ?</description>
+                  <description>1 Surge : ?</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -854,7 +841,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c4f0-ae35-bea2-604a" name="New EntryLink" hidden="false" targetId="d666-4b2a-f65e-0e17" type="selectionEntryGroup">
+        <entryLink id="c4f0-ae35-bea2-604a" name="New EntryLink" hidden="false" targetId="0e94-cfca-f649-6686" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -915,7 +902,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e32a-88df-3a1e-6d01" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="267a-1efc-8195-0663" name="Kari Wraithstalker" book="Core Set" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="267a-1efc-8195-0663" name="Kari Wraithstalker - Upgrade" book="Core Set" hidden="true" collective="false" type="upgrade">
               <profiles>
                 <profile id="babc-389a-8b89-d973" name="Kari Wraithstalker" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
                   <profiles/>
@@ -1448,7 +1435,7 @@ Use this ability when the unit would activate if it had the altered initiative.<
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="761f-72c8-09c2-bc90" name="Sigils" hidden="false" collective="false">
+    <selectionEntryGroup id="761f-72c8-09c2-bc90" name="Training" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1458,7 +1445,7 @@ Use this ability when the unit would activate if it had the altered initiative.<
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8632-b3af-e7f3-3290" name="Sigils - Daqan" hidden="false" collective="false">
+        <selectionEntryGroup id="8632-b3af-e7f3-3290" name="Training - Daqan" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1466,44 +1453,11 @@ Use this ability when the unit would activate if it had the altered initiative.<
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e82-0ca5-964e-5177" type="max"/>
           </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="af27-27d3-86cf-3fa0" name="New EntryLink" hidden="false" targetId="993b-5c86-de69-2f9d" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="0060-8d35-5c00-ed4e" name="Training" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d11f-8a83-f7f2-9e56" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="4b61-f039-f3c2-0188" name="Training - Daqan" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d803-b2d3-5b05-38f1" type="max"/>
-          </constraints>
           <selectionEntries>
-            <selectionEntry id="1fff-efcd-2e4c-f184" name="Latari Training" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c44f-f732-3e22-d87f" name="Latari Training" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="8738-34f8-7d14-d6c1" name="Latari Training - Ranged Surge+ Ability" hidden="false">
+                <rule id="33b3-1d23-0fe9-ff74" name="Latari Training - Ranged Surge+ Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1535,7 +1489,40 @@ Use this ability when the unit would activate if it had the altered initiative.<
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="20e2-4293-5356-1ad8" name="New EntryLink" hidden="false" targetId="f793-94c7-db86-ce6a" type="selectionEntryGroup">
+        <entryLink id="af27-27d3-86cf-3fa0" name="New EntryLink" hidden="false" targetId="993b-5c86-de69-2f9d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0060-8d35-5c00-ed4e" name="Artifact" hidden="true" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d11f-8a83-f7f2-9e56" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b61-f039-f3c2-0188" name="Artifact - Daqan" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d803-b2d3-5b05-38f1" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="20e2-4293-5356-1ad8" name="New EntryLink" hidden="false" targetId="d666-4b2a-f65e-0e17" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
