@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="17" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="19" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -58,7 +58,7 @@
   <selectionEntries/>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="a20e-e06c-42d8-c597" name="Unique" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a20e-e06c-42d8-c597" name="Unique Unit" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -204,7 +204,7 @@ This shift cannot be used to disengage.</description>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="993b-5c86-de69-2f9d" name="Sigils - General" hidden="false" collective="false">
+    <selectionEntryGroup id="993b-5c86-de69-2f9d" name="Training - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -456,7 +456,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d666-4b2a-f65e-0e17" name="Unique - General" hidden="false" collective="false">
+    <selectionEntryGroup id="d666-4b2a-f65e-0e17" name="Artifact - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -478,7 +478,9 @@ You do not suffer the moral test for being engaged with the defender of this ran
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae42-0196-1036-aa7b" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -513,7 +515,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b7ba-cdfe-eac7-f299" name="Champions - General" hidden="false" collective="false">
+    <selectionEntryGroup id="b7ba-cdfe-eac7-f299" name="Champion - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -568,42 +570,15 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f793-94c7-db86-ce6a" name="Training - General" hidden="false" collective="false">
+    <selectionEntryGroup id="0e94-cfca-f649-6686" name="Unique - General" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4831-5aa0-3dbb-4e28" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fbe-51a8-3ea6-7cae" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="c59f-9a4b-8be3-5b09" name="Rank Discipline" book="Core Set" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="5d98-f53c-4fd4-cfe7" name="New InfoLink" hidden="false" targetId="4309-11a6-e7f5-5a76" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="name" value="Rank Discipline - Precise 1">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
