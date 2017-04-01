@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="18" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="19" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -657,7 +657,9 @@
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7098-d05f-4e4a-5b73" name="Lord Hawthorne" hidden="false" collective="false" type="unit">
       <profiles>
@@ -866,6 +868,35 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="1.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="d9bb-d9b6-e9fb-4caa" name="Latari Training" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="bbb8-a4b9-93e5-ecef" name="Latari Training - Ranged Surge+ Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>1 Surge+ : After this attack perform a Move with speed equal to the surge spent. You may modify this Move with a Turn. This can only be resolved once per attack.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a302-c69c-4005-ebe6" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -933,7 +964,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e32a-88df-3a1e-6d01" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="267a-1efc-8195-0663" name="Kari Wraithstalker - Upgrade" book="Core Set" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="267a-1efc-8195-0663" name="Kari Wraithstalker" book="Core Set" hidden="true" collective="false" type="upgrade">
               <profiles>
                 <profile id="babc-389a-8b89-d973" name="Kari Wraithstalker" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
                   <profiles/>
@@ -1484,37 +1515,7 @@ Use this ability when the unit would activate if it had the altered initiative.<
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e82-0ca5-964e-5177" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="c44f-f732-3e22-d87f" name="Latari Training" hidden="true" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="33b3-1d23-0fe9-ff74" name="Latari Training - Ranged Surge+ Ability" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>1 Surge : After this attack perform a move with speed equal to the surge spent. You may not perform a turn or hook. This cannot ooccur more than once per attack.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a302-c69c-4005-ebe6" type="instanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>

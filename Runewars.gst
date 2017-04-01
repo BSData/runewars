@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="19" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="20" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -406,7 +406,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The Turn and Hook modifers cannot reduce your speed.</description>
+              <description>The Turn and Wheel modifers cannot reduce your speed.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -502,7 +502,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9997-196e-d0eb-2a5d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9997-196e-d0eb-2a5d" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
