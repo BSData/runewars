@@ -229,8 +229,8 @@
           <characteristics>
             <characteristic name="Defense" characteristicTypeId="7cf7-db3d-20b4-3ee8" value="2"/>
             <characteristic name="Wound Threshold" characteristicTypeId="aa47-e393-e539-b8e5" value="1"/>
-            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="0"/>
-            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="0"/>
+            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="-"/>
+            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="2 Red 1 Blue"/>
           </characteristics>
         </profile>
       </profiles>
@@ -556,8 +556,8 @@
           <characteristics>
             <characteristic name="Defense" characteristicTypeId="7cf7-db3d-20b4-3ee8" value="3"/>
             <characteristic name="Wound Threshold" characteristicTypeId="aa47-e393-e539-b8e5" value="4"/>
-            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="1"/>
-            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="1"/>
+            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="1 White 1 Blue"/>
+            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="1 White 1 Blue"/>
           </characteristics>
         </profile>
       </profiles>
