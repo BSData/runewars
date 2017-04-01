@@ -85,7 +85,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="5cf1-ff93-7471-c1b5" name="Equipment - General" hidden="false" collective="false">
+    <selectionEntryGroup id="5cf1-ff93-7471-c1b5" name="Equipment - Common" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -204,7 +204,7 @@ This shift cannot be used to disengage.</description>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="993b-5c86-de69-2f9d" name="Training - General" hidden="false" collective="false">
+    <selectionEntryGroup id="993b-5c86-de69-2f9d" name="Training - Common" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -308,7 +308,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="dafc-f19e-db1b-2401" name="Heraldry - General" hidden="false" collective="false">
+    <selectionEntryGroup id="dafc-f19e-db1b-2401" name="Heraldry - Common" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -389,7 +389,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4228-c1b3-e02a-f5f5" name="Music - General" hidden="false" collective="false">
+    <selectionEntryGroup id="4228-c1b3-e02a-f5f5" name="Music - Common" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -444,7 +444,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Heavy - General" hidden="false" collective="false">
+    <selectionEntryGroup id="5a32-3406-87f9-36d3" name="Heavy - Common" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -456,7 +456,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d666-4b2a-f65e-0e17" name="Artifact - General" hidden="false" collective="false">
+    <selectionEntryGroup id="d666-4b2a-f65e-0e17" name="Artifact - Common" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -515,7 +515,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b7ba-cdfe-eac7-f299" name="Champion - General" hidden="false" collective="false">
+    <selectionEntryGroup id="b7ba-cdfe-eac7-f299" name="Champion - Common" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -570,7 +570,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0e94-cfca-f649-6686" name="Unique - General" hidden="false" collective="false">
+    <selectionEntryGroup id="0e94-cfca-f649-6686" name="Unique - Common" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>

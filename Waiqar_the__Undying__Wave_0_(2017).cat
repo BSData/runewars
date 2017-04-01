@@ -101,7 +101,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51d9-3f04-ab5a-4095" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d2fd-245b-ae73-8ab7" name="2 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d2fd-245b-ae73-8ab7" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -114,7 +114,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="16.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f14a-3112-1b84-a3d0" name="4 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f14a-3112-1b84-a3d0" name="2x2 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -127,7 +127,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="26.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4138-536a-a078-59e7" name="6 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4138-536a-a078-59e7" name="3x2 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -140,7 +140,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2d65-96ef-2eba-c1e4" name="9 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2d65-96ef-2eba-c1e4" name="3x3 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -153,7 +153,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="457a-f4f1-b514-5ecb" name="12 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="457a-f4f1-b514-5ecb" name="4x3 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -330,7 +330,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="027e-6de2-4068-e5b2" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ff7f-36d4-f09c-1ee4" name="2 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ff7f-36d4-f09c-1ee4" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -343,7 +343,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="18.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="361d-10b9-baed-52cd" name="4 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="361d-10b9-baed-52cd" name="2x2 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -356,7 +356,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="32.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8c11-0290-948a-366a" name="6 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8c11-0290-948a-366a" name="3x2 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -495,7 +495,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a76-6e6c-0c33-4327" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f25c-6a00-669e-1598" name="1 Tray" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f25c-6a00-669e-1598" name="1x1 Tray" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -508,7 +508,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="64e4-1fb7-9d77-7b79" name="2 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="64e4-1fb7-9d77-7b79" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -521,7 +521,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="27.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9afd-dc96-ce90-9dc5" name="4 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="9afd-dc96-ce90-9dc5" name="2x2 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -534,7 +534,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="46.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="63ec-3236-779a-771e" name="6 Trays" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="63ec-3236-779a-771e" name="3x2 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -662,7 +662,24 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b95-fdd4-5c65-c212" type="max"/>
       </constraints>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="d92e-07e4-2912-0d11" name="1 Tray" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e59-18d5-a114-d464" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="120a-1f36-be6d-c6a8" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="37.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="d485-6bdd-cc03-dd74" name="New EntryLink" hidden="false" targetId="e468-4677-19e6-fc84" type="selectionEntryGroup">
@@ -687,9 +704,7 @@
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="37.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="27b0-24b4-c843-fb82" name="Ankaur Maro" hidden="false" collective="false" type="unit">
       <profiles>
@@ -712,7 +727,22 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ecb-3839-9e24-946d" type="max"/>
       </constraints>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="a514-151d-4a03-ad6f" name="1 Tray" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c8f-a784-9c1f-c693" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b2-c100-f769-a8ce" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="4760-16e4-2506-b4a4" name="New EntryLink" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
