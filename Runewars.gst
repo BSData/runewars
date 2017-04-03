@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="19" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="21" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -385,6 +385,27 @@ You do not suffer the moral test for being engaged with the defender of this ran
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="f203-0a99-b5fa-df4e" name="Raven Tabards" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="e704-f53d-5fc1-e3ac" name="Raven Tabards - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The initative of your blue actions is decreased by 1.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -406,7 +427,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The Turn and Hook modifers cannot reduce your speed.</description>
+              <description>The Turn and Wheel modifers cannot reduce your speed.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -502,7 +523,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9997-196e-d0eb-2a5d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9997-196e-d0eb-2a5d" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -625,6 +646,13 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <infoLinks/>
       <modifiers/>
       <description>If a unit with this keyword would receive the bane specifed by X, the unit does not recieve that bane.</description>
+    </rule>
+    <rule id="d922-50db-76e7-150a" name="Protector" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Allies engaged with an enemy you are also engaged with and allies at range 1-2 cannot be targeted by attacks if that attack could target a unit with protector.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
