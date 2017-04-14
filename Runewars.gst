@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="21" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="22" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -255,7 +255,7 @@ This shift cannot be used to disengage.</description>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7e89-2dae-48ea-724e" name="Rank Discipline" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7e89-2dae-48ea-724e" name="Rank Discipline" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -509,7 +509,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="50a9-4de6-6871-3486" name="Reaping Blade" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="50a9-4de6-6871-3486" name="Reaping Blade" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="1dd5-104b-1c46-bde6" name="Reaping Blade - Melee Ability" hidden="false">
