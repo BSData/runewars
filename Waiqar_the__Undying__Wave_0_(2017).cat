@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="18" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="21" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -29,7 +29,7 @@
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="6190-b020-62fd-79ac" name="New EntryLink" hidden="false" targetId="f885-9b21-7419-82f5" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
+    <entryLink id="6190-b020-62fd-79ac" name="New EntryLink" hidden="false" targetId="f885-9b21-7419-82f5" type="selectionEntry" categoryEntryId="3ff1-c335-bd67-644a">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -452,7 +452,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="f3df-f0b7-9568-6bfe" name="Carrion Lancers - Melee Ability" book="Carrion Lancers" hidden="false">
+        <rule id="f3df-f0b7-9568-6bfe" name="Carrion Lancers - Melee Ability" book="" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -782,7 +782,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96bb-b7c1-ee22-9ec2" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="21a9-ef2d-b0ae-226f" name="Ardus Ix&apos;Erebus" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="21a9-ef2d-b0ae-226f" name="Ardus Ix&apos;Erebus" book="Core Set" hidden="true" collective="false" type="upgrade">
               <profiles>
                 <profile id="7161-5146-cb6f-30f5" name="Ardus Ix&apos;Erebus" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
                   <profiles/>
@@ -873,7 +873,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5841-af06-e537-c174" name="Mistlands Saboteur" book="Waqir Infantry Command+" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="5841-af06-e537-c174" name="Mistlands Saboteur" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
               <profiles>
                 <profile id="d118-adfe-1986-fb72" name="Mistlands Saboteur" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
                   <profiles/>
@@ -1115,7 +1115,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="246d-777d-2f1c-204d" name="Sigils - Waiqar" hidden="false" collective="false">
+        <selectionEntryGroup id="246d-777d-2f1c-204d" name="Training - Waiqar" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1350,7 +1350,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9793-9c55-31ba-2de3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="85bc-a921-f4f8-a27b" name="Profane Banner Bearer" book="Waiqr Infantry Command" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="85bc-a921-f4f8-a27b" name="Profane Banner Bearer" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
               <profiles>
                 <profile id="5cc8-b606-d445-6e80" name="Profane Banner Bearer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
                   <profiles/>
