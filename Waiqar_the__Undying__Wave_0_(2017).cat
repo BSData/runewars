@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="18" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="19" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -29,7 +29,7 @@
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="6190-b020-62fd-79ac" name="New EntryLink" hidden="false" targetId="f885-9b21-7419-82f5" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
+    <entryLink id="6190-b020-62fd-79ac" name="New EntryLink" hidden="false" targetId="f885-9b21-7419-82f5" type="selectionEntry" categoryEntryId="3ff1-c335-bd67-644a">
       <profiles/>
       <rules/>
       <infoLinks/>
