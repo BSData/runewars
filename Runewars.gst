@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="22" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="23" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -302,6 +302,28 @@ You do not suffer the moral test for being engaged with the defender of this ran
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6486-7209-778f-9928" name="Column Tactics" book="Leonx Riders Unit Expansion" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="eef5-b49d-5ce9-c5d4" name="Column Tactics - Melee Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Your threat is equal to the number of partial and full ranks.
+Your number of ranks for rerolls is equal to the number of trays in your front rank.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -653,6 +675,20 @@ You do not suffer the moral test for being engaged with the defender of this ran
       <infoLinks/>
       <modifiers/>
       <description>Allies engaged with an enemy you are also engaged with and allies at range 1-2 cannot be targeted by attacks if that attack could target a unit with protector.</description>
+    </rule>
+    <rule id="4734-4adc-bba1-0b47" name="Lethal [X]" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While attacking, add [X] to the damage pool.</description>
+    </rule>
+    <rule id="4b78-f83c-2b4b-61a6" name="Protected [X]" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While defending, subtract [X] from the damage pool.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
