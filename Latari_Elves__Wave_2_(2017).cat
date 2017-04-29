@@ -1,21 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves : Wave 2 (2017)" revision="4" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves : Wave 2 (2017)" revision="6" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
-  <forceEntries/>
+  <forceEntries>
+    <forceEntry id="1313-2c61-fe6a-1297" name="Kari&apos;s Aymhelin Allies" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f0e-e495-4e22-cd27" type="max"/>
+      </constraints>
+      <categoryEntries>
+        <categoryEntry id="f29f-616f-2c05-2115" name="Infantry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="045c-266a-d956-6518" type="max"/>
+          </constraints>
+        </categoryEntry>
+      </categoryEntries>
+      <forceEntries/>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="34dd-66d2-e6ca-13c5" name="New EntryLink" hidden="false" targetId="d629-ae76-05cb-1bf0" type="selectionEntry">
+    <entryLink id="34dd-66d2-e6ca-13c5" name="New EntryLink" hidden="false" targetId="d629-ae76-05cb-1bf0" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="2246-5014-9634-345b" name="New EntryLink" hidden="false" targetId="ffa5-c0cf-1983-3d64" type="selectionEntry">
+    <entryLink id="2246-5014-9634-345b" name="New EntryLink" hidden="false" targetId="ffa5-c0cf-1983-3d64" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -30,6 +52,20 @@
       <constraints/>
     </entryLink>
     <entryLink id="5811-595b-2615-ad9c" name="New EntryLink" hidden="false" targetId="6f42-b191-8f40-5c99" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="0ae9-4e10-11ef-d8c7" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry" categoryEntryId="f29f-616f-2c05-2115">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="ea5f-d7b8-5c8f-9ad8" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -563,6 +599,17 @@
       <costs>
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="14a2-bab5-ef82-ca71" name="Deepwood Archers" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
