@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="23" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="24" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -136,7 +136,7 @@
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="09ce-b554-c398-00dc" name="Wind Rune" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="09ce-b554-c398-00dc" name="Wind Rune" book="Reanimate Archers, Rune Golems" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="43b7-e4a0-26c6-16f0" name="Wind Rune - Skill Ability" hidden="false">
@@ -144,8 +144,8 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Perform a speed [Natural Rune] shift. Then, perform a reform
-This shift cannot be used to disengage.</description>
+              <description>Perform a speed [Natural Rune] Shift. Then, perform a Reform
+This Shift cannot be used to disengage.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -481,6 +481,27 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7940-52b7-af48-8cc7" name="Triumphant Cry" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="8be2-4548-8326-8e44" name="Triumphant Cry - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>After an enemy you are engaged with is destroyed, you may perform a Reform.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
