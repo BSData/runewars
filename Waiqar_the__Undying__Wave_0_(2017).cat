@@ -963,7 +963,9 @@
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1187,6 +1189,77 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="e43c-ca8d-65eb-9ebe" name="Captivating Hexer" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8f88-1ab3-643d-6af7" name="Captivating Hexer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="3370-86df-42b7-5f0c" name="Captivating Hexer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Enemies engaged with you cannot perform a Shift.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e15c-3093-56ee-77b7" name="Fallen Hero" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="305d-fcae-4b2c-91d2" name="Fallen Hero - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Add a Artifact to this unit&apos;s available upgrades. 
+
+When this figure is removed, discard 1 Artifact upgrade that is equipped to this unit.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1282,6 +1355,75 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9ba1-2afd-4e47-db2c" name="Aggressive Drummer" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="22d9-f944-306d-ec59" name="Aggressive Drummer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="6933-f550-c96e-c662" name="Aggressive Drummer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you perform a Move, threat it as modified by Charge. You do not receive panic tokens for failing to collide with an enemy unit during a charge.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="18dd-65b8-cd10-1b65" name="Marching Drummer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="9d24-75b1-46c2-7632" name="Marching Drummer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you perform a Move, you may treat it as modified by a Turn.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1689,7 +1831,7 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9793-9c55-31ba-2de3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="85bc-a921-f4f8-a27b" name="Profane Banner Bearer" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="85bc-a921-f4f8-a27b" name="Profane Banner Bearer" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="5cc8-b606-d445-6e80" name="Profane Banner Bearer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
                   <profiles/>
@@ -1711,7 +1853,15 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
                   <modifiers/>
                 </infoLink>
               </infoLinks>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -1720,7 +1870,7 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fb40-4d22-346f-daf5" name="Blighted Vexillum Bearer" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="fb40-4d22-346f-daf5" name="Blighted Vexillum Bearer" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="22f1-59d5-e39d-95ea" name="Blighted Vexillum Bearer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
                   <profiles/>
@@ -1744,10 +1894,39 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
               </rules>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="99c6-9b04-3294-64a4" name="Raven-Standard Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="abf0-be58-8e08-dff6" name="Raven-Standard Bearer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The initiative of your red actions is decreased by 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
