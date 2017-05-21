@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="23" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="26" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -136,7 +136,7 @@
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="09ce-b554-c398-00dc" name="Wind Rune" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="09ce-b554-c398-00dc" name="Wind Rune" book="Reanimate Archers, Rune Golems" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="43b7-e4a0-26c6-16f0" name="Wind Rune - Skill Ability" hidden="false">
@@ -144,8 +144,8 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Perform a speed [Natural Rune] shift. Then, perform a reform
-This shift cannot be used to disengage.</description>
+              <description>Perform a speed [Natural Rune] Shift. Then, perform a Reform
+This Shift cannot be used to disengage.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -326,6 +326,27 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7fb8-eb50-4911-e1fe" name="Simultaneous Orders" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="ec16-505f-9537-eaed" name="Simultaneous Orders - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>After you perform a Skill Ability, you may resolve the effects of another of your Skill Abilities.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -483,6 +504,27 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7940-52b7-af48-8cc7" name="Triumphant Cry" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="8be2-4548-8326-8e44" name="Triumphant Cry - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>After an enemy you are engaged with is destroyed, you may perform a Reform.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -554,6 +596,46 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ae11-055f-0cfe-477f" name="Fortuna&apos;s Dice" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="17bf-0024-e755-5a2a" name="Fortuna&apos;s Dice - Melee / Ranged Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Exhaust this card to change one die to a face of your choice.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3fbb-adfe-05d0-b8f8" name="Shield of Margath" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="923c-f3e6-7416-2b1d" name="Shield of Margath - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>After defending against a Melee Attack, the attacker suffers damage equal to your defense.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -607,6 +689,29 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <entryLinks/>
           <costs>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a194-baf2-b235-0e9e" name="File Leader" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="d249-5bab-de1b-f5ec" name="File Leader - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>After an enemy collides with you during a charge, perform a Melee Attack ility targeting that enemy before that enemy&apos;s Melee Attack.
+
+This Melee Attack can only be performed while your command dial is revealed with a Melee Attack Selected.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

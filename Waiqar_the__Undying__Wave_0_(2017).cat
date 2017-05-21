@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="21" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="23" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -37,6 +37,13 @@
       <constraints/>
     </entryLink>
     <entryLink id="6b2c-f50f-3705-eb56" name="New EntryLink" hidden="false" targetId="27b0-24b4-c843-fb82" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="2cb7-5a51-7acf-2b36" name="New EntryLink" hidden="false" targetId="f471-88b1-b992-0cb5" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -723,7 +730,15 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="8869-0c4a-8c95-ebbb" name="Forbidden Lore of the Shadow Council" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Your army can include 1 non-unique unit from any other faction. After setup, that unit receives 2 blight tokens.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -743,7 +758,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -754,6 +769,197 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="b496-5788-766a-7ed5" name="New EntryLink" hidden="false" targetId="da44-983b-dce1-13ba" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3406-7297-1320-b0f8" name="New EntryLink" hidden="false" targetId="e468-4677-19e6-fc84" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f471-88b1-b992-0cb5" name="Death Knights" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="15d1-8b4a-7ad2-889d" name="Death Knights" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="7cf7-db3d-20b4-3ee8" value="3"/>
+            <characteristic name="Wound Threshold" characteristicTypeId="aa47-e393-e539-b8e5" value="1"/>
+            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="-"/>
+            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="2 Red 1 Blue"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1551-aa40-68c9-9473" name="Death Knights - Passive Ability" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While defending, subtract 1 mortal strike.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e2cf-3a14-e8c5-aa25" name="New InfoLink" hidden="false" targetId="3acc-998c-be8b-5314" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Impact [Stable Rune]">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ff95-38c2-fcd0-9ac2" name="New InfoLink" hidden="false" targetId="94ec-3f37-454f-92ad" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Steadfast [Fear]">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e880-5092-af8a-425c" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="524c-3019-5b34-1f9e">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da92-e704-5413-f4ef" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c35-be5a-780b-8443" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="524c-3019-5b34-1f9e" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f7db-d99f-35f5-de90" name="2x2 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="42.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1cc0-34ce-06f8-0fdb" name="2x3 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="55.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="87c6-b3cb-83b1-fbfd" name="New EntryLink" hidden="false" targetId="da44-983b-dce1-13ba" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="b74e-f15a-5082-5685" name="New EntryLink" hidden="false" targetId="8e90-5f91-030d-df3c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3c52-772a-18c8-e949" name="New EntryLink" hidden="false" targetId="505f-6606-e37c-ba6a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524c-3019-5b34-1f9e" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e5f3-9b30-0362-1a93" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+        </entryLink>
+        <entryLink id="d2d6-671d-959f-5dcc" name="New EntryLink" hidden="false" targetId="210d-0219-b499-af97" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="524c-3019-5b34-1f9e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f7db-d99f-35f5-de90" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e5f3-9b30-0362-1a93" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints/>
         </entryLink>
       </entryLinks>
@@ -983,6 +1189,77 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="e43c-ca8d-65eb-9ebe" name="Captivating Hexer" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8f88-1ab3-643d-6af7" name="Captivating Hexer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="3370-86df-42b7-5f0c" name="Captivating Hexer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Enemies engaged with you cannot perform a Shift.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e15c-3093-56ee-77b7" name="Fallen Hero" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="305d-fcae-4b2c-91d2" name="Fallen Hero - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Add a Artifact to this unit&apos;s available upgrades. 
+
+When this figure is removed, discard 1 Artifact upgrade that is equipped to this unit.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1078,6 +1355,75 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9ba1-2afd-4e47-db2c" name="Aggressive Drummer" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="22d9-f944-306d-ec59" name="Aggressive Drummer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="6933-f550-c96e-c662" name="Aggressive Drummer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you perform a Move, threat it as modified by Charge. You do not receive panic tokens for failing to collide with an enemy unit during a charge.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="18dd-65b8-cd10-1b65" name="Marching Drummer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="9d24-75b1-46c2-7632" name="Marching Drummer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you perform a Move, you may treat it as modified by a Turn.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1219,6 +1565,46 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="cebd-c859-77b7-d136" name="Front Line Carrion Lancer" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="346a-562b-fd90-5f8c" name="Front Line Carrion Lancer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="ef87-804d-ce1a-a633" name="Front Line Carrion Lancer - Melee Surge Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>One Surge : Add a Mortal Strike if the defender has a blight token.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1316,6 +1702,101 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="27bc-fc98-ae67-26ea" name="Regenerative Magic" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="4a98-60d6-2968-7667" name="Regenerative Magic - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The number of Surge that precedes your Surge abilties is reduced by 1 to a minimum of 1. This does not affect Surge+ abilities.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27b0-24b4-c843-fb82" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b551-300a-112a-753b" name="Violent Foorces" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="845a-5e94-7adf-8a13" name="Violent Forces - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Your Ranged Attack rolls a number of white dice equal to [Natural Rune] instead of [Unstable Rune].
+
+Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
+</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="52f8-8025-f5ed-2bcc" name="New InfoLink" hidden="false" targetId="4bc3-5a1a-a748-31de" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Brutal 1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27b0-24b4-c843-fb82" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ebad-cf85-ee07-d20a" name="Lingering Dead" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="fe26-2540-c049-9675" name="Lingering Dead - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>While there are figures in your unit, do not remove empty trays from your unit until the end of the phase.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1350,7 +1831,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9793-9c55-31ba-2de3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="85bc-a921-f4f8-a27b" name="Profane Banner Bearer" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="85bc-a921-f4f8-a27b" name="Profane Banner Bearer" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="5cc8-b606-d445-6e80" name="Profane Banner Bearer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
                   <profiles/>
@@ -1372,7 +1853,15 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                   <modifiers/>
                 </infoLink>
               </infoLinks>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -1381,7 +1870,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fb40-4d22-346f-daf5" name="Blighted Vexillum Bearer" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="fb40-4d22-346f-daf5" name="Blighted Vexillum Bearer" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="22f1-59d5-e39d-95ea" name="Blighted Vexillum Bearer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
                   <profiles/>
@@ -1405,10 +1894,39 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
               </rules>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="99c6-9b04-3294-64a4" name="Raven-Standard Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="abf0-be58-8e08-dff6" name="Raven-Standard Bearer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The initiative of your red actions is decreased by 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1454,7 +1972,29 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c36c-2ef6-9d3f-9f2e" type="max"/>
           </constraints>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="a864-beae-a571-3670" name="The Duskblade" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="2083-1c64-0b57-0ca5" name="The Duskblade - Melee Surge Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Two Surge : Reduce the defender&apos;s defense by 1 for this attack.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
