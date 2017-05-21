@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="25" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="26" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -616,6 +616,25 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <costs>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="3fbb-adfe-05d0-b8f8" name="Shield of Margath" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="923c-f3e6-7416-2b1d" name="Shield of Margath - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>After defending against a Melee Attack, the attacker suffers damage equal to your defense.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
