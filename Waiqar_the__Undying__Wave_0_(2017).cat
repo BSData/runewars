@@ -1520,6 +1520,80 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="27bc-fc98-ae67-26ea" name="Regenerative Magic" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="4a98-60d6-2968-7667" name="Regenerative Magic - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The number of Surge that precedes your Surge abilties is reduced by 1 to a minimum of 1. This does not affect Surge+ abilities.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27b0-24b4-c843-fb82" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b551-300a-112a-753b" name="Violent Foorces" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="845a-5e94-7adf-8a13" name="Violent Forces - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Your Ranged Attack rolls a number of white dice equal to [Natural Rune] instead of [Unstable Rune].
+
+Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
+</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="52f8-8025-f5ed-2bcc" name="New InfoLink" hidden="false" targetId="4bc3-5a1a-a748-31de" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Brutal 1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27b0-24b4-c843-fb82" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1658,7 +1732,29 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c36c-2ef6-9d3f-9f2e" type="max"/>
           </constraints>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="a864-beae-a571-3670" name="The Duskblade" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="2083-1c64-0b57-0ca5" name="The Duskblade - Melee Surge Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Two Surge : Reduce the defender&apos;s defense by 1 for this attack.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
