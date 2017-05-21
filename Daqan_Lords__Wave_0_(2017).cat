@@ -747,7 +747,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="32.0"/>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="34.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1349,6 +1349,88 @@
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="31c0-0f77-290e-7c52" name="Artifact Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a4d9-205b-b8bf-685b" name="Artifact Bearer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="9047-b706-d306-aae7" name="Artifact Bearer - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Add a Artifact to this unit&apos;s available upgrades.
+
+When this figure is removed, discard 1 Artifact upgrade that is equiped to this unit.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ca28-35fe-c3cd-a13d" name="Nerekhall Hexer" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="143c-a0d3-43de-71a3" name="Nerekhall Hexer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="ee96-3b92-9f85-9308" name="Nerekhall Hexer - Skill Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Choose an enemy at range 1-3 and in line of sight. That enemy suffers a severity-[Natural Rune] moral test.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
