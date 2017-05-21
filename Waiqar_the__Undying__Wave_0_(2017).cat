@@ -730,7 +730,15 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="8869-0c4a-8c95-ebbb" name="Forbidden Lore of the Shadow Council" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Your army can include 1 non-unique unit from any other faction. After setup, that unit receives 2 blight tokens.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -750,13 +758,27 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="4760-16e4-2506-b4a4" name="New EntryLink" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="b496-5788-766a-7ed5" name="New EntryLink" hidden="false" targetId="da44-983b-dce1-13ba" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3406-7297-1320-b0f8" name="New EntryLink" hidden="false" targetId="e468-4677-19e6-fc84" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
