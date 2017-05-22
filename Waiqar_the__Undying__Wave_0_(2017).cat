@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="23" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="24" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1039,7 +1039,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="23.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fc82-6d0b-1c8a-77cf" name="Executioner" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="fc82-6d0b-1c8a-77cf" name="Executioner" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="d8be-a3a5-6e04-0f9a" name="Executioner" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
                   <profiles/>
@@ -1063,10 +1063,10 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
               </rules>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1079,7 +1079,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5841-af06-e537-c174" name="Mistlands Saboteur" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="5841-af06-e537-c174" name="Mistlands Saboteur" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="d118-adfe-1986-fb72" name="Mistlands Saboteur" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
                   <profiles/>
@@ -1103,10 +1103,10 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
               </rules>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1119,7 +1119,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1261-5543-5f94-f943" name="Necromancer" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="1261-5543-5f94-f943" name="Necromancer" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="1b69-f735-4223-71e9" name="Necromancer" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
                   <profiles/>
@@ -1143,10 +1143,10 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
               </rules>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1159,8 +1159,19 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="22b6-5d47-5478-3358" name="Deathcaller" book="Waqir Infantry Command" hidden="true" collective="false" type="upgrade">
-              <profiles/>
+            <selectionEntry id="22b6-5d47-5478-3358" name="Deathcaller" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b44c-9e0a-d60e-4e8e" name="Deathcaller" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
               <rules>
                 <rule id="60e0-1f5a-2b0c-7b35" name="Deathcaller - Skill Ability" hidden="false">
                   <profiles/>
@@ -1173,10 +1184,10 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
               </rules>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1230,7 +1241,18 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
               </costs>
             </selectionEntry>
             <selectionEntry id="e15c-3093-56ee-77b7" name="Fallen Hero" hidden="false" collective="false" type="upgrade">
-              <profiles/>
+              <profiles>
+                <profile id="e4f4-1740-7847-3fc4" name="Fallen Hero" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
               <rules>
                 <rule id="305d-fcae-4b2c-91d2" name="Fallen Hero - Passive Ability" hidden="false">
                   <profiles/>
@@ -1491,6 +1513,27 @@ When this figure is removed, discard 1 Artifact upgrade that is equipped to this
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="3320-fdc7-3c00-7685" name="Lingering Dead" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="fbf2-f878-d205-0d8d" name="Lingering Dead - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>While there are figures in your unit, do not remove empty trays from your unit until the end of the phase.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1731,7 +1774,7 @@ When this figure is removed, discard 1 Artifact upgrade that is equipped to this
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b551-300a-112a-753b" name="Violent Foorces" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="b551-300a-112a-753b" name="Violent Forces" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
                 <rule id="845a-5e94-7adf-8a13" name="Violent Forces - Passive Ability" hidden="false">
@@ -1774,27 +1817,6 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ebad-cf85-ee07-d20a" name="Lingering Dead" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="fe26-2540-c049-9675" name="Lingering Dead - Passive Ability" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>While there are figures in your unit, do not remove empty trays from your unit until the end of the phase.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
