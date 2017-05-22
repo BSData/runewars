@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="23" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="24" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1491,6 +1491,27 @@ When this figure is removed, discard 1 Artifact upgrade that is equipped to this
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="3320-fdc7-3c00-7685" name="Lingering Dead" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="fbf2-f878-d205-0d8d" name="Lingering Dead - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>While there are figures in your unit, do not remove empty trays from your unit until the end of the phase.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1731,7 +1752,7 @@ When this figure is removed, discard 1 Artifact upgrade that is equipped to this
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b551-300a-112a-753b" name="Violent Foorces" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="b551-300a-112a-753b" name="Violent Forces" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
                 <rule id="845a-5e94-7adf-8a13" name="Violent Forces - Passive Ability" hidden="false">
@@ -1774,27 +1795,6 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ebad-cf85-ee07-d20a" name="Lingering Dead" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="fe26-2540-c049-9675" name="Lingering Dead - Passive Ability" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>While there are figures in your unit, do not remove empty trays from your unit until the end of the phase.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
