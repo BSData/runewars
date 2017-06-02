@@ -973,9 +973,17 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="3cf3-9c59-7ba4-bbc7" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e15c-3093-56ee-77b7" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cf3-9c59-7ba4-bbc7" type="max"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3cf3-9c59-7ba4-bbc7" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -983,9 +991,17 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="96bb-b7c1-ee22-9ec2" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="457a-f4f1-b514-5ecb" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96bb-b7c1-ee22-9ec2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="96bb-b7c1-ee22-9ec2" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="21a9-ef2d-b0ae-226f" name="Ardus Ix&apos;Erebus" book="Core Set" hidden="true" collective="false" type="upgrade">
