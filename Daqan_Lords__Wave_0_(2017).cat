@@ -757,39 +757,14 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="58f8-debb-dc54-152b" name="New EntryLink" hidden="false" targetId="4c7c-071c-da07-f383" type="selectionEntryGroup">
+        <entryLink id="58f8-debb-dc54-152b" name="New EntryLink" hidden="false" targetId="0060-8d35-5c00-ed4e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-        </entryLink>
-        <entryLink id="c5c9-78a8-99ec-152e" name="New EntryLink" hidden="false" targetId="2772-b570-365c-ac85" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
         </entryLink>
         <entryLink id="257c-5539-9b14-b5a8" name="New EntryLink" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
@@ -993,29 +968,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="335d-4ef6-042b-a033" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ab58-1d4d-75f6-074c" name="The Dawnblade" book="Lord Hawthorne" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="76e4-b35f-6dd4-9054" name="The Dawnblade - Melee Surge Ability" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>1 Surge+ : Choose an enemy engaged with you. That enemy suffers damage equal to your threat for each Surge spent.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e6-0792-5956-8bcc" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="10.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="f5a7-57d5-3fd0-5f5d" name="Wraith Step" book="Core Set" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
@@ -1128,7 +1080,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1639,7 +1593,9 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1970,7 +1926,31 @@ Discard this card to add a Mortal Strike.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d803-b2d3-5b05-38f1" type="max"/>
           </constraints>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="4371-6452-4ff5-69b7" name="The Dawnblade" book="Lord Hawthorne" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="53e2-61b9-0d79-5900" name="The Dawnblade - Melee Surge Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>1 Surge+ : Choose an enemy engaged with you. That enemy suffers damage equal to your threat for each Surge spent.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c5b-e679-ccc3-a88e" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
