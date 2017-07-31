@@ -1,109 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="32" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="31" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries/>
   <forceEntries/>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="563a-1041-3025-e41f" name="" hidden="false" targetId="2d46-41bb-28df-61d0" type="selectionEntry">
+    <entryLink id="563a-1041-3025-e41f" name="" hidden="false" targetId="2d46-41bb-28df-61d0" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="563a-1041-3025-e41f-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
     </entryLink>
-    <entryLink id="4a7a-928b-b642-2bf0" name="Oathsworn Cavalry" hidden="false" targetId="a4c2-2150-50d4-27b4" type="selectionEntry">
+    <entryLink id="4a7a-928b-b642-2bf0" name="Oathsworn Cavalry" hidden="false" targetId="a4c2-2150-50d4-27b4" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="4a7a-928b-b642-2bf0-2cc7-a84f-a61e-6c1c" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
     </entryLink>
-    <entryLink id="cdc4-0a4a-7e22-2ae1" name="New EntryLink" hidden="false" targetId="a302-c69c-4005-ebe6" type="selectionEntry">
+    <entryLink id="cdc4-0a4a-7e22-2ae1" name="New EntryLink" hidden="false" targetId="a302-c69c-4005-ebe6" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="cdc4-0a4a-7e22-2ae1-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
     </entryLink>
-    <entryLink id="f318-d01f-7135-11ff" name="New EntryLink" hidden="false" targetId="f75f-d200-6307-9f18" type="selectionEntry">
+    <entryLink id="f318-d01f-7135-11ff" name="New EntryLink" hidden="false" targetId="f75f-d200-6307-9f18" type="selectionEntry" categoryEntryId="3ff1-c335-bd67-644a">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="f318-d01f-7135-11ff-3ff1-c335-bd67-644a" hidden="false" targetId="3ff1-c335-bd67-644a" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
     </entryLink>
-    <entryLink id="cf85-1669-4feb-336b" name="New EntryLink" hidden="false" targetId="7098-d05f-4e4a-5b73" type="selectionEntry">
+    <entryLink id="cf85-1669-4feb-336b" name="New EntryLink" hidden="false" targetId="7098-d05f-4e4a-5b73" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="cf85-1669-4feb-336b-2cc7-a84f-a61e-6c1c" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
     </entryLink>
-    <entryLink id="15b2-2411-4941-8455" name="New EntryLink" hidden="false" targetId="7826-b000-00ec-f52c" type="selectionEntry">
+    <entryLink id="15b2-2411-4941-8455" name="New EntryLink" hidden="false" targetId="7826-b000-00ec-f52c" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="15b2-2411-4941-8455-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -134,7 +79,6 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="deb2-c937-8e25-f82f" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="4bf2-3647-4b08-8c64">
@@ -146,7 +90,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab52-2535-1f8a-1d99" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f27-ab29-c1a6-a316" type="min"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="4bf2-3647-4b08-8c64" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -154,7 +97,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -168,7 +110,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -182,7 +123,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -196,7 +136,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -216,7 +155,6 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="0e79-a9a6-0983-d42d" name="New EntryLink" hidden="false" targetId="7b0c-b091-7826-b054" type="selectionEntryGroup">
           <profiles/>
@@ -224,7 +162,6 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="0c5d-1efa-6816-e67d" name="New EntryLink" hidden="true" targetId="9ad2-ba27-7ee5-7683" type="selectionEntryGroup">
           <profiles/>
@@ -247,7 +184,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="5e1f-8aa0-001d-0005" name="New EntryLink" hidden="false" targetId="7b4b-1a3c-8c05-7e1c" type="selectionEntryGroup">
           <profiles/>
@@ -269,7 +205,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="fb78-bab7-ad27-dc00" name="New EntryLink" hidden="false" targetId="2772-b570-365c-ac85" type="selectionEntryGroup">
           <profiles/>
@@ -285,7 +220,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -332,7 +266,6 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="73af-e23f-11d7-cebb" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="0eaa-9acc-cb17-d7fd">
@@ -344,7 +277,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="730b-7de0-2897-9d2d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09fa-1d94-2e72-ac9c" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="0eaa-9acc-cb17-d7fd" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -352,7 +284,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -366,7 +297,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -380,7 +310,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -394,7 +323,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -428,7 +356,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="2920-9e6e-93da-33e8" name="New EntryLink" hidden="false" targetId="4c7c-071c-da07-f383" type="selectionEntryGroup">
           <profiles/>
@@ -436,7 +363,6 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="8c97-2a25-9bda-30d1" name="New EntryLink" hidden="false" targetId="761f-72c8-09c2-bc90" type="selectionEntryGroup">
           <profiles/>
@@ -444,7 +370,6 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="cf73-3de0-b9aa-1087" name="New EntryLink" hidden="false" targetId="7b4b-1a3c-8c05-7e1c" type="selectionEntryGroup">
           <profiles/>
@@ -465,7 +390,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -513,7 +437,6 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="b3e7-65c1-2148-dd10" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="ce21-5899-3400-23f9">
@@ -525,7 +448,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fca-bdde-6d40-c17a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deff-c1df-54f0-61f7" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="ce21-5899-3400-23f9" name="1 Tray" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -533,7 +455,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -547,7 +468,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -561,7 +481,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -575,7 +494,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -608,7 +526,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="09b5-b170-067a-d035" name="New EntryLink" hidden="false" targetId="7b4b-1a3c-8c05-7e1c" type="selectionEntryGroup">
           <profiles/>
@@ -630,7 +547,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -706,7 +622,6 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="88d7-89b5-4402-965c" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="94c0-9bc0-231d-f604" name="1 Tray" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -717,7 +632,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fe-8b7e-d8a1-8653" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f804-ba3b-22c5-6147" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -734,23 +648,20 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="cb2c-e4f8-dc1c-ce33" name="Artifact" hidden="false" targetId="0060-8d35-5c00-ed4e" type="selectionEntryGroup">
+        <entryLink id="cb2c-e4f8-dc1c-ce33" name="New EntryLink" hidden="false" targetId="0060-8d35-5c00-ed4e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="7cba-2c9b-8294-b3d3" name="Unique Unit" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
+        <entryLink id="7cba-2c9b-8294-b3d3" name="New EntryLink" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -803,25 +714,10 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier type="set" field="2e3e-d3cb-1764-0991" value="0.0">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3677-5abe-e024-8d11" type="atLeast"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25e5-8959-c92f-e31b" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e3e-d3cb-1764-0991" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e3e-d3cb-1764-0991" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="1e0c-9b23-ed1b-60c7" name="1 Tray" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -832,7 +728,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd3b-7aa0-5d77-ca6f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec6d-7857-4ab1-60d8" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -849,7 +744,6 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="58f8-debb-dc54-152b" name="New EntryLink" hidden="false" targetId="0060-8d35-5c00-ed4e" type="selectionEntryGroup">
           <profiles/>
@@ -857,15 +751,13 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="257c-5539-9b14-b5a8" name="Unique Unit" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
+        <entryLink id="257c-5539-9b14-b5a8" name="New EntryLink" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -912,7 +804,6 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="0002-4efa-7038-be9a" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="6cfd-66f2-54db-3d01">
@@ -924,7 +815,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="decd-30b4-74e8-bcc1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b65-e939-c052-f962" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="6cfd-66f2-54db-3d01" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -932,7 +822,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -946,7 +835,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -960,7 +848,6 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -980,7 +867,6 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="8fa4-ed3e-f84c-7d26" name="New EntryLink" hidden="false" targetId="4c7c-071c-da07-f383" type="selectionEntryGroup">
           <profiles/>
@@ -1001,7 +887,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="5616-55cf-a325-2395" name="New EntryLink" hidden="false" targetId="7b0c-b091-7826-b054" type="selectionEntryGroup">
           <profiles/>
@@ -1022,7 +907,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
         <entryLink id="20a5-4f65-9b46-0f2c" name="New EntryLink" hidden="false" targetId="2772-b570-365c-ac85" type="selectionEntryGroup">
           <profiles/>
@@ -1044,7 +928,6 @@
             </modifier>
           </modifiers>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1059,7 +942,6 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="8fc9-13e5-9d4e-4220" name="Unique - Daqan" hidden="false" collective="false">
@@ -1070,7 +952,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="335d-4ef6-042b-a033" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="f5a7-57d5-3fd0-5f5d" name="Wraith Step" book="Core Set" hidden="true" collective="false" type="upgrade">
               <profiles/>
@@ -1094,7 +975,6 @@
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1124,7 +1004,6 @@
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1154,7 +1033,6 @@
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1184,7 +1062,6 @@
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1204,7 +1081,6 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -1216,7 +1092,6 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8044-c5e7-4ee0-55f0" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="6144-163f-9ef3-d16f" name="Equipment - Daqan" hidden="false" collective="false">
@@ -1227,7 +1102,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b79-6978-b63b-a722" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1240,7 +1114,6 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -1252,7 +1125,6 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d5bc-206d-fd28-246f" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="cba9-bf10-9ff4-e66a" name="Champions - Daqan" hidden="false" collective="false">
@@ -1263,7 +1135,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e32a-88df-3a1e-6d01" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="267a-1efc-8195-0663" name="Kari Wraithstalker" book="Core Set" hidden="true" collective="false" type="upgrade">
               <profiles>
@@ -1308,7 +1179,6 @@
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="a04a-1a5f-ebe7-857d" type="max"/>
               </constraints>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1349,7 +1219,6 @@
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1390,7 +1259,6 @@
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1431,7 +1299,6 @@
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1472,7 +1339,6 @@
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1515,7 +1381,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1556,7 +1421,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1595,24 +1459,8 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
                   </conditions>
                   <conditionGroups/>
                 </modifier>
-                <modifier type="set" field="1ac0-c691-3ab9-5a65" value="0.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7098-d05f-4e4a-5b73" type="atLeast"/>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25e5-8959-c92f-e31b" type="atLeast"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ac0-c691-3ab9-5a65" type="max"/>
-              </constraints>
-              <categoryLinks/>
+              <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1651,24 +1499,8 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
                   </conditions>
                   <conditionGroups/>
                 </modifier>
-                <modifier type="set" field="4a8f-1672-f3ef-02e1" value="0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3677-5abe-e024-8d11" type="atLeast"/>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7098-d05f-4e4a-5b73" type="atLeast"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4a8f-1672-f3ef-02e1" type="max"/>
-              </constraints>
-              <categoryLinks/>
+              <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1688,7 +1520,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -1700,7 +1531,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="36c5-d97d-fa71-d350" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="0f63-93e1-81c6-f7ed" name="Music - Daqan" hidden="false" collective="false">
@@ -1711,7 +1541,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf13-f883-b449-1a84" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="c014-9bd9-8e90-bb15" name="Aggressive Cornicen" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
               <profiles>
@@ -1746,7 +1575,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1787,7 +1615,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1828,7 +1655,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1848,7 +1674,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -1860,7 +1685,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54cb-6884-d7fc-f609" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="5f67-3017-6d7a-182f" name="Heraldry - Daqan" hidden="false" collective="false">
@@ -1871,7 +1695,6 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e92-1b05-141a-df08" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="50d4-81b3-c353-0593" name="Raven-Pennon Bearer" book="Daqan Infantry Command" hidden="true" collective="false" type="upgrade">
               <profiles>
@@ -1907,7 +1730,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1948,7 +1770,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1994,7 +1815,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -2014,7 +1834,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2026,7 +1845,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="05a3-578e-570c-3fc2" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="fc2d-c5b3-d2b1-515f" name="Heavy - Daqan" hidden="false" collective="false">
@@ -2037,7 +1855,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d6f-b5a5-7e37-a4da" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="e3d5-aff1-d3cf-c1b3" name="Front Line Rune Golem" book="Core Set" hidden="true" collective="false" type="upgrade">
               <profiles>
@@ -2077,7 +1894,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
                 </modifier>
               </modifiers>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -2097,7 +1913,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2109,7 +1924,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f6f-203e-cab7-d5e6" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="8632-b3af-e7f3-3290" name="Training - Daqan" hidden="false" collective="false">
@@ -2120,7 +1934,6 @@ Use this ability when the unit would activate if it had the altered initiative.<
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e82-0ca5-964e-5177" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="a5a4-a5c7-1494-3c3f" name="Piercing Strike" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2138,7 +1951,6 @@ Discard this card to add a Mortal Strike.</description>
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -2158,7 +1970,6 @@ Discard this card to add a Mortal Strike.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2170,7 +1981,6 @@ Discard this card to add a Mortal Strike.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d11f-8a83-f7f2-9e56" type="max"/>
       </constraints>
-      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="4b61-f039-f3c2-0188" name="Artifact - Daqan" hidden="false" collective="false">
@@ -2181,7 +1991,6 @@ Discard this card to add a Mortal Strike.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d803-b2d3-5b05-38f1" type="max"/>
           </constraints>
-          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="4371-6452-4ff5-69b7" name="The Dawnblade" book="Lord Hawthorne" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2199,7 +2008,6 @@ Discard this card to add a Mortal Strike.</description>
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c5b-e679-ccc3-a88e" type="max"/>
               </constraints>
-              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -2219,7 +2027,6 @@ Discard this card to add a Mortal Strike.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
