@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="24" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0279-af95-595f-ba45" name="Waiqar the  Undying : Wave 0 (2017)" revision="24" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,60 +8,42 @@
   <forceEntries/>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="b978-5cac-d555-5add" name="New EntryLink" hidden="false" targetId="4846-092c-ee74-8512" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="b978-5cac-d555-5add-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
+    <entryLink id="b978-5cac-d555-5add" name="New EntryLink" hidden="false" targetId="4846-092c-ee74-8512" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="2567-87a2-e832-5cbd" name="New EntryLink" hidden="false" targetId="df77-1914-6793-1dd1" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="2567-87a2-e832-5cbd-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
+    <entryLink id="2567-87a2-e832-5cbd" name="New EntryLink" hidden="false" targetId="df77-1914-6793-1dd1" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="a046-45c1-427d-c86f" name="New EntryLink" hidden="false" targetId="e5f3-9b30-0362-1a93" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="a046-45c1-427d-c86f-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
+    <entryLink id="a046-45c1-427d-c86f" name="New EntryLink" hidden="false" targetId="e5f3-9b30-0362-1a93" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="6190-b020-62fd-79ac" name="New EntryLink" hidden="false" targetId="f885-9b21-7419-82f5" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="6190-b020-62fd-79ac-3ff1-c335-bd67-644a" targetId="3ff1-c335-bd67-644a" primary="true"/>
-</categoryLinks>
+    <entryLink id="6190-b020-62fd-79ac" name="New EntryLink" hidden="false" targetId="f885-9b21-7419-82f5" type="selectionEntry" categoryEntryId="3ff1-c335-bd67-644a">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="6b2c-f50f-3705-eb56" name="New EntryLink" hidden="false" targetId="27b0-24b4-c843-fb82" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="6b2c-f50f-3705-eb56-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
-</categoryLinks>
+    <entryLink id="6b2c-f50f-3705-eb56" name="New EntryLink" hidden="false" targetId="27b0-24b4-c843-fb82" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="2cb7-5a51-7acf-2b36" name="New EntryLink" hidden="false" targetId="f471-88b1-b992-0cb5" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="2cb7-5a51-7acf-2b36-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
-</categoryLinks>
+    <entryLink id="2cb7-5a51-7acf-2b36" name="New EntryLink" hidden="false" targetId="f471-88b1-b992-0cb5" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -618,9 +600,9 @@
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e5f3-9b30-0362-1a93" name="Ardus Ix'Erebus" hidden="false" collective="false" type="unit">
+    <selectionEntry id="e5f3-9b30-0362-1a93" name="Ardus Ix&apos;Erebus" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="454a-a3ab-89ed-ee35" name="Ardus Ix'Erebus" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
+        <profile id="454a-a3ab-89ed-ee35" name="Ardus Ix&apos;Erebus" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -641,7 +623,7 @@
           <modifiers/>
           <description>Each unit in your army is treated as having the available upgrades in the row of its costing table with the next highest cost.</description>
         </rule>
-        <rule id="f908-7ba1-a3df-3fee" name="Ardus Ix'Erebus - Melee Ability" hidden="false">
+        <rule id="f908-7ba1-a3df-3fee" name="Ardus Ix&apos;Erebus - Melee Ability" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1022,9 +1004,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="96bb-b7c1-ee22-9ec2" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="21a9-ef2d-b0ae-226f" name="Ardus Ix'Erebus" book="Core Set" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="21a9-ef2d-b0ae-226f" name="Ardus Ix&apos;Erebus" book="Core Set" hidden="true" collective="false" type="upgrade">
               <profiles>
-                <profile id="7161-5146-cb6f-30f5" name="Ardus Ix'Erebus" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
+                <profile id="7161-5146-cb6f-30f5" name="Ardus Ix&apos;Erebus" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Upgrade Model">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1036,7 +1018,7 @@
                 </profile>
               </profiles>
               <rules>
-                <rule id="4c64-0b8e-f923-5575" name="Ardus Ix'Erebus - Melee Abiity" book="Starter" hidden="false">
+                <rule id="4c64-0b8e-f923-5575" name="Ardus Ix&apos;Erebus - Melee Abiity" book="Starter" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1172,7 +1154,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>If there are empty slots in your trays, place up to [Natural Rune] new figures corresponding to this unit's card in the empty slots folowing the rules for placing units with Regenerate.</description>
+                  <description>If there are empty slots in your trays, place up to [Natural Rune] new figures corresponding to this unit&apos;s card in the empty slots folowing the rules for placing units with Regenerate.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -1293,7 +1275,7 @@ This attack is treated as having the Surge abilities (both melee and ranged) of 
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Add a Artifact to this unit's available upgrades. 
+                  <description>Add a Artifact to this unit&apos;s available upgrades. 
 
 When this figure is removed, discard 1 Artifact upgrade that is equipped to this unit.</description>
                 </rule>
@@ -1716,10 +1698,10 @@ When this figure is removed, discard 1 Artifact upgrade that is equipped to this
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b0-5da3-ea73-c9bd" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ceec-c700-0af9-9e1d" name="Ardus' Fury" book="Core Set" hidden="true" collective="false" type="upgrade">
+            <selectionEntry id="ceec-c700-0af9-9e1d" name="Ardus&apos; Fury" book="Core Set" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="b6b6-e3cc-f641-6df3" name="Ardus' Fury - Melee Surge Ability" hidden="false">
+                <rule id="b6b6-e3cc-f641-6df3" name="Ardus&apos; Fury - Melee Surge Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2037,7 +2019,7 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Two Surge : Reduce the defender's defense by 1 for this attack.</description>
+                  <description>Two Surge : Reduce the defender&apos;s defense by 1 for this attack.</description>
                 </rule>
               </rules>
               <infoLinks/>

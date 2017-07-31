@@ -1,27 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="8c15-bb29-54a4-9982" name="Runewars" revision="28">
-<categoryEntries>
-<categoryEntry id="98a3-99cd-95be-3334" name="Infantry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="2cc7-a84f-a61e-6c1c" name="Cavalry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="3ff1-c335-bd67-644a" name="Siege" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-</categoryEntries>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="28" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -46,35 +24,34 @@
   </profileTypes>
   <forceEntries>
     <forceEntry id="b433-96b0-6e5d-458b" name="Standard Army" hidden="false">
-<categoryLinks>
-<categoryLink id="b433-96b0-6e5d-458b-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" name="Infantry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="b433-96b0-6e5d-458b-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" name="Cavalry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="b433-96b0-6e5d-458b-3ff1-c335-bd67-644a" targetId="3ff1-c335-bd67-644a" name="Siege" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      
+      <categoryEntries>
+        <categoryEntry id="98a3-99cd-95be-3334" name="Infantry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+        <categoryEntry id="2cc7-a84f-a61e-6c1c" name="Cavalry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+        <categoryEntry id="3ff1-c335-bd67-644a" name="Siege" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+      </categoryEntries>
       <forceEntries/>
     </forceEntry>
   </forceEntries>
@@ -210,7 +187,7 @@ This Shift cannot be used to disengage.</description>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Perform a Ranged Attack rolling 1 red die. Each Hit of this attack causes the defender to suffer damage equal to Unstable Rune's instead of your threat.</description>
+              <description>Perform a Ranged Attack rolling 1 red die. Each Hit of this attack causes the defender to suffer damage equal to Unstable Rune&apos;s instead of your threat.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -619,10 +596,10 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ae11-055f-0cfe-477f" name="Fortuna's Dice" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ae11-055f-0cfe-477f" name="Fortuna&apos;s Dice" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="17bf-0024-e755-5a2a" name="Fortuna's Dice - Melee / Ranged Ability" hidden="false">
+            <rule id="17bf-0024-e755-5a2a" name="Fortuna&apos;s Dice - Melee / Ranged Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -653,7 +630,9 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="042d-fc72-f4a2-c836" type="max"/>
+          </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -724,7 +703,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>After an enemy collides with you during a charge, perform a Melee Attack ility targeting that enemy before that enemy's Melee Attack.
+              <description>After an enemy collides with you during a charge, perform a Melee Attack ility targeting that enemy before that enemy&apos;s Melee Attack.
 
 This Melee Attack can only be performed while your command dial is revealed with a Melee Attack Selected.</description>
             </rule>
@@ -790,7 +769,7 @@ This Melee Attack can only be performed while your command dial is revealed with
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the end of the Activation Phase, if a unit with this keyword has any empty slots in its trays, slot X new figures corresponding with that unit's card in the empty slots.</description>
+      <description>At the end of the Activation Phase, if a unit with this keyword has any empty slots in its trays, slot X new figures corresponding with that unit&apos;s card in the empty slots.</description>
     </rule>
     <rule id="8d09-61a0-2bab-847a" name="Resillient [X]" book="" hidden="false">
       <profiles/>

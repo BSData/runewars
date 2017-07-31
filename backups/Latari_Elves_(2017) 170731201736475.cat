@@ -1,31 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="3020-d7c0-05c7-9706" name="Latari Elves : Wave 2 (2017)" revision="6" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22">
-<categoryEntries>
-<categoryEntry id="f29f-616f-2c05-2115" name="Infantry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-</categoryEntries>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves : Wave 2 (2017)" revision="6" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
   <forceEntries>
-    <forceEntry id="1313-2c61-fe6a-1297" name="Kari's Aymhelin Allies" hidden="false">
-<categoryLinks>
-<categoryLink id="1313-2c61-fe6a-1297-f29f-616f-2c05-2115" targetId="f29f-616f-2c05-2115" name="Infantry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="045c-266a-d956-6518" type="max"/>
-          </constraints>
-        </categoryLink>
-</categoryLinks>
+    <forceEntry id="1313-2c61-fe6a-1297" name="Kari&apos;s Aymhelin Allies" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -33,66 +14,58 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f0e-e495-4e22-cd27" type="max"/>
       </constraints>
-      
+      <categoryEntries>
+        <categoryEntry id="f29f-616f-2c05-2115" name="Infantry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="045c-266a-d956-6518" type="max"/>
+          </constraints>
+        </categoryEntry>
+      </categoryEntries>
       <forceEntries/>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="34dd-66d2-e6ca-13c5" name="New EntryLink" hidden="false" targetId="d629-ae76-05cb-1bf0" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="34dd-66d2-e6ca-13c5-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
-</categoryLinks>
+    <entryLink id="34dd-66d2-e6ca-13c5" name="New EntryLink" hidden="false" targetId="d629-ae76-05cb-1bf0" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="2246-5014-9634-345b" name="New EntryLink" hidden="false" targetId="ffa5-c0cf-1983-3d64" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="2246-5014-9634-345b-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
+    <entryLink id="2246-5014-9634-345b" name="New EntryLink" hidden="false" targetId="ffa5-c0cf-1983-3d64" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="d1e4-327a-80a2-6238" name="New EntryLink" hidden="false" targetId="437e-b390-fb3e-224b" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="d1e4-327a-80a2-6238-3ff1-c335-bd67-644a" targetId="3ff1-c335-bd67-644a" primary="true"/>
-</categoryLinks>
+    <entryLink id="d1e4-327a-80a2-6238" name="New EntryLink" hidden="false" targetId="437e-b390-fb3e-224b" type="selectionEntry" categoryEntryId="3ff1-c335-bd67-644a">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="5811-595b-2615-ad9c" name="New EntryLink" hidden="false" targetId="6f42-b191-8f40-5c99" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="5811-595b-2615-ad9c-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
-</categoryLinks>
+    <entryLink id="5811-595b-2615-ad9c" name="New EntryLink" hidden="false" targetId="6f42-b191-8f40-5c99" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="0ae9-4e10-11ef-d8c7" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="0ae9-4e10-11ef-d8c7-f29f-616f-2c05-2115" targetId="f29f-616f-2c05-2115" primary="true"/>
-</categoryLinks>
+    <entryLink id="0ae9-4e10-11ef-d8c7" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry" categoryEntryId="f29f-616f-2c05-2115">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="ea5f-d7b8-5c8f-9ad8" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="ea5f-d7b8-5c8f-9ad8-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
+    <entryLink id="ea5f-d7b8-5c8f-9ad8" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -309,7 +282,7 @@
           <modifiers/>
           <description>1 Surge : Add a Hit.</description>
         </rule>
-        <rule id="db05-5bbc-b59e-48af" name="Lana's Wildstalkers" hidden="false">
+        <rule id="db05-5bbc-b59e-48af" name="Lana&apos;s Wildstalkers" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -557,7 +530,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Each infantry unit from the Latari Elves in your army can equip 1 upgrade from the Latari Elves in your army can equip 1 upgrade from the Latari Elves with "Sorceress" in its name, in addition to its available upgrades.</description>
+          <description>Each infantry unit from the Latari Elves in your army can equip 1 upgrade from the Latari Elves in your army can equip 1 upgrade from the Latari Elves with &quot;Sorceress&quot; in its name, in addition to its available upgrades.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -657,10 +630,10 @@
           <modifiers/>
           <constraints/>
           <selectionEntries>
-            <selectionEntry id="d7b7-8410-413d-fa9f" name="Hunter's Guile" book="Deepwood Archers Unit Expansion" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d7b7-8410-413d-fa9f" name="Hunter&apos;s Guile" book="Deepwood Archers Unit Expansion" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="6574-416b-c50f-a28b" name="Hunter's Guile - Melee / Ranged Ability" hidden="false">
+                <rule id="6574-416b-c50f-a28b" name="Hunter&apos;s Guile - Melee / Ranged Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -867,10 +840,10 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b2a-a045-5aee-cf53" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ef9d-60f7-e479-5083" name="Malcorne's Bequest" book="Maegan Cyndewin Hero Expansion" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ef9d-60f7-e479-5083" name="Malcorne&apos;s Bequest" book="Maegan Cyndewin Hero Expansion" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="a11b-98a1-c4aa-0604" name="Malcorne's Bequest - Passive Ability" hidden="false">
+                <rule id="a11b-98a1-c4aa-0604" name="Malcorne&apos;s Bequest - Passive Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
