@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="31" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="31" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,60 +8,42 @@
   <forceEntries/>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="563a-1041-3025-e41f" name="" hidden="false" targetId="2d46-41bb-28df-61d0" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="563a-1041-3025-e41f-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
+    <entryLink id="563a-1041-3025-e41f" name="" hidden="false" targetId="2d46-41bb-28df-61d0" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="4a7a-928b-b642-2bf0" name="Oathsworn Cavalry" hidden="false" targetId="a4c2-2150-50d4-27b4" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="4a7a-928b-b642-2bf0-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
-</categoryLinks>
+    <entryLink id="4a7a-928b-b642-2bf0" name="Oathsworn Cavalry" hidden="false" targetId="a4c2-2150-50d4-27b4" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="cdc4-0a4a-7e22-2ae1" name="New EntryLink" hidden="false" targetId="a302-c69c-4005-ebe6" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="cdc4-0a4a-7e22-2ae1-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
+    <entryLink id="cdc4-0a4a-7e22-2ae1" name="New EntryLink" hidden="false" targetId="a302-c69c-4005-ebe6" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="f318-d01f-7135-11ff" name="New EntryLink" hidden="false" targetId="f75f-d200-6307-9f18" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="f318-d01f-7135-11ff-3ff1-c335-bd67-644a" targetId="3ff1-c335-bd67-644a" primary="true"/>
-</categoryLinks>
+    <entryLink id="f318-d01f-7135-11ff" name="New EntryLink" hidden="false" targetId="f75f-d200-6307-9f18" type="selectionEntry" categoryEntryId="3ff1-c335-bd67-644a">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="cf85-1669-4feb-336b" name="New EntryLink" hidden="false" targetId="7098-d05f-4e4a-5b73" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="cf85-1669-4feb-336b-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
-</categoryLinks>
+    <entryLink id="cf85-1669-4feb-336b" name="New EntryLink" hidden="false" targetId="7098-d05f-4e4a-5b73" type="selectionEntry" categoryEntryId="2cc7-a84f-a61e-6c1c">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="15b2-2411-4941-8455" name="New EntryLink" hidden="false" targetId="7826-b000-00ec-f52c" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="15b2-2411-4941-8455-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
+    <entryLink id="15b2-2411-4941-8455" name="New EntryLink" hidden="false" targetId="7826-b000-00ec-f52c" type="selectionEntry" categoryEntryId="98a3-99cd-95be-3334">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -979,7 +961,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>If you are engaged with an enemy unit, pick up and face your unit so it is touching and aligned with that enemy unit's back.</description>
+                  <description>If you are engaged with an enemy unit, pick up and face your unit so it is touching and aligned with that enemy unit&apos;s back.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -1263,7 +1245,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Each unit at range 1 - Unstable Rune's (including you) suffers damage equal to the number of trays in its unit. If Unstable Rune's is 0, this effect does nothing.</description>
+                  <description>Each unit at range 1 - Unstable Rune&apos;s (including you) suffers damage equal to the number of trays in its unit. If Unstable Rune&apos;s is 0, this effect does nothing.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -1383,7 +1365,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Add a Artifact to this unit's available upgrades.
+                  <description>Add a Artifact to this unit&apos;s available upgrades.
 
 When this figure is removed, discard 1 Artifact upgrade that is equiped to this unit.</description>
                 </rule>
@@ -1962,7 +1944,7 @@ Use this ability when the unit would activate if it had the altered initiative.<
                   <infoLinks/>
                   <modifiers/>
                   <description>If the defender is at range 1-3, you may either:
-Exhaust this card to reduce the defender's defense by 1 for this attack, to a minimum of 2.
+Exhaust this card to reduce the defender&apos;s defense by 1 for this attack, to a minimum of 2.
 Discard this card to add a Mortal Strike.</description>
                 </rule>
               </rules>
