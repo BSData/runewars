@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="30" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords : Wave 0 (2017)" revision="31" battleScribeVersion="2.00" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1011,7 +1011,7 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="cb99-b802-3e46-fb22" name="Sweeping Strikes" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="cb99-b802-3e46-fb22" name="Sweeping Strikes" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
                 <rule id="f017-0e07-baa2-a0ff" name="Sweeping Strikes - Melee Ability" hidden="false">
@@ -1024,10 +1024,10 @@
               </rules>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7098-d05f-4e4a-5b73" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7098-d05f-4e4a-5b73" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1040,27 +1040,27 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c99c-bac1-905f-648b" name="Might of Daqan" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c99c-bac1-905f-648b" name="Might of Daqan" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
                 <rule id="aac8-bdb1-502c-c398" name="Might of Daqan - Passive Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7098-d05f-4e4a-5b73" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
+                  <modifiers/>
                   <description>Your defense is increased by 1.</description>
                 </rule>
               </rules>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7098-d05f-4e4a-5b73" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -1156,7 +1156,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <description>Add 1 blue die.
-1+ Surge : Choose another enemy unit at range 1-5. That enemy suffers 2 damage per surge spent.</description>
+1+ Surge : Choose another enemy unit at range 1-5. That enemy suffers 2 damage per Surge spent.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -1426,6 +1426,86 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3677-5abe-e024-8d11" name="Lord Hawthorne (Cavalry Upgrade)" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="038f-54d9-c9af-a70f" name="Lord Hawthorne (Cavalry Upgrade)" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="07f2-fb16-7f91-af86" name="Lord Hawthorne - Melee Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Add 1 white die. After you perform a Melee attack, you may perform a Melee attack against another enemy that has not been targeted by your Melee attack during this activation</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2cc7-a84f-a61e-6c1c" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="22.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="25e5-8959-c92f-e31b" name="Lord Hawthorne (Infantry Upgrade)" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c736-5bb4-ae72-4533" name="Lord Hawthorne (Cavalry Upgrade)" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="cbe0-2f2e-ad9d-2221" name="Lord Hawthorne - Melee Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Add 1 white die. After you perform a Melee attack, you may perform a Melee attack against another enemy that has not been targeted by your Melee attack during this activation</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="22.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1926,7 +2006,7 @@ Discard this card to add a Mortal Strike.</description>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c5b-e679-ccc3-a88e" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c5b-e679-ccc3-a88e" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
