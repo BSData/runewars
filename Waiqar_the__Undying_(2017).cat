@@ -1085,7 +1085,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3cf3-9c59-7ba4-bbc7" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3cf3-9c59-7ba4-bbc7" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -1094,15 +1094,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="96bb-b7c1-ee22-9ec2" value="2">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="457a-f4f1-b514-5ecb" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="96bb-b7c1-ee22-9ec2" type="max"/>
           </constraints>
@@ -1404,7 +1396,16 @@ When this figure is removed, discard 1 Artifact upgrade that is equipped to this
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="82b6-bc15-f6fd-d835" name="Artifact" hidden="false" targetId="da44-983b-dce1-13ba" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
               </costs>
@@ -2170,7 +2171,9 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
               </rules>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7977-2e6c-bb78-22fc" type="max"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2185,7 +2188,7 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="76dc-33b2-dbc8-9912" name="New EntryLink" hidden="false" targetId="d666-4b2a-f65e-0e17" type="selectionEntryGroup">
+        <entryLink id="76dc-33b2-dbc8-9912" name="Artifact - Common" hidden="false" targetId="d666-4b2a-f65e-0e17" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
