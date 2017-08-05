@@ -22,9 +22,14 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
+## Contributing / Reporting missing or incorrect data ##
+Please do contribute. Battlescribe comes with a data editor that allows easy changes to be made to the files.
+
+The issues tab should keep track of any noticed errors / missing data. Anyone can open an issue and report the error. The issues tab will also keep track of any *released* product that has not yet been added to the data files.
+
+
 ## Reporting Bugs / Errors ##
 [Reporting Bugs / Errors]: #reporting
-Please open an issue here on this github repository (second tab at the top). This is for reporting issues with the data files (e.g an incorrect restriction or a mistake).
 
 ## Links ##
 [Links]: #links
