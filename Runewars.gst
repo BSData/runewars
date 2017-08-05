@@ -1,27 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="8c15-bb29-54a4-9982" name="Runewars" revision="28">
-<categoryEntries>
-<categoryEntry id="98a3-99cd-95be-3334" name="Infantry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="2cc7-a84f-a61e-6c1c" name="Cavalry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="3ff1-c335-bd67-644a" name="Siege" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-</categoryEntries>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="29" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -44,38 +22,60 @@
       </characteristicTypes>
     </profileType>
   </profileTypes>
-  <forceEntries>
-    <forceEntry id="b433-96b0-6e5d-458b" name="Standard Army" hidden="false">
-<categoryLinks>
-<categoryLink id="b433-96b0-6e5d-458b-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" name="Infantry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="b433-96b0-6e5d-458b-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" name="Cavalry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="b433-96b0-6e5d-458b-3ff1-c335-bd67-644a" targetId="3ff1-c335-bd67-644a" name="Siege" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-</categoryLinks>
+  <categoryEntries>
+    <categoryEntry id="98a3-99cd-95be-3334" name="Infantry" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      
+    </categoryEntry>
+    <categoryEntry id="2cc7-a84f-a61e-6c1c" name="Cavalry" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="3ff1-c335-bd67-644a" name="Siege" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="b433-96b0-6e5d-458b" name="Standard Army" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
       <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="b433-96b0-6e5d-458b-98a3-99cd-95be-3334" name="Infantry" hidden="false" targetId="98a3-99cd-95be-3334" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b433-96b0-6e5d-458b-2cc7-a84f-a61e-6c1c" name="Cavalry" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b433-96b0-6e5d-458b-3ff1-c335-bd67-644a" name="Siege" hidden="false" targetId="3ff1-c335-bd67-644a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
@@ -99,6 +99,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7704-395b-403a-557b" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6067-963d-89f4-9344" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -116,6 +117,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb91-c7fd-cf18-30be" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="5cde-b969-918f-c94e" name="Shield Wall" book="Core Set, Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -131,6 +133,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -152,6 +155,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -174,6 +178,7 @@ This Shift cannot be used to disengage.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -195,6 +200,7 @@ This Shift cannot be used to disengage.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -210,12 +216,13 @@ This Shift cannot be used to disengage.</description>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Perform a Ranged Attack rolling 1 red die. Each Hit of this attack causes the defender to suffer damage equal to Unstable Rune's instead of your threat.</description>
+              <description>Perform a Ranged Attack rolling 1 red die. Each Hit of this attack causes the defender to suffer damage equal to Unstable Rune&apos;s instead of your threat.</description>
             </rule>
           </rules>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -235,6 +242,7 @@ This Shift cannot be used to disengage.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e99e-369e-8c89-80ef" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="64f8-b6e3-dd5d-18ff" name="Flank Guards" book="Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -250,6 +258,7 @@ This Shift cannot be used to disengage.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -271,6 +280,7 @@ This Shift cannot be used to disengage.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -297,6 +307,7 @@ This Shift cannot be used to disengage.</description>
           </infoLinks>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -320,6 +331,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -342,6 +354,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -363,6 +376,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -382,6 +396,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bebb-5fd8-bf4a-c688" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="0f6b-bc65-ac8c-5973" name="Terrifying Heraldry" book="Core Set, Reanimate Archers" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -397,6 +412,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -418,6 +434,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -444,6 +461,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           </infoLinks>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -465,6 +483,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -484,6 +503,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab96-11f1-9101-f38e" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="0ed2-8fd2-2425-75d2" name="Trumpets" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -499,6 +519,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -520,6 +541,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -541,6 +563,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -560,6 +583,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5da-96fc-4378-dbce" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -572,6 +596,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f44f-f1f5-8d47-5d4e" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="c940-b86b-eb5c-4803" name="Heartseeker" book="Core Set" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -589,6 +614,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae42-0196-1036-aa7b" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -612,6 +638,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9997-196e-d0eb-2a5d" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -619,10 +646,10 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ae11-055f-0cfe-477f" name="Fortuna's Dice" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ae11-055f-0cfe-477f" name="Fortuna&apos;s Dice" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="17bf-0024-e755-5a2a" name="Fortuna's Dice - Melee / Ranged Ability" hidden="false">
+            <rule id="17bf-0024-e755-5a2a" name="Fortuna&apos;s Dice - Melee / Ranged Ability" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -633,6 +660,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -656,6 +684,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="042d-fc72-f4a2-c836" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -675,6 +704,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffab-f74c-3469-f447" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="7660-776c-a6b6-51bd" name="Dispatch Runner" book="Oathsworn Cavalry, Reanimates" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -690,6 +720,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -711,6 +742,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -726,7 +758,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>After an enemy collides with you during a charge, perform a Melee Attack ility targeting that enemy before that enemy's Melee Attack.
+              <description>After an enemy collides with you during a charge, perform a Melee Attack ility targeting that enemy before that enemy&apos;s Melee Attack.
 
 This Melee Attack can only be performed while your command dial is revealed with a Melee Attack Selected.</description>
             </rule>
@@ -734,6 +766,7 @@ This Melee Attack can only be performed while your command dial is revealed with
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -753,6 +786,7 @@ This Melee Attack can only be performed while your command dial is revealed with
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fbe-51a8-3ea6-7cae" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -792,7 +826,7 @@ This Melee Attack can only be performed while your command dial is revealed with
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the end of the Activation Phase, if a unit with this keyword has any empty slots in its trays, slot X new figures corresponding with that unit's card in the empty slots.</description>
+      <description>At the end of the Activation Phase, if a unit with this keyword has any empty slots in its trays, slot X new figures corresponding with that unit&apos;s card in the empty slots.</description>
     </rule>
     <rule id="8d09-61a0-2bab-847a" name="Resillient [X]" book="" hidden="false">
       <profiles/>
