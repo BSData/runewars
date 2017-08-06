@@ -226,24 +226,17 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0c5d-1efa-6816-e67d" name="New EntryLink" hidden="true" targetId="9ad2-ba27-7ee5-7683" type="selectionEntryGroup">
+        <entryLink id="0c5d-1efa-6816-e67d" name="Heavy" hidden="true" targetId="9ad2-ba27-7ee5-7683" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="set" field="hidden" value="false">
               <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bf2-3647-4b08-8c64" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="12bf-f7e3-6321-7ede" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51bd-d50b-0658-92e8" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90fe-677b-1b42-9d5e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints/>
