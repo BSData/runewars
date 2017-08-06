@@ -1,22 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="3020-d7c0-05c7-9706" name="Latari Elves : Wave 2 (2017)" revision="6" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22">
-<categoryEntries>
-<categoryEntry id="f29f-616f-2c05-2115" name="Infantry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-</categoryEntries>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves (2017)" revision="7" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries>
+    <categoryEntry id="f29f-616f-2c05-2115" name="Infantry" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+  </categoryEntries>
   <forceEntries>
-    <forceEntry id="1313-2c61-fe6a-1297" name="Kari's Aymhelin Allies" hidden="false">
-<categoryLinks>
-<categoryLink id="1313-2c61-fe6a-1297-f29f-616f-2c05-2115" targetId="f29f-616f-2c05-2115" name="Infantry" hidden="false">
+    <forceEntry id="1313-2c61-fe6a-1297" name="Kari&apos;s Aymhelin Allies" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f0e-e495-4e22-cd27" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="1313-2c61-fe6a-1297-f29f-616f-2c05-2115" name="Infantry" hidden="false" targetId="f29f-616f-2c05-2115" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25,79 +34,106 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="045c-266a-d956-6518" type="max"/>
           </constraints>
         </categoryLink>
-</categoryLinks>
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f0e-e495-4e22-cd27" type="max"/>
-      </constraints>
-      
-      <forceEntries/>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
     <entryLink id="34dd-66d2-e6ca-13c5" name="New EntryLink" hidden="false" targetId="d629-ae76-05cb-1bf0" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="34dd-66d2-e6ca-13c5-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="34dd-66d2-e6ca-13c5-2cc7-a84f-a61e-6c1c" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="2246-5014-9634-345b" name="New EntryLink" hidden="false" targetId="ffa5-c0cf-1983-3d64" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="2246-5014-9634-345b-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="2246-5014-9634-345b-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="d1e4-327a-80a2-6238" name="New EntryLink" hidden="false" targetId="437e-b390-fb3e-224b" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="d1e4-327a-80a2-6238-3ff1-c335-bd67-644a" targetId="3ff1-c335-bd67-644a" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="d1e4-327a-80a2-6238-3ff1-c335-bd67-644a" hidden="false" targetId="3ff1-c335-bd67-644a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="5811-595b-2615-ad9c" name="New EntryLink" hidden="false" targetId="6f42-b191-8f40-5c99" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="5811-595b-2615-ad9c-2cc7-a84f-a61e-6c1c" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="5811-595b-2615-ad9c-2cc7-a84f-a61e-6c1c" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="0ae9-4e10-11ef-d8c7" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="0ae9-4e10-11ef-d8c7-f29f-616f-2c05-2115" targetId="f29f-616f-2c05-2115" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="0ae9-4e10-11ef-d8c7-f29f-616f-2c05-2115" hidden="false" targetId="f29f-616f-2c05-2115" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="ea5f-d7b8-5c8f-9ad8" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="ea5f-d7b8-5c8f-9ad8-98a3-99cd-95be-3334" targetId="98a3-99cd-95be-3334" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="ea5f-d7b8-5c8f-9ad8-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -148,6 +184,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="241b-b44f-a2d1-3b81" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="4440-e170-eb10-3fbe">
@@ -159,6 +196,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c900-eab3-572e-15c1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fd2-7d99-4d97-6e10" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="4440-e170-eb10-3fbe" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -166,6 +204,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -179,6 +218,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -192,6 +232,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -205,6 +246,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -224,6 +266,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="936e-0546-0ccf-8ec9" name="New EntryLink" hidden="false" targetId="0119-8ce9-6160-0307" type="selectionEntryGroup">
           <profiles/>
@@ -231,6 +274,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="6577-b120-0bb2-2380" name="New EntryLink" hidden="false" targetId="941c-c282-47e2-2497" type="selectionEntryGroup">
           <profiles/>
@@ -252,6 +296,7 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a1b6-6f79-090b-7cbb" name="New EntryLink" hidden="false" targetId="a611-d372-39bf-320a" type="selectionEntryGroup">
           <profiles/>
@@ -273,6 +318,7 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -309,7 +355,7 @@
           <modifiers/>
           <description>1 Surge : Add a Hit.</description>
         </rule>
-        <rule id="db05-5bbc-b59e-48af" name="Lana's Wildstalkers" hidden="false">
+        <rule id="db05-5bbc-b59e-48af" name="Lana&apos;s Wildstalkers" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -345,6 +391,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="ee3c-af39-6362-9550" name="1 Tray" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -355,6 +402,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e209-c806-eb3f-86f6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b91-7ccd-d1fe-1af1" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -371,6 +419,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="b111-b487-c4c9-6487" name="New EntryLink" hidden="false" targetId="7a5a-8b20-2b14-6adf" type="selectionEntryGroup">
           <profiles/>
@@ -378,6 +427,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="321d-00b9-51bb-25b0" name="New EntryLink" hidden="false" targetId="4fca-54ca-3f54-cec4" type="selectionEntryGroup">
           <profiles/>
@@ -385,6 +435,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -425,6 +476,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="d27e-ffa7-b014-f685" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="762d-e904-3fd8-c7ba">
@@ -436,6 +488,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53c3-c3a4-e2fb-9d6b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc6-2b79-eaa4-4808" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="6372-6477-f2c1-32e4" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -443,6 +496,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -456,6 +510,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -469,6 +524,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -482,6 +538,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -501,6 +558,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="7457-fd18-180b-3b42" name="New EntryLink" hidden="false" targetId="4fca-54ca-3f54-cec4" type="selectionEntryGroup">
           <profiles/>
@@ -508,6 +566,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="f3ae-8b58-b843-94f0" name="New EntryLink" hidden="false" targetId="5cf1-ff93-7471-c1b5" type="selectionEntryGroup">
           <profiles/>
@@ -523,6 +582,7 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -557,7 +617,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Each infantry unit from the Latari Elves in your army can equip 1 upgrade from the Latari Elves in your army can equip 1 upgrade from the Latari Elves with "Sorceress" in its name, in addition to its available upgrades.</description>
+          <description>Each infantry unit from the Latari Elves in your army can equip 1 upgrade from the Latari Elves in your army can equip 1 upgrade from the Latari Elves with &quot;Sorceress&quot; in its name, in addition to its available upgrades.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -588,6 +648,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="2513-63f8-c86a-6c27" name="1 Tray" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -598,6 +659,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45cb-e1d7-5aa6-3553" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0475-6127-9287-db79" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -614,6 +676,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="47ba-0507-065b-2834" name="New EntryLink" hidden="false" targetId="4fca-54ca-3f54-cec4" type="selectionEntryGroup">
           <profiles/>
@@ -621,6 +684,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -633,10 +697,13 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -648,6 +715,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1382-a597-1004-c139" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="b2ce-0b00-7063-097b" name="Training - Latari" hidden="false" collective="false">
@@ -656,11 +724,12 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="d7b7-8410-413d-fa9f" name="Hunter's Guile" book="Deepwood Archers Unit Expansion" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d7b7-8410-413d-fa9f" name="Hunter&apos;s Guile" book="Deepwood Archers Unit Expansion" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="6574-416b-c50f-a28b" name="Hunter's Guile - Melee / Ranged Ability" hidden="false">
+                <rule id="6574-416b-c50f-a28b" name="Hunter&apos;s Guile - Melee / Ranged Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -684,6 +753,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -703,6 +773,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -714,6 +785,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="381f-fb94-214a-46ec" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="7ee6-aec1-910b-c8c6" name="Music - Latari" hidden="false" collective="false">
@@ -724,6 +796,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f55-2b8f-4b98-1b85" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -736,6 +809,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -747,6 +821,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f575-945e-0f10-1387" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="1b83-cd86-f930-345f" name="Heraldry - Latari" hidden="false" collective="false">
@@ -757,6 +832,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd91-d00a-ddc0-d0b7" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -769,6 +845,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -780,6 +857,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e3a-842a-6f91-d30b" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="ffe5-973b-c899-2c0e" name="Champion - Latari" hidden="false" collective="false">
@@ -790,6 +868,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edfc-fb3e-5c41-df8c" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="65d0-8aa9-967a-f050" name="Verdant Sorceress" book="Latari Elves Infantry Command Unit Upgrade" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -826,6 +905,7 @@
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -845,6 +925,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -856,6 +937,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1ab-335e-7f9a-aabf" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="aa3f-bf35-4d0b-dcbc" name="Artifact - Latari" hidden="false" collective="false">
@@ -866,11 +948,12 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b2a-a045-5aee-cf53" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="ef9d-60f7-e479-5083" name="Malcorne's Bequest" book="Maegan Cyndewin Hero Expansion" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ef9d-60f7-e479-5083" name="Malcorne&apos;s Bequest" book="Maegan Cyndewin Hero Expansion" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="a11b-98a1-c4aa-0604" name="Malcorne's Bequest - Passive Ability" hidden="false">
+                <rule id="a11b-98a1-c4aa-0604" name="Malcorne&apos;s Bequest - Passive Ability" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -881,6 +964,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -900,6 +984,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -911,6 +996,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb35-2e7f-fea6-13ea" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="6ad7-2d7c-a8a7-0d68" name="Unique - Latari" hidden="false" collective="false">
@@ -921,6 +1007,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09bf-61ab-df59-6e7f" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="ae8d-18da-2be3-189f" name="Fertile Soil" book="Aymhelin Scion Unit Expansion" hidden="true" collective="false" type="upgrade">
               <profiles/>
@@ -944,6 +1031,7 @@
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -963,6 +1051,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
