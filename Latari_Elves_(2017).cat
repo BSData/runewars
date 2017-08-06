@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves (2017)" revision="7" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves (2017)" revision="8" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -21,7 +21,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f0e-e495-4e22-cd27" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f0e-e495-4e22-cd27" type="max"/>
       </constraints>
       <forceEntries/>
       <categoryLinks>
@@ -55,7 +55,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2246-5014-9634-345b" name="New EntryLink" hidden="false" targetId="ffa5-c0cf-1983-3d64" type="selectionEntry">
+    <entryLink id="2246-5014-9634-345b" name="Aliana of Summersong" hidden="false" targetId="ffa5-c0cf-1983-3d64" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -119,7 +119,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ea5f-d7b8-5c8f-9ad8" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry">
+    <entryLink id="ea5f-d7b8-5c8f-9ad8" name="Deepwood Archers" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -298,7 +298,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a1b6-6f79-090b-7cbb" name="New EntryLink" hidden="false" targetId="a611-d372-39bf-320a" type="selectionEntryGroup">
+        <entryLink id="a1b6-6f79-090b-7cbb" name="Champion" hidden="false" targetId="a611-d372-39bf-320a" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -391,7 +391,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="9a02-d622-bd7c-6d58" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ee3c-af39-6362-9550" name="1 Tray" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -476,7 +484,15 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="3145-a41e-b8a6-1a73" name="New CategoryLink" hidden="false" targetId="3ff1-c335-bd67-644a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="d27e-ffa7-b014-f685" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="762d-e904-3fd8-c7ba">
@@ -568,7 +584,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="f3ae-8b58-b843-94f0" name="New EntryLink" hidden="false" targetId="5cf1-ff93-7471-c1b5" type="selectionEntryGroup">
+        <entryLink id="f3ae-8b58-b843-94f0" name="Equipment" hidden="false" targetId="fbf9-a8cf-8878-d88c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -691,16 +707,208 @@
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="14a2-bab5-ef82-ca71" name="Deepwood Archers" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+    <selectionEntry id="14a2-bab5-ef82-ca71" name="Deepwood Archers" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2945-1271-f0a2-4706" name="Deepwood Archers" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="7cf7-db3d-20b4-3ee8" value="1"/>
+            <characteristic name="Wound Threshold" characteristicTypeId="aa47-e393-e539-b8e5" value="1"/>
+            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="2 Blue"/>
+            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="1 Blue"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a9c5-2116-c47a-4859" name="Deepwood Archers - Ranged Unique Surge Ability" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>After this attack, perform a 1 speed shift. This shift cannot be used to disengage.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8d78-78b0-01ba-9f2c" name="Precise [X]" hidden="false" targetId="4309-11a6-e7f5-5a76" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Precise 1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="6c13-7888-15d1-9c9c" name="New CategoryLink" hidden="false" targetId="f29f-616f-2c05-2115" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5612-d943-230b-7491" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c505-182a-c0c8-337d" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="0212-c251-4b09-89aa">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3974-2203-d4dd-fa6c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dea-0a85-07f2-745f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="781d-bee4-a4db-6092" name="2x2 Trays (Heraldry)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0212-c251-4b09-89aa" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="17.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="55b0-b841-c0ce-29d5" name="2x2 Trays (Champion)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fef3-2d6b-156b-83cc" name="3x2 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="42.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="68a9-7e92-dd61-70d4" name="Equipment" hidden="false" targetId="fbf9-a8cf-8878-d88c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c08f-e5a4-39eb-2e88" name="Training" hidden="false" targetId="7ce3-2779-7e4d-f307" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6dcd-0727-6195-9ca5" name="Heraldry" hidden="true" targetId="941c-c282-47e2-2497" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="781d-bee4-a4db-6092" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1041-950a-6d0f-8eb5" name="Champion" hidden="true" targetId="a611-d372-39bf-320a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="55b0-b841-c0ce-29d5" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fef3-2d6b-156b-83cc" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b0b6-4389-5672-28a6" name="Heavy" hidden="true" targetId="debc-b0d9-4bb7-75a2" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fef3-2d6b-156b-83cc" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
@@ -972,6 +1180,35 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="cb54-b0ef-cfe4-162c" name="Packleader&apos;s Spear" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="a1a3-de8b-eea0-1e77" name="Packleader&apos;s Spear - Melee Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>You may exhaust this card to gain Lethal 3 for this Melee Attack.</description>
+                </rule>
+                <rule id="ed5b-ef02-a104-2276" name="Packleader&apos;s Spear - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>If this card is exhausted, after an enemy engaged with you is destroyed, ready this card. This card cannot be readied otherwise</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="8.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1039,6 +1276,43 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="611f-acd8-4ce2-72ad" name="Ambush Predator" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="07fc-066a-8643-fc8e" name="Ambush Predator - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Enemy Ranged Attack cannot target you.</description>
+                </rule>
+                <rule id="43f1-a270-22cd-cdc9" name="Ambush Predator - Melee Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>If this is your first Melee Attack, you gain Lethal X for this Melee Attack, where X is the current round. Then, discard this card.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffa5-c0cf-1983-3d64" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1046,6 +1320,169 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="22d3-c67d-677b-e65c" name="New EntryLink" hidden="false" targetId="0e94-cfca-f649-6686" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fbf9-a8cf-8878-d88c" name="Equipment" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7930-4dc8-b61d-f770" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="db91-41a8-eee3-6b98" name="Equipment - Common" hidden="false" targetId="5cf1-ff93-7471-c1b5" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="debc-b0d9-4bb7-75a2" name="Heavy" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9840-ab54-6e2d-2fc7" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="82fc-7e85-c6b5-696a" name="Heavy - Latari" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b3e5-27e3-4974-c13b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="00d5-2701-7978-b851" name="Frontline Aymhelin Scion" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="4012-9df0-7175-3ba7" name="Frontline Aymhelin Scion" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1 + [Stable Rune]"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="3834-3dae-dfef-a27a" name="Frontline Aymhelin Scion - Melee / Ranged Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>You may exhaust this card to cause the defender to receive 1 stun token.</description>
+                </rule>
+                <rule id="a4d4-d077-5f44-ccc6" name="Frontline Aymhelin Scion - Surge Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>If this card is exhausted, ready this card.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f29f-616f-2c05-2115" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="77f2-eda6-fe08-f636" name="Support Aymhelin Scion" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8bf9-00fd-cc4a-9478" name="Support Aymhelin Scion" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1 + [Stable Rune]"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="381b-1b22-c40a-e44d" name="Support Aymhelin Scion - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>You must deploy this figure to your back rank.
+
+After your activation, if you are at range 1-[Natural Rune] of overgrown terrain, you may perform a speed-1 Shift. This Shift cannot be used to disengage.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="daa9-998d-79b1-360c" name="Overgrow [X]" hidden="false" targetId="7772-9dfb-42df-376e" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Overgrow 1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f29f-616f-2c05-2115" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6a18-9ee6-bd3e-9ec9" name="Heavy - Common" hidden="false" targetId="5a32-3406-87f9-36d3" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
