@@ -41,6 +41,22 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="cedc-586b-2655-aa5e" name="Spined Threshers" hidden="false" targetId="6117-bd29-d52c-5b9d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1748-89b0-0782-ddd3" name="New CategoryLink" hidden="false" targetId="3ff1-c335-bd67-644a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9751-f447-6939-f261" name="Beserkers" book="Uthuk Y&apos;llan Army Expansion, Bersekers" hidden="false" collective="false" type="unit">
@@ -402,6 +418,213 @@
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b42b-67cf-6615-36c1" type="equalTo"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4be2-50aa-d6cc-1427" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6117-bd29-d52c-5b9d" name="Spined Threshers" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d5d1-6cfc-2648-a204" name="Spined Threshers" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="7cf7-db3d-20b4-3ee8" value="2"/>
+            <characteristic name="Wound Threshold" characteristicTypeId="aa47-e393-e539-b8e5" value="5"/>
+            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="-"/>
+            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="2 Red"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e3f3-dec0-0625-3108" name="Spined Threshers - Melee Ability" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If the defender has a panic token, you may reroll 1 die.</description>
+        </rule>
+        <rule id="256a-2fcd-df7c-062f" name="Spined Threshers - Passive Ability" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>After your activation, each enemy at range 1-[Unstable Rune] without a panic token receives 1 panic token.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b728-1735-1b27-90ec" name="Steadfast [X]" hidden="false" targetId="94ec-3f37-454f-92ad" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Steadfast [Fear]">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="06eb-29d3-dfb9-bf60" name="Brutal [X]" hidden="false" targetId="4bc3-5a1a-a748-31de" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal 1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1672-eb1f-5453-2b8b" name="New CategoryLink" hidden="false" targetId="3ff1-c335-bd67-644a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="efd1-04db-b35e-30c9" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="3262-f13f-1c64-876d">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8cc-f162-ea43-0155" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cfd-cce3-e8cf-e34a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="3262-f13f-1c64-876d" name="1 Tray" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="03ad-4d01-3c35-bdc1" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="28.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="43d1-8943-4616-c43a" name="2x2 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="48.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2cd7-0c62-cf0d-7e18" name="3x2 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="72.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f360-e147-cf38-0819" name="Unique" hidden="false" targetId="4aaa-1b72-1e41-2434" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3262-f13f-1c64-876d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c15-8894-3f3b-4897" name="Champion" hidden="false" targetId="e94b-900b-8795-bdc7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3262-f13f-1c64-876d" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03ad-4d01-3c35-bdc1" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d591-15d0-3e22-7067" name="Equipment" hidden="false" targetId="878f-3cce-b6d2-e273" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03ad-4d01-3c35-bdc1" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3262-f13f-1c64-876d" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43d1-8943-4616-c43a" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
