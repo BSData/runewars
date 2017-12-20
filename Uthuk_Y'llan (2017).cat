@@ -57,6 +57,22 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="1d24-b73c-38fe-e0ea" name="Ravos the Everhungry" hidden="false" targetId="7b00-d97e-8028-d00a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="52d3-2d88-de37-217b" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9751-f447-6939-f261" name="Beserkers" book="Uthuk Y&apos;llan Army Expansion, Bersekers" hidden="false" collective="false" type="unit">
@@ -430,7 +446,7 @@
       </entryLinks>
       <costs/>
     </selectionEntry>
-    <selectionEntry id="6117-bd29-d52c-5b9d" name="Spined Threshers" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6117-bd29-d52c-5b9d" name="Spined Threshers" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="d5d1-6cfc-2648-a204" name="Spined Threshers" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
           <profiles/>
@@ -631,6 +647,128 @@
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="7b00-d97e-8028-d00a" name="Ravos the Everhungry" book="Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="cee2-9a73-36a0-6674" name="Ravos the Everhungry" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="7cf7-db3d-20b4-3ee8" value="2"/>
+            <characteristic name="Wound Threshold" characteristicTypeId="aa47-e393-e539-b8e5" value="7"/>
+            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="-"/>
+            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="1  White 1 Red 1 Blue"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="16dd-64d1-fd64-2886" name="Ravos the Everhungry - Melee Unique Surge Ability" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each enemy at range 1 suffers 1 would.</description>
+        </rule>
+        <rule id="c00f-6ffc-3606-214c" name="Ravos the Everhungry - Passive Ability" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Before each End Phase, you must choose a unit at range 1. It suffers 1 wound.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9c49-886e-1e04-3894" name="Brutal [X]" hidden="false" targetId="4bc3-5a1a-a748-31de" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal 1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="23d8-73ef-0a95-1796" name="Precise [X]" hidden="false" targetId="4309-11a6-e7f5-5a76" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Precise 1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1a44-7695-963e-21de" name="Steadfast [X]" hidden="false" targetId="94ec-3f37-454f-92ad" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Steadfast [Fear 2]">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3602-d88d-7a99-e7f8" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="1857-5511-2386-3098" name="1 Tray" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c81-8ca4-6b75-ec9d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d84-493e-5a95-4320" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e99b-ab1b-0979-b047" name="Artifact" hidden="false" targetId="84e2-2023-df3b-f18c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="26ba-b616-9499-976e" name="Unique" hidden="false" targetId="4aaa-1b72-1e41-2434" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="41c9-7122-680e-bee9" name="Unique Unit" hidden="false" targetId="a20e-e06c-42d8-c597" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
