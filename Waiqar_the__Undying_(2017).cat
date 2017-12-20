@@ -2247,6 +2247,28 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="d7cf-30db-351a-5bf6" name="Deathmist Banners" book="Death Knights" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="64a8-0b4c-21e1-e7d8" name="Deathmist Banners - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>After your activation, each enemy at range 1 suffers [Stable Rune] damage.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2307,6 +2329,26 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="8.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="41f6-89bd-2cae-e1ef" name="Obcasium&apos;s Gauntlet" book="Death Knights" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="edea-46ff-b73d-da93" name="Obcasium&apos;s Gauntlet - Melee Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>You may exhaust this card to cause the defender to receive the &quot;Death&apos;s Grasp&quot; condition.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
