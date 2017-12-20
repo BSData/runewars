@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="30" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="31" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -315,7 +315,7 @@ This Shift cannot be used to disengage.</description>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a15e-216f-08ae-9777" name="Close Quarters Targeting" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="a15e-216f-08ae-9777" name="Close Quarters Targeting" book="Reanimate Archers, Deepwood Archers, Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="a918-a61b-3633-9721" name="Close Quarters Targeting - Ranged Ability" hidden="false">
@@ -339,7 +339,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6486-7209-778f-9928" name="Column Tactics" book="Leonx Riders Unit Expansion" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="6486-7209-778f-9928" name="Column Tactics" book="Leonx Riders Unit Expansion, Death Knights, Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="eef5-b49d-5ce9-c5d4" name="Column Tactics - Melee Ability" hidden="false">
@@ -491,7 +491,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c28a-6739-07ab-5e45" name="Cursed Signets" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c28a-6739-07ab-5e45" name="Cursed Signets" book="Reanimates, Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="2913-a1c8-1133-b07d" name="Cursed Signets - Passive Ability" hidden="false">
@@ -690,7 +690,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3fbb-adfe-05d0-b8f8" name="Shield of Margath" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3fbb-adfe-05d0-b8f8" name="Shield of Margath" book="Ankaur Maro, Death Knights, Lord Hawthorne, Maegan Cydewin" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="923c-f3e6-7416-2b1d" name="Shield of Margath - Passive Ability" hidden="false">
@@ -877,6 +877,13 @@ This Melee Attack can only be performed while your command dial is revealed with
       <infoLinks/>
       <modifiers/>
       <description>While defending, subtract [X] from the damage pool.</description>
+    </rule>
+    <rule id="6221-2275-02d3-4099" name="Scout" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Deploy after the &quot;Deploy Units&quot; step of setup. You may then perform any blue action and matching modifier.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords (2017)" revision="36" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1d9-7540-757f-beb4" name="Daqan Lords (2017)" revision="38" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -57,7 +57,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f318-d01f-7135-11ff" name="New EntryLink" hidden="false" targetId="f75f-d200-6307-9f18" type="selectionEntry">
+    <entryLink id="f318-d01f-7135-11ff" name="Rune Golems" hidden="false" targetId="f75f-d200-6307-9f18" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -73,7 +73,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cf85-1669-4feb-336b" name="New EntryLink" hidden="false" targetId="7098-d05f-4e4a-5b73" type="selectionEntry">
+    <entryLink id="cf85-1669-4feb-336b" name="Lord Hawthorne" hidden="false" targetId="7098-d05f-4e4a-5b73" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -97,6 +97,22 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="15b2-2411-4941-8455-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cd2a-8657-a755-cd71" name="Outland Scouts" hidden="false" targetId="02d3-8b37-3cc4-971d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fe54-c288-e2de-2c11" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -134,7 +150,15 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="7b0e-98a4-7509-a5ff" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="deb2-c937-8e25-f82f" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="4bf2-3647-4b08-8c64">
@@ -226,17 +250,24 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0c5d-1efa-6816-e67d" name="Heavy" hidden="true" targetId="9ad2-ba27-7ee5-7683" type="selectionEntryGroup">
+        <entryLink id="0c5d-1efa-6816-e67d" name="Heavy" hidden="false" targetId="9ad2-ba27-7ee5-7683" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90fe-677b-1b42-9d5e" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bf2-3647-4b08-8c64" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="12bf-f7e3-6321-7ede" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51bd-d50b-0658-92e8" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints/>
@@ -264,7 +295,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="fb78-bab7-ad27-dc00" name="New EntryLink" hidden="false" targetId="2772-b570-365c-ac85" type="selectionEntryGroup">
+        <entryLink id="fb78-bab7-ad27-dc00" name="Champions" hidden="false" targetId="2772-b570-365c-ac85" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -325,7 +356,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="7df3-2bcf-e89d-ba6c" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="73af-e23f-11d7-cebb" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="0eaa-9acc-cb17-d7fd">
@@ -491,7 +530,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="012a-26c7-a68d-f83c" name="New InfoLink" hidden="false" targetId="4bc3-5a1a-a748-31de" type="rule">
+        <infoLink id="012a-26c7-a68d-f83c" name="Brutal [X]" hidden="false" targetId="4bc3-5a1a-a748-31de" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -506,7 +545,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="2d81-499a-61ac-9c2f" name="New CategoryLink" hidden="false" targetId="3ff1-c335-bd67-644a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="b3e7-65c1-2148-dd10" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="ce21-5899-3400-23f9">
@@ -699,7 +746,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="88d7-89b5-4402-965c" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="18f7-7ce4-09a0-ee37" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="94c0-9bc0-231d-f604" name="1 Tray" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -814,7 +869,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e3e-d3cb-1764-0991" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="f64c-711c-45c5-c287" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1e0c-9b23-ed1b-60c7" name="1 Tray" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -865,7 +928,7 @@
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7826-b000-00ec-f52c" name="Heavy Crossbowmen" hidden="false" collective="false" type="unit">
+    <selectionEntry id="7826-b000-00ec-f52c" name="Heavy Crossbowmen" book="Heavy Crossbowmen Unit Expansion" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="72e4-8671-6697-f07e" name="Heavy Crossbowmen" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
           <profiles/>
@@ -905,7 +968,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="61f5-8703-27e0-0daf" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="0002-4efa-7038-be9a" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="6cfd-66f2-54db-3d01">
@@ -1034,6 +1105,139 @@
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02d3-8b37-3cc4-971d" name="Outland Scouts" book="Outland Scouts" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2c79-649e-aaf5-6a11" name="Outland Scouts" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="7cf7-db3d-20b4-3ee8" value="1"/>
+            <characteristic name="Wound Threshold" characteristicTypeId="aa47-e393-e539-b8e5" value="1"/>
+            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="-"/>
+            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="2 Blue"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c8ea-743d-1b12-1b55" name="Outland Scouts - Melee Surge Ability" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>2 Surge : Add 1 Hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="96de-d794-8b4d-d336" name="Scout" hidden="false" targetId="6221-2275-02d3-4099" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ac1b-e1ac-e097-3dd4" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1a4e-6b21-7062-9eac" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="9992-06ef-cd7e-cb01">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8186-4210-b03d-a710" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f8-efb0-c43d-f646" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="9992-06ef-cd7e-cb01" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="21.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6ebd-70a0-240f-0547" name="2x2 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="32.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="893d-9876-4d45-8473" name="3x2 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="43.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f826-fce1-017f-b417" name="Training" hidden="false" targetId="761f-72c8-09c2-bc90" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2033-d546-1b18-80b2" name="Champions" hidden="false" targetId="2772-b570-365c-ac85" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9992-06ef-cd7e-cb01" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints/>
@@ -1185,13 +1389,43 @@
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="ecc6-07af-724b-6333" name="Seasoned Pathfinder" book="Outland Scouts" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="f590-588b-1e0a-5d00" name="Seasoned Pathfinder - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Do not deploy after deployment.
+
+After the first round, deploy touching any terrain and not touching any other units or objective tokens. Then you may perform a Reform.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="02d3-8b37-3cc4-971d" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c4f0-ae35-bea2-604a" name="New EntryLink" hidden="false" targetId="0e94-cfca-f649-6686" type="selectionEntryGroup">
+        <entryLink id="c4f0-ae35-bea2-604a" name="Unique - Common" hidden="false" targetId="0e94-cfca-f649-6686" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1221,7 +1455,30 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b79-6978-b63b-a722" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="5dbb-581e-c08a-eb02" name="Visored Helms" book="Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="6e68-8f17-076c-0d6f" name="Visored Helms - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>While defending, if your command tool is unrevealed, you may exhaust this card to increase your defense by 1 for this attack. </description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -1667,6 +1924,29 @@ When this figure is removed, discard 1 Artifact upgrade that is equiped to this 
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="22.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c67d-a436-342a-3271" name="Forged In Battle" book="Outland Scouts" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="5637-53ba-c740-5117" name="Forged In Battle - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>If the current round is 4 or higher you gain Precise 1.
+If the current round is 6 or higher you gain Brutal 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2156,7 +2436,7 @@ Use this ability when the unit would activate if it had the altered initiative.<
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="a5a4-a5c7-1494-3c3f" name="Piercing Strike" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a5a4-a5c7-1494-3c3f" name="Piercing Strike" book="Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
                 <rule id="6d51-f91b-17ec-2bea" name="Melee / Ranged Ability" hidden="false">
@@ -2178,6 +2458,35 @@ Discard this card to add a Mortal Strike.</description>
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2177-a865-209f-bc3d" name="Know Your Enemy" book="Outland Scouts" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="0b31-7196-3b2c-261a" name="Know Your Enemy - Melee Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>You may spend 1 inspiration token to reroll 1 die.</description>
+                </rule>
+                <rule id="2004-379c-22fa-7c5b" name="Know Your Enemy - Unique Surge" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>1 Unique Surge : Receive 1 inspiration token.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
