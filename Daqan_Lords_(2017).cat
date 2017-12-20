@@ -865,7 +865,7 @@
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7826-b000-00ec-f52c" name="Heavy Crossbowmen" hidden="false" collective="false" type="unit">
+    <selectionEntry id="7826-b000-00ec-f52c" name="Heavy Crossbowmen" book="Heavy Crossbowmen Unit Expansion" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="72e4-8671-6697-f07e" name="Heavy Crossbowmen" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
           <profiles/>
@@ -1191,7 +1191,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c4f0-ae35-bea2-604a" name="New EntryLink" hidden="false" targetId="0e94-cfca-f649-6686" type="selectionEntryGroup">
+        <entryLink id="c4f0-ae35-bea2-604a" name="Unique - Common" hidden="false" targetId="0e94-cfca-f649-6686" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1221,7 +1221,30 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b79-6978-b63b-a722" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="5dbb-581e-c08a-eb02" name="Visored Helms" book="Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="6e68-8f17-076c-0d6f" name="Visored Helms - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>While defending, if your command tool is unrevealed, you may exhaust this card to increase your defense by 1 for this attack. </description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -2156,7 +2179,7 @@ Use this ability when the unit would activate if it had the altered initiative.<
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="a5a4-a5c7-1494-3c3f" name="Piercing Strike" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a5a4-a5c7-1494-3c3f" name="Piercing Strike" book="Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
                 <rule id="6d51-f91b-17ec-2bea" name="Melee / Ranged Ability" hidden="false">
