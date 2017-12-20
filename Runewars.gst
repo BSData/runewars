@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="31" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="32" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -119,7 +119,7 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="5cde-b969-918f-c94e" name="Shield Wall" book="Core Set, Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5cde-b969-918f-c94e" name="Shield Wall" book="Core Set, Oathsworn Cavalry, Essentials Pack, Waqir Infantry Command, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="5852-c31f-821c-a842" name="Shield Wall - Passive Ability" hidden="false">
@@ -208,7 +208,7 @@ This Shift cannot be used to disengage.</description>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3f21-7545-b6b9-62e4" name="Fire Rune" book="Daqan Infantry Command" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3f21-7545-b6b9-62e4" name="Fire Rune" book="Daqan Infantry Command, Carrion Lancers, Deepwood Archers, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="a5b1-3ed5-e287-f078" name="Fire Rune - Skill Ability" hidden="false">
@@ -442,7 +442,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="909a-b66c-9933-234a" name="Bull Pennon" book="Core Set" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="909a-b66c-9933-234a" name="Bull Pennon" book="Core Set, Essentials Pack, Rune Golems, Leonx Riders, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -469,7 +469,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f203-0a99-b5fa-df4e" name="Raven Tabards" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f203-0a99-b5fa-df4e" name="Raven Tabards" book="Waqir Infantry Command, Waiqar Infantry Command, Latari Elves Army Expansion, Spearmen, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="e704-f53d-5fc1-e3ac" name="Raven Tabards - Passive Ability" hidden="false">
@@ -571,7 +571,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7940-52b7-af48-8cc7" name="Triumphant Cry" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7940-52b7-af48-8cc7" name="Triumphant Cry" book="Spearmen, Waqir Infantry Command, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="8be2-4548-8326-8e44" name="Triumphant Cry - Passive Ability" hidden="false">
@@ -750,7 +750,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="674b-efbd-d8bc-f429" name="War Crier" book="Core Set, Spearmen" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="674b-efbd-d8bc-f429" name="War Crier" book="Core Set, Spearmen, Essentials Pack, Latari Elves Infantry Command, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="a495-0da5-b4bf-864e" name="War Crier - Skill Ability" hidden="false">
