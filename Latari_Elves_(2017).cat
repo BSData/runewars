@@ -6,7 +6,7 @@
   <costTypes/>
   <profileTypes/>
   <categoryEntries>
-    <categoryEntry id="f29f-616f-2c05-2115" name="Infantry" hidden="false">
+    <categoryEntry id="f29f-616f-2c05-2115" name="Infantry (DONOTUSE)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -25,7 +25,7 @@
       </constraints>
       <forceEntries/>
       <categoryLinks>
-        <categoryLink id="1313-2c61-fe6a-1297-f29f-616f-2c05-2115" name="Infantry" hidden="false" targetId="f29f-616f-2c05-2115" primary="false">
+        <categoryLink id="1313-2c61-fe6a-1297-f29f-616f-2c05-2115" name="Infantry" hidden="false" targetId="98a3-99cd-95be-3334" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -39,7 +39,7 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="34dd-66d2-e6ca-13c5" name="New EntryLink" hidden="false" targetId="d629-ae76-05cb-1bf0" type="selectionEntry">
+    <entryLink id="34dd-66d2-e6ca-13c5" name="Leonx Riders" hidden="false" targetId="d629-ae76-05cb-1bf0" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -62,7 +62,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="2246-5014-9634-345b-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
+        <categoryLink id="2246-5014-9634-345b-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f491-e0e5-e828-f0d2" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -71,7 +78,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d1e4-327a-80a2-6238" name="New EntryLink" hidden="false" targetId="437e-b390-fb3e-224b" type="selectionEntry">
+    <entryLink id="d1e4-327a-80a2-6238" name="Aymhelin Scions" hidden="false" targetId="437e-b390-fb3e-224b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -87,7 +94,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5811-595b-2615-ad9c" name="New EntryLink" hidden="false" targetId="6f42-b191-8f40-5c99" type="selectionEntry">
+    <entryLink id="5811-595b-2615-ad9c" name="Maegan Cydewin" hidden="false" targetId="6f42-b191-8f40-5c99" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -95,22 +102,6 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="5811-595b-2615-ad9c-2cc7-a84f-a61e-6c1c" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="0ae9-4e10-11ef-d8c7" name="New EntryLink" hidden="false" targetId="14a2-bab5-ef82-ca71" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="0ae9-4e10-11ef-d8c7-f29f-616f-2c05-2115" hidden="false" targetId="f29f-616f-2c05-2115" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -184,7 +175,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="c1e1-593b-59e2-2ce3" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="241b-b44f-a2d1-3b81" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="4440-e170-eb10-3fbe">
@@ -605,7 +604,7 @@
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6f42-b191-8f40-5c99" name="Maegan Cydewin" book="Maegan Cydenwin Hero Expansion" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6f42-b191-8f40-5c99" name="Maegan Cydewin" book="Maegan Cydenwin Hero Expansion" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="5495-dc88-ed83-d309" name="Maegan Cydewin" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
           <profiles/>
@@ -662,9 +661,33 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
+      <modifiers>
+        <modifier type="set" field="f2de-543c-f2b0-c6b4" value="0.0">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2fe0-01ce-8fcb-1879" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9bf-8534-7932-657d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f2de-543c-f2b0-c6b4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3495-f65a-1b3f-598f" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2513-63f8-c86a-6c27" name="1 Tray" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -748,14 +771,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="6c13-7888-15d1-9c9c" name="New CategoryLink" hidden="false" targetId="f29f-616f-2c05-2115" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="5612-d943-230b-7491" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="false">
+        <categoryLink id="5612-d943-230b-7491" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -931,7 +947,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="661a-dcd6-e976-463e" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="d7b7-8410-413d-fa9f" name="Hunter&apos;s Guile" book="Deepwood Archers Unit Expansion" hidden="false" collective="false" type="upgrade">
@@ -1119,6 +1137,122 @@
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c9bf-8534-7932-657d" name="Maegan Cyndewin (Infantry Upgrade)" book="Maegan Cyndewin" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c228-dd6d-ff8a-b2ef" name="Maegan Cyndewin (Cavalry Upgrade)" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="ab9a-0313-ac88-6f40" name="Maegan Cyndewin - Melee / Ranged Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>For this attack, you may gain either:
+Surge+ Ability : Each enemy at range 1-[Unstable Rune] of the defender suffers 1 damage per Surge spent.
+Lethal [Natural Rune]</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2cc7-a84f-a61e-6c1c" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="d0d2-8102-f6c7-eced" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2fe0-01ce-8fcb-1879" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6f42-b191-8f40-5c99" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d0d2-8102-f6c7-eced" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2fe0-01ce-8fcb-1879" name="Maegan Cyndewin (Cavalry Upgrade)" book="Maegan Cyndewin" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="27bc-a1c3-78bc-6871" name="Maegan Cyndewin (Infantry Upgrade)" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="f856-ac8f-c702-90d4" name="Maegan Cyndewin - Melee / Ranged Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>For this attack, you may gain either:
+Surge+ Ability : Each enemy at range 1-[Unstable Rune] of the defender suffers 1 damage per Surge spent.
+Lethal [Natural Rune]</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f645-6be0-ad7e-e4f4" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6f42-b191-8f40-5c99" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9bf-8534-7932-657d" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f645-6be0-ad7e-e4f4" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
