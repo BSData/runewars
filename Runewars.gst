@@ -690,7 +690,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3fbb-adfe-05d0-b8f8" name="Shield of Margath" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3fbb-adfe-05d0-b8f8" name="Shield of Margath" book="Ankaur Maro, Death Knights, Lord Hawthorne, Maegan Cydewin" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="923c-f3e6-7416-2b1d" name="Shield of Margath - Passive Ability" hidden="false">

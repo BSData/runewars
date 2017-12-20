@@ -1447,13 +1447,64 @@ Lethal [Natural Rune]</description>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="f32f-b83e-0cf6-3750" name="Malcorne&apos;s Bequest" book="Maegan Cydewin" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="0dbc-ed60-b283-de58" name="Malcorne&apos;s Bequest - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>After energy tokens are cast during setup and the End Phase, you may recast 1 energy token with active or inactive [Unstable Rune] runes. Then, you may exhaust this card to recast 1 energy token. </description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="d781-663e-8966-38c0" name="Martial Magic" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="3c13-4878-7834-345e" name="Martial Magic - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Your Ranged Attack can target enemies at range 1-3 only.
+Your defence is increased by 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6f42-b191-8f40-5c99" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="22d3-c67d-677b-e65c" name="New EntryLink" hidden="false" targetId="0e94-cfca-f649-6686" type="selectionEntryGroup">
+        <entryLink id="22d3-c67d-677b-e65c" name="Unique - Common" hidden="false" targetId="0e94-cfca-f649-6686" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
