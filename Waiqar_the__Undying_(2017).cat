@@ -73,7 +73,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6b2c-f50f-3705-eb56" name="New EntryLink" hidden="false" targetId="27b0-24b4-c843-fb82" type="selectionEntry">
+    <entryLink id="6b2c-f50f-3705-eb56" name="Ankaur Maro" hidden="false" targetId="27b0-24b4-c843-fb82" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -97,6 +97,22 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="2cb7-5a51-7acf-2b36-2cc7-a84f-a61e-6c1c" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0a4b-e67d-a34f-7864" name="Wraiths" hidden="false" targetId="dd4e-fa45-6f5e-8f5b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="37a0-c767-d891-8aee" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1131,6 +1147,156 @@
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="dd4e-fa45-6f5e-8f5b" name="Wraiths" book="Wraiths" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="cb53-dddb-aea4-73c4" name="Wraiths" hidden="false" profileTypeId="d30b-0349-297b-76db" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="7cf7-db3d-20b4-3ee8" value="1"/>
+            <characteristic name="Wound Threshold" characteristicTypeId="aa47-e393-e539-b8e5" value="2"/>
+            <characteristic name="Ranged Die" characteristicTypeId="8dc7-1ab7-4083-38cb" value="-"/>
+            <characteristic name="Melee Die" characteristicTypeId="9cf6-3b5e-3c94-0ef4" value="1 Red 1 Blue"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="29b4-db3c-ffac-64c9" name="Wraiths - Passive Abilitiy" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During a March or Shift you may ignore any number of units and terrain.
+
+After you perform a March or Shift, perform a Reform.
+
+While defending, before the attacker rerolls, reroll up to [Stable Rune] dice.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ab28-7b64-29d3-e187" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9c86-9311-4b8e-a099" name=" Unit Size" hidden="false" collective="false" defaultSelectionEntryId="3d09-e169-302d-722a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a26-db75-ddf8-0875" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89f3-1f03-e1dc-0f2a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="3d09-e169-302d-722a" name="2x1 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="17.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7ada-f5d1-9bfb-e5f4" name="3x1 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fcd5-da0a-1e3f-1208" name="2x2 Trays" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7e98-acba-3d14-7bc4" name="Unique" hidden="false" targetId="e468-4677-19e6-fc84" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="35f9-7929-9c6b-454e" name="Music" hidden="false" targetId="7fbd-a04d-cef3-7670" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d09-e169-302d-722a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1801-865e-7ce8-fb38" name="Heraldry" hidden="false" targetId="210d-0219-b499-af97" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d09-e169-302d-722a" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fcd5-da0a-1e3f-1208" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="505f-6606-e37c-ba6a" name="Champion" hidden="false" collective="false">
@@ -2145,6 +2311,36 @@ Your Skill Ability adds [Unstable Rune] trays instead of [Natural Rune]
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4778-24ac-b6c6-b008" name="Undying Hate" book="Wraiths" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="5d93-4514-c7db-f5c6" name="Undying Hate - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Before deployment, choose 1 enemy. That enemy receives the &quot;Mark of Vengeance&quot; condition.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="dd4e-fa45-6f5e-8f5b" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
