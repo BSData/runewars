@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9842-8651-1cb7-30b4" name="Uthuk Y&apos;llan" revision="1" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9842-8651-1cb7-30b4" name="Uthuk Y&apos;llan" revision="2" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -683,6 +683,13 @@
           <modifiers/>
           <description>Before each End Phase, you must choose a unit at range 1. It suffers 1 wound.</description>
         </rule>
+        <rule id="3221-41bd-d79e-8257" name="Ynfernael Presence" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>After setup, each enemy receives 1 panic token.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="9c49-886e-1e04-3894" name="Brutal [X]" hidden="false" targetId="4bc3-5a1a-a748-31de" type="rule">
@@ -722,7 +729,15 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="3602-d88d-7a99-e7f8" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8f93-9c73-b329-3f2a" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3602-d88d-7a99-e7f8" type="max"/>
       </constraints>
@@ -833,7 +848,62 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb6f-c506-b3ae-86e6" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="0e84-2a17-96d4-a8e1" name="Insatiable Hunger" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="2a82-0eba-bcbc-5990" name="Insatiable Hunger - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Before each End Phase, you may perform a speed-1 or -2 March. You may treat this March as modified by Turn.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7b00-d97e-8028-d00a" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1a8-1275-5d17-9eff" name="Viscera Goblet" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="e33d-e2c4-fff8-357b" name="Viscera Goblet - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>After setup, place 1 wound token on this card.
+
+After your activation, you may discard 1 wound token from this card to remove 1 wound.
+
+When an enemy at range 1 is destroyed, place 1 wound token on this card. </description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -869,7 +939,85 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cb2-6b8a-efb8-edaf" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="8f93-9c73-b329-3f2a" name="Ravos the Everhungry (Seige Upgrade)" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="aa16-569d-5d3f-62b1" name="Ravos the Everhungry (Seige Upgrade)" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="7010-354a-a979-279e" name="Ravos the Everhungry - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Before each End Phase, you must choose a unit at range 1. it suffers 1 wound.
+
+After setup, each enemy receives 1 panic token.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="9ad9-5110-e794-4d2e" name="Precise [X]" hidden="false" targetId="4309-11a6-e7f5-5a76" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Precise 1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="491a-90f4-9610-3bf0" name="Steadfast [X]" hidden="false" targetId="94ec-3f37-454f-92ad" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Steadfast [Fear]">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="cfef-3fa7-2e71-12ee" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7b00-d97e-8028-d00a" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="3ff1-c335-bd67-644a" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="cfef-3fa7-2e71-12ee" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -941,7 +1089,116 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78c9-68a6-37ed-c903" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="0557-c57e-e51e-9da2" name="Frontline Spined Thresher" book="Uthuk Y&apos;llan Army Expansion, Spined Threshers Unit Expansion" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8434-df8c-feef-cbd3" name="Frontline Spined Thresher" book="" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="ffd8-ce04-645a-bac2" name="Frontline Spined Thresher - Melee Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>If the defender has a panic token, you may reroll 1 die.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="fef5-d558-bf7a-59e8" name="Brutal [X]" hidden="false" targetId="4bc3-5a1a-a748-31de" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Brutal 1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8a15-5e28-1baf-d32d" name="Support Spined Thresher" book="Uthuk Y&apos;llan Army Expansion, Spined Threshers Unit Expansion" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="d4c4-5103-1e1f-726b" name="Support Spined Thresher" book="" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="a0ba-2a51-59bd-e14e" name="Support Spined Thresher - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>After your activation, each enemy at range 1-[Unstable Rune] without a panic token receives 1 panic token.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="6ad3-a9cd-0ea9-b93b" name="Steadfast [X]" hidden="false" targetId="94ec-3f37-454f-92ad" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Steadfast [Fear]">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -1049,7 +1306,38 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="566b-320e-d5fa-4d44" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="7834-47bb-7421-c123" name="Fear Incarnate" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="020f-4f8d-1d92-e0c5" name="Fear Incarnate - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>After an enemy at range 1-5 suffers a moral test, it suffers damage equal to the number of moral symbols on the chosen card.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7b00-d97e-8028-d00a" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
