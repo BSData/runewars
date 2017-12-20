@@ -234,7 +234,7 @@
             <modifier type="set" field="hidden" value="false">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90fe-677b-1b42-9d5e" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="90fe-677b-1b42-9d5e" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
