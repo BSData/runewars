@@ -442,7 +442,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="909a-b66c-9933-234a" name="Bull Pennon" book="Core Set" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="909a-b66c-9933-234a" name="Bull Pennon" book="Core Set, Essentials Pack, Rune Golems, Leonx Riders, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -469,7 +469,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f203-0a99-b5fa-df4e" name="Raven Tabards" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f203-0a99-b5fa-df4e" name="Raven Tabards" book="Waqir Infantry Command, Waiqar Infantry Command, Latari Elves Army Expansion, Spearmen, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="e704-f53d-5fc1-e3ac" name="Raven Tabards - Passive Ability" hidden="false">
@@ -750,7 +750,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="674b-efbd-d8bc-f429" name="War Crier" book="Core Set, Spearmen" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="674b-efbd-d8bc-f429" name="War Crier" book="Core Set, Spearmen, Essentials Pack, Latari Elves Infantry Command, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="a495-0da5-b4bf-864e" name="War Crier - Skill Ability" hidden="false">
