@@ -1139,7 +1139,14 @@
           <description>2 Surge : Add 1 Hit.</description>
         </rule>
       </rules>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="96de-d794-8b4d-d336" name="Scout" hidden="false" targetId="6221-2275-02d3-4099" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1237,7 +1244,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1379,6 +1388,36 @@
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="ecc6-07af-724b-6333" name="Seasoned Pathfinder" book="Outland Scouts" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="f590-588b-1e0a-5d00" name="Seasoned Pathfinder - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Do not deploy after deployment.
+
+After the first round, deploy touching any terrain and not touching any other units or objective tokens. Then you may perform a Reform.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="02d3-8b37-3cc4-971d" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
