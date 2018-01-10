@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="30" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="32" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -119,7 +119,7 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="5cde-b969-918f-c94e" name="Shield Wall" book="Core Set, Oathsworn Cavalry" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5cde-b969-918f-c94e" name="Shield Wall" book="Core Set, Oathsworn Cavalry, Essentials Pack, Waqir Infantry Command, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="5852-c31f-821c-a842" name="Shield Wall - Passive Ability" hidden="false">
@@ -208,7 +208,7 @@ This Shift cannot be used to disengage.</description>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3f21-7545-b6b9-62e4" name="Fire Rune" book="Daqan Infantry Command" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3f21-7545-b6b9-62e4" name="Fire Rune" book="Daqan Infantry Command, Carrion Lancers, Deepwood Archers, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="a5b1-3ed5-e287-f078" name="Fire Rune - Skill Ability" hidden="false">
@@ -315,7 +315,7 @@ This Shift cannot be used to disengage.</description>
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a15e-216f-08ae-9777" name="Close Quarters Targeting" book="Reanimate Archers" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="a15e-216f-08ae-9777" name="Close Quarters Targeting" book="Reanimate Archers, Deepwood Archers, Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="a918-a61b-3633-9721" name="Close Quarters Targeting - Ranged Ability" hidden="false">
@@ -339,7 +339,7 @@ You do not suffer the moral test for being engaged with the defender of this ran
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6486-7209-778f-9928" name="Column Tactics" book="Leonx Riders Unit Expansion" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="6486-7209-778f-9928" name="Column Tactics" book="Leonx Riders Unit Expansion, Death Knights, Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="eef5-b49d-5ce9-c5d4" name="Column Tactics - Melee Ability" hidden="false">
@@ -442,7 +442,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="909a-b66c-9933-234a" name="Bull Pennon" book="Core Set" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="909a-b66c-9933-234a" name="Bull Pennon" book="Core Set, Essentials Pack, Rune Golems, Leonx Riders, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -469,7 +469,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f203-0a99-b5fa-df4e" name="Raven Tabards" book="Waqir Infantry Command" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f203-0a99-b5fa-df4e" name="Raven Tabards" book="Waqir Infantry Command, Waiqar Infantry Command, Latari Elves Army Expansion, Spearmen, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="e704-f53d-5fc1-e3ac" name="Raven Tabards - Passive Ability" hidden="false">
@@ -491,7 +491,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c28a-6739-07ab-5e45" name="Cursed Signets" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c28a-6739-07ab-5e45" name="Cursed Signets" book="Reanimates, Heavy Crossbowmen" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="2913-a1c8-1133-b07d" name="Cursed Signets - Passive Ability" hidden="false">
@@ -571,7 +571,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7940-52b7-af48-8cc7" name="Triumphant Cry" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7940-52b7-af48-8cc7" name="Triumphant Cry" book="Spearmen, Waqir Infantry Command, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="8be2-4548-8326-8e44" name="Triumphant Cry - Passive Ability" hidden="false">
@@ -690,7 +690,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3fbb-adfe-05d0-b8f8" name="Shield of Margath" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3fbb-adfe-05d0-b8f8" name="Shield of Margath" book="Ankaur Maro, Death Knights, Lord Hawthorne, Maegan Cydewin" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="923c-f3e6-7416-2b1d" name="Shield of Margath - Passive Ability" hidden="false">
@@ -750,7 +750,7 @@ Your number of ranks for rerolls is equal to the number of trays in your front r
             <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="674b-efbd-d8bc-f429" name="War Crier" book="Core Set, Spearmen" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="674b-efbd-d8bc-f429" name="War Crier" book="Core Set, Spearmen, Essentials Pack, Latari Elves Infantry Command, Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
             <rule id="a495-0da5-b4bf-864e" name="War Crier - Skill Ability" hidden="false">
@@ -877,6 +877,13 @@ This Melee Attack can only be performed while your command dial is revealed with
       <infoLinks/>
       <modifiers/>
       <description>While defending, subtract [X] from the damage pool.</description>
+    </rule>
+    <rule id="6221-2275-02d3-4099" name="Scout" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Deploy after the &quot;Deploy Units&quot; step of setup. You may then perform any blue action and matching modifier.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
