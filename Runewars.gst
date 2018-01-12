@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="32" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="8c15-bb29-54a4-9982" name="Runewars" revision="34" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -15,7 +15,7 @@
         <characteristicType id="9cf6-3b5e-3c94-0ef4" name="Melee Die"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="f9ab-8b42-328f-3746" name="Champion Model">
+    <profileType id="f9ab-8b42-328f-3746" name="Figure Upgrade">
       <characteristicTypes>
         <characteristicType id="1523-b236-6620-1be9" name="Defence"/>
         <characteristicType id="478e-fdd9-620e-774b" name="Wound Threshold"/>

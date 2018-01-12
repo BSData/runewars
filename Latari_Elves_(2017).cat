@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves (2017)" revision="10" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves (2017)" revision="12" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1022,7 +1022,51 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="381f-fb94-214a-46ec" type="max"/>
       </constraints>
       <categoryLinks/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="6b9c-1db4-6ad0-d065" name="Warsong Herald" hidden="true" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f474-dbf9-cc52-035a" name="Warsong Herald" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="4"/>
+                <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="4552-070e-57e5-f35b" name="Warsong Herald - Passive Ability" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>When another ally is attacking an enemy you are engaged with, that ally may reroll 1 die.
+
+You do not suffer the morale test for being engaged with the defender of a Ranged attack.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="7ee6-aec1-910b-c8c6" name="Music - Latari" hidden="false" collective="false">
           <profiles/>
@@ -1033,7 +1077,118 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f55-2b8f-4b98-1b85" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="3666-2a73-4440-3abf" name="Marching Starling" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="1d4a-55dd-2d23-bde6" name="Marching Starling" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="b277-87f1-2435-30b6" name="Marching Starling - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you perform a March, you may treat it as modified by a Turn.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="f122-2347-29d4-fdf5" name="Rallying Starling" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="945a-d3cb-337b-6a52" name="Rallying Starling - Skill Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Each other ally at range 1-3 may choose to either remove 1 bane or ready 1 upgrade card.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0902-f656-154f-14c9" name="Tactical Starling" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b6d0-3ed1-1611-be52" name="Tactical Starling" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="4"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="2756-6b72-16fd-fd0d" name="Tactical Starling - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>You do not receive panic tokens for disengaging from enemies.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -1069,7 +1224,99 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd91-d00a-ddc0-d0b7" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="df43-58a6-d16d-5b7b" name="Greenwatch Herald" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="3b97-bda0-a2ae-1c83" name="Greenwatch Herald" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="e4a4-1923-c744-3bfa" name="Greenwatch Herald - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>You may exhaust this card while an ally at range 1-[Natural Rune] of overgrown terrain is attacking to cause that ally to reroll 1 die.
+
+After deployment, place 1 overgrowth token at range 3-5 of your unit. Abilities treat this token as overgrown terrain, even if this card is exhausted. </description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9615-71b2-b375-f528" name="Herald of the Twisting Gale" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c53b-ae56-9df7-6dba" name="Herald of the Twisting Gale" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="a54a-4e8a-ca88-b233" name="Herald of the Twisting Gale - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you collide with an enemy or an enemy collides with you, you may exhaust this card to preform a Reform.</description>
+                </rule>
+                <rule id="aaa9-478d-cb76-7f01" name="Herald of the Twisting Gale - Skill Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Choose another ally at range 1-3. You may exhaust this card to cause that ally to preform a Reform.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -1106,8 +1353,19 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="65d0-8aa9-967a-f050" name="Verdant Sorceress" book="Latari Elves Infantry Command Unit Upgrade" hidden="false" collective="false" type="upgrade">
-              <profiles/>
+            <selectionEntry id="65d0-8aa9-967a-f050" name="Verdant Sorceress" book="Latari Elves Infantry Command Unit Upgrade" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="e834-de57-9dce-b0a5" name="Verdant Sorceress" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
               <rules>
                 <rule id="ac26-0470-d666-417c" name="Verdant Sorceress - Skill ability" hidden="false">
                   <profiles/>
@@ -1132,10 +1390,10 @@
                 </infoLink>
               </infoLinks>
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1307,6 +1565,259 @@ Lethal [Natural Rune]</description>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="12.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="7afa-6230-9eab-e851" name="Latari Champion" book="Latari Elves Infantry Command Unit" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f6a8-ea1a-2957-89fa" name="Latari Champion" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="4"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="d609-e573-4190-b5f6" name="Latari Champion - Skill Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Choose an enemy at range 1-3 and in light of sight. That enemy must perform a speed-1 March.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4492-f37c-43db-94c5" name="Avenger of Latariana" book="Latari Elves Infantry Command Unit Upgrade" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="d568-9eb2-e5cb-afbc" name="Avenger of Latariana" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Champion Model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="3"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="8dbc-9e92-a2b7-00aa" name="Avenger of Latariana - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>After defending against a Melee attack, if your command tool is unrevealed, you may exhaust this card to perform a Melee attack. If you do, reveal your command tool and you cannot activate during this round. </description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f4f5-f96c-965f-e2ab" name="Blackthorn Assasin" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="e288-6053-9102-cc37" name="Blackthorn Assasin" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="1"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="f50f-dfbb-c094-7efa" name="Blackthorn Assasin - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>After deployment, place 3 blight tokens on this card.</description>
+                </rule>
+                <rule id="268b-454f-acca-a8d0" name="Blackthorn Assasin - Melee / Ranged Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>You may remove 1 blight token from this card. If you do, the defender receives 1 blight token.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b62e-0577-3bce-0a11" name="Dreamweaver Sorceress" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="0ca9-5e01-f3cd-05c5" name="Dreamweaver Sorceress" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="74ec-90ff-fb0f-0dd3" name="Dreamweaver Sorceress - Skill Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Exhaust this card to choose an enemy at range 1-3. That enemy receives 1 stun token.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7927-70b9-af27-3a89" name="Firstblade of Lord Aenoth" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="eea6-0000-2c3a-7f63" name="Firstblade of Lord Aenoth" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="4"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="2539-df95-5b5f-f5c5" name="Firstblade of Lord Aenoth - Skill Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Choose an enemy at range 1-3 and in line of sight. That enemy must perform a speed-1 March.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3111-75bf-b199-fa7c" name="Storm Sorceress" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b381-8a05-fb1a-9065" name="Storm Sorceress" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="2"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="1043-cd7f-d020-9a0e" name="Storm Sorceress - Skill Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Roll 1 blue die. For each Surge, choose an enemy at range 1-3. Each chosen enemy suffers [Unstable Rune] damage.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1344,28 +1855,6 @@ Lethal [Natural Rune]</description>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="ef9d-60f7-e479-5083" name="Malcorne&apos;s Bequest" book="Maegan Cyndewin Hero Expansion" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="a11b-98a1-c4aa-0604" name="Malcorne&apos;s Bequest - Passive Ability" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>After energy tokens are cast during setup and the End Phase, you may recast 1 energy token with active or inactive [Unstable Rune] runes. Then you may exhause this card to recast 1 energy token.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="cb54-b0ef-cfe4-162c" name="Packleader&apos;s Spear" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
@@ -1386,13 +1875,39 @@ Lethal [Natural Rune]</description>
               </rules>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2499-c449-812b-6b9e" type="max"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cfd5-5b5b-1617-dee7" name="Malcorne&apos;s Bequest" book="Maegan Cydewin" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="29a4-e300-e407-4785" name="Malcorne&apos;s Bequest - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>After energy tokens are cast during setup and the End Phase, you may recast 1 energy token with active or inactive [Unstable Rune] runes. Then, you may exhaust this card to recast 1 energy token. </description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5f25-1d64-422e-ebd3" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1448,7 +1963,7 @@ Lethal [Natural Rune]</description>
                 <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="437e-b390-fb3e-224b" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="437e-b390-fb3e-224b" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1485,7 +2000,7 @@ Lethal [Natural Rune]</description>
                 <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ffa5-c0cf-1983-3d64" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="ffa5-c0cf-1983-3d64" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1497,28 +2012,6 @@ Lethal [Natural Rune]</description>
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f32f-b83e-0cf6-3750" name="Malcorne&apos;s Bequest" book="Maegan Cydewin" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="0dbc-ed60-b283-de58" name="Malcorne&apos;s Bequest - Passive Ability" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>After energy tokens are cast during setup and the End Phase, you may recast 1 energy token with active or inactive [Unstable Rune] runes. Then, you may exhaust this card to recast 1 energy token. </description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d781-663e-8966-38c0" name="Martial Magic" hidden="true" collective="false" type="upgrade">
@@ -1568,7 +2061,7 @@ Your defence is increased by 1.</description>
                 <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="437e-b390-fb3e-224b" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="437e-b390-fb3e-224b" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1580,6 +2073,66 @@ Your defence is increased by 1.</description>
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="382f-aed4-3db0-ee00" name="Wildcall&apos;s Instinct" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="8fa7-5637-3c98-de9f" name="Wildcall&apos;s Instinct - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When you perform a March or Shift, you may treat it as modified by Turn.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="ffa5-c0cf-1983-3d64" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dbb7-cb69-b00b-f7e1" name="Arcane Mastery" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="def2-49a9-fd66-fb41" name="Arcane Mastery - Skill Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Choose an enemy at range 1-[Unstable Rune]. That enemy receives 1 panic token. Choose an enemy at range 1-[Natural Rune]. Remove 1 boon from that enemy. Choose an enemy at range 1-[Stable Rune]. That enemy receives 1 stun token. </description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6f42-b191-8f40-5c99" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1675,7 +2228,7 @@ Your defence is increased by 1.</description>
                 <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f29f-616f-2c05-2115" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -1731,7 +2284,7 @@ After your activation, if you are at range 1-[Natural Rune] of overgrown terrain
                 <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f29f-616f-2c05-2115" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
