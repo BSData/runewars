@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves (2017)" revision="12" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves" revision="13" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1115,7 +1115,9 @@ You do not suffer the morale test for being engaged with the defender of a Range
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f122-2347-29d4-fdf5" name="Rallying Starling" hidden="true" collective="false" type="upgrade">
               <profiles/>
