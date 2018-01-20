@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves" revision="13" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves" revision="14" battleScribeVersion="2.01" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -934,6 +934,29 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="14da-4a86-f2c5-ee62" name="Music" hidden="true" targetId="0119-8ce9-6160-0307" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="55b0-b841-c0ce-29d5" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fef3-2d6b-156b-83cc" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="781d-bee4-a4db-6092" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
@@ -1022,51 +1045,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="381f-fb94-214a-46ec" type="max"/>
       </constraints>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="6b9c-1db4-6ad0-d065" name="Warsong Herald" hidden="true" collective="false" type="upgrade">
-          <profiles>
-            <profile id="f474-dbf9-cc52-035a" name="Warsong Herald" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="4"/>
-                <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="4552-070e-57e5-f35b" name="Warsong Herald - Passive Ability" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>When another ally is attacking an enemy you are engaged with, that ally may reroll 1 die.
-
-You do not suffer the morale test for being engaged with the defender of a Ranged attack.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="7ee6-aec1-910b-c8c6" name="Music - Latari" hidden="false" collective="false">
           <profiles/>
@@ -1316,6 +1295,49 @@ After deployment, place 1 overgrowth token at range 3-5 of your unit. Abilities 
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cdab-86d7-4a65-7c62" name="Warsong Herald" hidden="true" collective="false" type="upgrade">
+              <profiles>
+                <profile id="4b11-b62e-9eec-3d8f" name="Warsong Herald" hidden="false" profileTypeId="f9ab-8b42-328f-3746" profileTypeName="Figure Upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Defence" characteristicTypeId="1523-b236-6620-1be9" value="4"/>
+                    <characteristic name="Wound Threshold" characteristicTypeId="478e-fdd9-620e-774b" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="4f2b-6fed-bfd0-d1fd" name="Warsong Herald - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>When another ally is attacking an enemy you are engaged with, that ally may reroll 1 die.
+
+You do not suffer the morale test for being engaged with the defender of a Ranged attack.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
