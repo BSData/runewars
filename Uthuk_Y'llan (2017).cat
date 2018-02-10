@@ -215,57 +215,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7ce7-8bd9-f4b8-96ff" name="Champion" hidden="false" targetId="e94b-900b-8795-bdc7" type="selectionEntryGroup">
+        <entryLink id="7ce7-8bd9-f4b8-96ff" name="Champion" hidden="true" targetId="e94b-900b-8795-bdc7" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="558a-924c-1412-5004" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="962f-5090-f14b-82e6" name="Music" hidden="false" targetId="1fa6-65e2-88f0-b03e" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="set" field="hidden" value="false">
               <repeats/>
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="558a-924c-1412-5004" type="equalTo"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9083-5632-5b94-7ffa" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="4dbc-5fcc-6fb5-01f3" name="Heavy" hidden="false" targetId="975d-b0ec-af0f-407c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="558a-924c-1412-5004" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9083-5632-5b94-7ffa" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7dad-c009-5308-e965" type="equalTo"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fcc-8e4e-27fe-df1f" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
@@ -276,8 +238,48 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="962f-5090-f14b-82e6" name="Music" hidden="true" targetId="1fa6-65e2-88f0-b03e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fcc-8e4e-27fe-df1f" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7dad-c009-5308-e965" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4dbc-5fcc-6fb5-01f3" name="Heavy" hidden="true" targetId="975d-b0ec-af0f-407c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7dad-c009-5308-e965" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="438e-0c39-0d9c-3dad" name="Flesh Rippers" hidden="false" collective="false" type="unit">
       <profiles>
@@ -444,7 +446,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6117-bd29-d52c-5b9d" name="Spined Threshers" hidden="false" collective="false" type="unit">
       <profiles>
@@ -651,7 +655,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7b00-d97e-8028-d00a" name="Ravos the Everhungry" book="Uthuk Y&apos;llan Army Expansion" hidden="false" collective="false" type="unit">
       <profiles>
@@ -788,7 +794,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -849,36 +857,6 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="0e84-2a17-96d4-a8e1" name="Insatiable Hunger" hidden="true" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="2a82-0eba-bcbc-5990" name="Insatiable Hunger - Passive Ability" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Before each End Phase, you may perform a speed-1 or -2 March. You may treat this March as modified by Turn.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7b00-d97e-8028-d00a" type="instanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="b1a8-1275-5d17-9eff" name="Viscera Goblet" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
@@ -901,7 +879,9 @@ When an enemy at range 1 is destroyed, place 1 wound token on this card. </descr
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1044,7 +1024,7 @@ After setup, each enemy receives 1 panic token.</description>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2d0c-15fc-fa16-249d" name="Champion - Uthuk" hidden="false" collective="false">
+        <selectionEntryGroup id="2d0c-15fc-fa16-249d" name="Equipment - Uthuk" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1059,7 +1039,7 @@ After setup, each enemy receives 1 panic token.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b630-c2c3-a3a8-ef82" name="Champion - Common" hidden="false" targetId="b7ba-cdfe-eac7-f299" type="selectionEntryGroup">
+        <entryLink id="b630-c2c3-a3a8-ef82" name="Equipment - Common" hidden="false" targetId="5cf1-ff93-7471-c1b5" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1335,6 +1315,36 @@ After setup, each enemy receives 1 panic token.</description>
               <entryLinks/>
               <costs>
                 <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d2f4-0609-f1dc-0466" name="Insatiable Hunger" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="e148-543a-5cb8-aa6a" name="Insatiable Hunger - Passive Ability" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Before each End Phase, you may perform a speed-1 or -2 March. You may treat this March as modified by Turn.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7b00-d97e-8028-d00a" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="eec9-41b4-b794-8076" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
