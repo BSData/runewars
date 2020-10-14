@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3020-d7c0-05c7-9706" name="Latari Elves" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="8c15-bb29-54a4-9982" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="3020-d7c0-pubN67134" name="Maegan Cydenwin Hero Expansion"/>
+    <publication id="3020-d7c0-pubN68205" name="Latari Elves Infantry Command Unit Upgrade"/>
+    <publication id="3020-d7c0-pubN68519" name="Deepwood Archers Unit Expansion"/>
+    <publication id="3020-d7c0-pubN69522" name="Maegan Cyndewin"/>
+    <publication id="3020-d7c0-pubN69975" name="Latari Elves Infantry Command Unit"/>
+    <publication id="3020-d7c0-pubN70823" name="Aymhelin Scion Unit Expansion"/>
+  </publications>
+  <categoryEntries>
+    <categoryEntry id="f29f-616f-2c05-2115" name="Infantry (DONOTUSE)" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="1313-2c61-fe6a-1297" name="Kari&apos;s Aymhelin Allies" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f0e-e495-4e22-cd27" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1313-2c61-fe6a-1297-f29f-616f-2c05-2115" name="Infantry" hidden="false" targetId="98a3-99cd-95be-3334" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="045c-266a-d956-6518" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="f1d4-9673-faea-60b0" name="Ankaur&apos;s Forbidden Lore of the Shadow Council" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f828-84e3-19b3-0222" type="max"/>
+      </constraints>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="34dd-66d2-e6ca-13c5" name="Leonx Riders" hidden="false" collective="false" import="true" targetId="d629-ae76-05cb-1bf0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="34dd-66d2-e6ca-13c5-2cc7-a84f-a61e-6c1c" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2246-5014-9634-345b" name="Aliana of Summersong" hidden="false" collective="false" import="true" targetId="ffa5-c0cf-1983-3d64" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2246-5014-9634-345b-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="false"/>
+        <categoryLink id="f491-e0e5-e828-f0d2" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d1e4-327a-80a2-6238" name="Aymhelin Scions" hidden="false" collective="false" import="true" targetId="437e-b390-fb3e-224b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d1e4-327a-80a2-6238-3ff1-c335-bd67-644a" hidden="false" targetId="3ff1-c335-bd67-644a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5811-595b-2615-ad9c" name="Maegan Cydewin" hidden="false" collective="false" import="true" targetId="6f42-b191-8f40-5c99" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5811-595b-2615-ad9c-2cc7-a84f-a61e-6c1c" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ea5f-d7b8-5c8f-9ad8" name="Deepwood Archers" hidden="false" collective="false" import="true" targetId="14a2-bab5-ef82-ca71" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ea5f-d7b8-5c8f-9ad8-98a3-99cd-95be-3334" hidden="false" targetId="98a3-99cd-95be-3334" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8f70-5034-5ec0-1086" name="Darnati Warriors" hidden="false" collective="false" import="true" targetId="ed5e-2ea6-34b4-769d" type="selectionEntry"/>
+    <entryLink id="02b9-66e7-ca64-a053" name="Prince Faolan" hidden="false" collective="false" import="true" targetId="0405-934c-c4ce-987c" type="selectionEntry"/>
+    <entryLink id="855b-4439-e06b-91e8" name="Ventala Skirmishers" hidden="false" collective="false" import="true" targetId="b486-36df-6b88-4ca4" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="d629-ae76-05cb-1bf0" name="Leonx Riders" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5b26-fe01-1998-063c" name="Leonx Riders" hidden="false" typeId="d30b-0349-297b-76db" typeName="Unit">
+          <characteristics>
+            <characteristic name="Defense" typeId="7cf7-db3d-20b4-3ee8">2</characteristic>
+            <characteristic name="Wound Threshold" typeId="aa47-e393-e539-b8e5">1</characteristic>
+            <characteristic name="Ranged Die" typeId="8dc7-1ab7-4083-38cb">-</characteristic>
+            <characteristic name="Melee Die" typeId="9cf6-3b5e-3c94-0ef4">1 Red 2 Blue</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0beb-2094-466f-3723" name="Leonx Riders - Melee Surge Ability" hidden="false">
+          <description>2 Surge : Add a Hit.</description>
+        </rule>
+        <rule id="ee59-60cc-53cb-b7b9" name="Leonx Riders - Melee Unique Surge Ability" hidden="false">
+          <description>2 Surge : Add a Mortal Strike.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2d8f-10ca-7923-2e44" name="New InfoLink" hidden="false" targetId="3acc-998c-be8b-5314" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Impact 1"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c1e1-593b-59e2-2ce3" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="241b-b44f-a2d1-3b81" name=" Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4440-e170-eb10-3fbe">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c900-eab3-572e-15c1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fd2-7d99-4d97-6e10" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4440-e170-eb10-3fbe" name="2x1 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7093-509f-0000-50b3" name="1x3 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="968c-f3f0-8e6e-e726" name="2x2 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6af7-341b-0451-1d1a" name="2x3 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0ace-e451-e248-e108" name="New EntryLink" hidden="false" collective="false" import="true" targetId="7ce3-2779-7e4d-f307" type="selectionEntryGroup"/>
+        <entryLink id="936e-0546-0ccf-8ec9" name="New EntryLink" hidden="false" collective="false" import="true" targetId="0119-8ce9-6160-0307" type="selectionEntryGroup"/>
+        <entryLink id="6577-b120-0bb2-2380" name="New EntryLink" hidden="false" collective="false" import="true" targetId="941c-c282-47e2-2497" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4440-e170-eb10-3fbe" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7093-509f-0000-50b3" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="a1b6-6f79-090b-7cbb" name="Champion" hidden="false" collective="false" import="true" targetId="a611-d372-39bf-320a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4440-e170-eb10-3fbe" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7093-509f-0000-50b3" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ffa5-c0cf-1983-3d64" name="Aliana of Summersong" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="07c8-577c-4b07-28f1" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6d37-9caa-6046-ca3f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="07c8-577c-4b07-28f1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c2fb-9d8b-eae0-7517" name="Aliana of Summersong" hidden="false" typeId="d30b-0349-297b-76db" typeName="Unit">
+          <characteristics>
+            <characteristic name="Defense" typeId="7cf7-db3d-20b4-3ee8">3</characteristic>
+            <characteristic name="Wound Threshold" typeId="aa47-e393-e539-b8e5">3</characteristic>
+            <characteristic name="Ranged Die" typeId="8dc7-1ab7-4083-38cb">-</characteristic>
+            <characteristic name="Melee Die" typeId="9cf6-3b5e-3c94-0ef4">1 White 1 Red 1 Blue</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="297a-ee05-688a-dfd5" name="Aliana of Summersong - Melee Ability" hidden="false">
+          <description>Add a Mortal Strike.</description>
+        </rule>
+        <rule id="c523-aba5-bc08-4283" name="Aliana of Summersong - Melee Unique Surge Ability" hidden="false">
+          <description>1 Surge : Add a Hit.</description>
+        </rule>
+        <rule id="db05-5bbc-b59e-48af" name="Lana&apos;s Wildstalkers" hidden="false">
+          <description>After deployment, you may remove 1 allied unit of Leonx Riders from the play area, then redeploy that unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4b7c-a930-ca95-d244" name="New InfoLink" hidden="false" targetId="3acc-998c-be8b-5314" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Impact 2"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cca2-a2a1-9e6a-591a" name="New InfoLink" hidden="false" targetId="4309-11a6-e7f5-5a76" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precise 1"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9a02-d622-bd7c-6d58" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ee3c-af39-6362-9550" name="1 Tray" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e209-c806-eb3f-86f6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b91-7ccd-d1fe-1af1" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="eec9-41b4-b794-8076" value="33.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a090-582b-24fd-fc7f" name="New EntryLink" hidden="false" collective="false" import="true" targetId="a20e-e06c-42d8-c597" type="selectionEntry"/>
+        <entryLink id="b111-b487-c4c9-6487" name="New EntryLink" hidden="false" collective="false" import="true" targetId="7a5a-8b20-2b14-6adf" type="selectionEntryGroup"/>
+        <entryLink id="321d-00b9-51bb-25b0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="4fca-54ca-3f54-cec4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="437e-b390-fb3e-224b" name="Aymhelin Scions" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9cbc-ecf2-899f-6153" name="Aymhelin Scions" hidden="false" typeId="d30b-0349-297b-76db" typeName="Unit">
+          <characteristics>
+            <characteristic name="Defense" typeId="7cf7-db3d-20b4-3ee8">1 + [Stable Rune]</characteristic>
+            <characteristic name="Wound Threshold" typeId="aa47-e393-e539-b8e5">3</characteristic>
+            <characteristic name="Ranged Die" typeId="8dc7-1ab7-4083-38cb">1 Red 1 Blue</characteristic>
+            <characteristic name="Melee Die" typeId="9cf6-3b5e-3c94-0ef4">1 Red 2 Blue</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fd49-5f5a-1a80-e780" name="Aymhelin Scions - Melee / Ranged Surge Ability" hidden="false">
+          <description>2 Surge : The defender receives 1 stun token.</description>
+        </rule>
+        <rule id="db0c-4d70-c6a5-96aa" name="Aymhelin Scions - Passive Ability" hidden="false">
+          <description>When you collide with an enemy or an enemy collides with you, that enemy receives 1 immobilize token.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3145-a41e-b8a6-1a73" name="New CategoryLink" hidden="false" targetId="3ff1-c335-bd67-644a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d27e-ffa7-b014-f685" name=" Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="762d-e904-3fd8-c7ba">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53c3-c3a4-e2fb-9d6b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc6-2b79-eaa4-4808" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6372-6477-f2c1-32e4" name="2x1 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="762d-e904-3fd8-c7ba" name="1 Tray" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="14.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1a7d-8277-0aa2-0c24" name="2x2 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="42.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7bf2-e754-4a78-ded3" name="3x2 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="62.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1b28-9c02-e73e-70de" name="New EntryLink" hidden="false" collective="false" import="true" targetId="941c-c282-47e2-2497" type="selectionEntryGroup"/>
+        <entryLink id="7457-fd18-180b-3b42" name="New EntryLink" hidden="false" collective="false" import="true" targetId="4fca-54ca-3f54-cec4" type="selectionEntryGroup"/>
+        <entryLink id="f3ae-8b58-b843-94f0" name="Equipment" hidden="false" collective="false" import="true" targetId="fbf9-a8cf-8878-d88c" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="762d-e904-3fd8-c7ba" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f42-b191-8f40-5c99" name="Maegan Cyndewin" publicationId="3020-d7c0-pubN67134" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="f2de-543c-f2b0-c6b4" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2fe0-01ce-8fcb-1879" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9bf-8534-7932-657d" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f2de-543c-f2b0-c6b4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5495-dc88-ed83-d309" name="Maegan Cyndewin" hidden="false" typeId="d30b-0349-297b-76db" typeName="Unit">
+          <characteristics>
+            <characteristic name="Defense" typeId="7cf7-db3d-20b4-3ee8">2</characteristic>
+            <characteristic name="Wound Threshold" typeId="aa47-e393-e539-b8e5">4</characteristic>
+            <characteristic name="Ranged Die" typeId="8dc7-1ab7-4083-38cb">1 White 1 Blue</characteristic>
+            <characteristic name="Melee Die" typeId="9cf6-3b5e-3c94-0ef4">1 White 2 Red 1 Blue</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="75b2-5334-f270-ebbe" name="Maegan Cyndewin - Melee / Ranged Surge+ Ability" hidden="false">
+          <description>Each enemy at range 1-[Unstable Rune] of the defender suffers 1 damage per Surge spent.</description>
+        </rule>
+        <rule id="500a-c1d7-8d91-d19b" name="High Circle at Lithelin" hidden="false">
+          <description>Each infantry unit from the Latari Elves in your army can equip 1 upgrade from the Latari Elves with &quot;Sorceress&quot; in its name, in addition to its available upgrades.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="df0f-f589-76d4-52de" name="New InfoLink" hidden="false" targetId="4b78-f83c-2b4b-61a6" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Protected [Stable Rune]"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cee1-cc5c-0b36-7517" name="New InfoLink" hidden="false" targetId="4734-4adc-bba1-0b47" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Lethal [Natural Rune]"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3495-f65a-1b3f-598f" name="New CategoryLink" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2513-63f8-c86a-6c27" name="1 Tray" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45cb-e1d7-5aa6-3553" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0475-6127-9287-db79" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="eec9-41b4-b794-8076" value="36.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8e5e-f6e4-3c0b-025f" name="Artifact" hidden="false" collective="false" import="true" targetId="7a5a-8b20-2b14-6adf" type="selectionEntryGroup"/>
+        <entryLink id="47ba-0507-065b-2834" name="Unique" hidden="false" collective="false" import="true" targetId="4fca-54ca-3f54-cec4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14a2-bab5-ef82-ca71" name="Deepwood Archers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2945-1271-f0a2-4706" name="Deepwood Archers" hidden="false" typeId="d30b-0349-297b-76db" typeName="Unit">
+          <characteristics>
+            <characteristic name="Defense" typeId="7cf7-db3d-20b4-3ee8">1</characteristic>
+            <characteristic name="Wound Threshold" typeId="aa47-e393-e539-b8e5">1</characteristic>
+            <characteristic name="Ranged Die" typeId="8dc7-1ab7-4083-38cb">2 Blue</characteristic>
+            <characteristic name="Melee Die" typeId="9cf6-3b5e-3c94-0ef4">1 Blue</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a9c5-2116-c47a-4859" name="Deepwood Archers - Ranged Unique Surge Ability" hidden="false">
+          <description>After this attack, perform a 1 speed Shift. This Shift cannot be used to disengage.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8d78-78b0-01ba-9f2c" name="Precise [X]" hidden="false" targetId="4309-11a6-e7f5-5a76" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precise 1"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5612-d943-230b-7491" name="New CategoryLink" hidden="false" targetId="98a3-99cd-95be-3334" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c505-182a-c0c8-337d" name=" Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="0212-c251-4b09-89aa">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3974-2203-d4dd-fa6c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dea-0a85-07f2-745f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="781d-bee4-a4db-6092" name="2x2 Trays (Heraldry)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0212-c251-4b09-89aa" name="2x1 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="17.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="55b0-b841-c0ce-29d5" name="2x2 Trays (Champion)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fef3-2d6b-156b-83cc" name="3x2 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="42.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="68a9-7e92-dd61-70d4" name="Equipment" hidden="false" collective="false" import="true" targetId="fbf9-a8cf-8878-d88c" type="selectionEntryGroup"/>
+        <entryLink id="c08f-e5a4-39eb-2e88" name="Training" hidden="false" collective="false" import="true" targetId="7ce3-2779-7e4d-f307" type="selectionEntryGroup"/>
+        <entryLink id="6dcd-0727-6195-9ca5" name="Heraldry" hidden="true" collective="false" import="true" targetId="941c-c282-47e2-2497" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="781d-bee4-a4db-6092" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="1041-950a-6d0f-8eb5" name="Champion" hidden="true" collective="false" import="true" targetId="a611-d372-39bf-320a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="55b0-b841-c0ce-29d5" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fef3-2d6b-156b-83cc" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b0b6-4389-5672-28a6" name="Heavy" hidden="true" collective="false" import="true" targetId="debc-b0d9-4bb7-75a2" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fef3-2d6b-156b-83cc" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="14da-4a86-f2c5-ee62" name="Music" hidden="true" collective="false" import="true" targetId="0119-8ce9-6160-0307" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="55b0-b841-c0ce-29d5" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fef3-2d6b-156b-83cc" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="781d-bee4-a4db-6092" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="a844-1502-ee70-f7f3" name="High Circle at Lithelin" hidden="false" collective="false" import="true" targetId="627c-dbd5-8f9b-1b54" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0ea-4b8e-5fcb-4bcb" name="Dreamweaver Sorceress" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="89f6-e0eb-8fc5-cbd0" name="Dreamweaver Sorceress" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+          <characteristics>
+            <characteristic name="Defence" typeId="1523-b236-6620-1be9">2</characteristic>
+            <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7fec-65bf-0d69-2229" name="Dreamweaver Sorceress - Skill Ability" hidden="false">
+          <description>Exhaust this card to choose an enemy at range 1-3. That enemy receives 1 stun token.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0405-934c-c4ce-987c" name="Prince Faolan" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="661b-3dc9-8c68-cb3b" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e35d-3cfb-066c-381b" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d05a-98c1-cc7a-829a" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="661b-3dc9-8c68-cb3b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c921-09ef-65e5-154e" name="Prince Faolan" hidden="false" typeId="d30b-0349-297b-76db" typeName="Unit">
+          <characteristics>
+            <characteristic name="Defense" typeId="7cf7-db3d-20b4-3ee8">3</characteristic>
+            <characteristic name="Wound Threshold" typeId="aa47-e393-e539-b8e5">4</characteristic>
+            <characteristic name="Ranged Die" typeId="8dc7-1ab7-4083-38cb">-</characteristic>
+            <characteristic name="Melee Die" typeId="9cf6-3b5e-3c94-0ef4">1 White 1 Blue</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="df92-f534-cdb1-2b7e" name="Champion of the Starplain" hidden="false">
+          <description>After setup, each ally that is at range 1-5 of Prince Faolan or has a champion upgrade equipped receives 1 inspiration token.</description>
+        </rule>
+        <rule id="63de-145d-d4ec-4ac1" name="Prince Faolan - Melee Ability" hidden="false">
+          <description>Add [Stable Rune] blue dice. After rerolls, you must remove 1 die.</description>
+        </rule>
+        <rule id="817e-eb8e-2ef9-acd4" name="Prince Faolan - Passive Ability" hidden="false">
+          <description>When you perform a march, you may treat it as modified by 1 of the following: turn, wheel, charge.
+
+When you would perform a speed-3 March, you may perform 3 speed-1 Marches, instead. If you do, cancel your modifer dial.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5059-bd97-227b-1e0e" name="Precise [X]" hidden="false" targetId="4309-11a6-e7f5-5a76" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precise 1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1aea-72cf-87c6-cbf5" name="Brutal [X]" hidden="false" targetId="4bc3-5a1a-a748-31de" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal 1"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c4e2-eaf8-ce27-2790" name="Cavalry" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3038-c3a1-0ce9-0a3b" name="1 Tray" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c026-de4d-bb55-75d9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24c1-67b6-0383-6345" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="eec9-41b4-b794-8076" value="36.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4e4e-b7a1-a152-13a5" name="Artifact" hidden="false" collective="false" import="true" targetId="7a5a-8b20-2b14-6adf" type="selectionEntryGroup"/>
+        <entryLink id="2d36-5a4d-faed-6bfe" name="Unique" hidden="false" collective="false" import="true" targetId="4fca-54ca-3f54-cec4" type="selectionEntryGroup"/>
+        <entryLink id="ac1e-a97b-126f-8efa" name="Unique Unit" hidden="false" collective="false" import="true" targetId="a20e-e06c-42d8-c597" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f94d-2acd-66fe-a61f" name="Storm Sorceress" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="4dcb-417a-5fd9-9adf" name="Storm Sorceress" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+          <characteristics>
+            <characteristic name="Defence" typeId="1523-b236-6620-1be9">2</characteristic>
+            <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="77ee-a7b2-c2eb-b793" name="Storm Sorceress - Skill Ability" hidden="false">
+          <description>Roll 1 blue die. For each Surge, choose an enemy at range 1-3. Each chosen enemy suffers [Unstable Rune] damage.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2dbe-d94a-465c-5810" name="Verdant Sorceress" publicationId="3020-d7c0-pubN68205" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="ee5c-bc41-3e92-bb6f" name="Verdant Sorceress" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+          <characteristics>
+            <characteristic name="Defence" typeId="1523-b236-6620-1be9">3</characteristic>
+            <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1df9-af51-4aca-79cd" name="Verdant Sorceress - Skill ability" hidden="false">
+          <description>Choose an ally at range 1-[Natural Rune] of overgrown terrain. That ally may remove up to [Natural Rune] banes.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0175-7062-13f8-f277" name="New InfoLink" hidden="false" targetId="7772-9dfb-42df-376e" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Overgrow 2"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b486-36df-6b88-4ca4" name="Ventala Skirmishers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0114-cd8c-6a7c-c640" name="Ventala Skirmishers" hidden="false" typeId="d30b-0349-297b-76db" typeName="Unit">
+          <characteristics>
+            <characteristic name="Defense" typeId="7cf7-db3d-20b4-3ee8">1</characteristic>
+            <characteristic name="Wound Threshold" typeId="aa47-e393-e539-b8e5">2</characteristic>
+            <characteristic name="Ranged Die" typeId="8dc7-1ab7-4083-38cb">1 Red</characteristic>
+            <characteristic name="Melee Die" typeId="9cf6-3b5e-3c94-0ef4">1 Red 1 Blue</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d02a-802e-a098-c1c1" name="Ventala Skirmishers - Ranged Ability" hidden="false">
+          <description>If the defender is at range 1-3, add 1 blue die.</description>
+        </rule>
+        <rule id="30d1-f7a3-37b0-de38" name="Ventala Skirmishers - Passive Ability" hidden="false">
+          <description>When you perform a march, you may decrease its speed by 1 or treat it as modified by a turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d70e-4ba6-28da-de6f" name="Protected [X]" hidden="false" targetId="4b78-f83c-2b4b-61a6" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Protected 1"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3dfa-ab83-0ae9-9c51" name="Cavalry" hidden="false" targetId="2cc7-a84f-a61e-6c1c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0e53-ecd5-1132-ef3a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b54f-7c81-54c2-28e8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb8a-c3f1-ed6c-d397" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03d3-cf60-2660-3fea" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b54f-7c81-54c2-28e8" name="2x1 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="edf0-00e6-ca90-15f5" name="1x3 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="24.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dbe4-dd09-949d-cd65" name="2x2 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f790-6bba-4084-3488" name="2x3 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1b4c-3d3b-85a3-6834" name="Training" hidden="false" collective="false" import="true" targetId="7ce3-2779-7e4d-f307" type="selectionEntryGroup"/>
+        <entryLink id="533e-edf0-cc4a-8c2c" name="Music" hidden="false" collective="false" import="true" targetId="0119-8ce9-6160-0307" type="selectionEntryGroup"/>
+        <entryLink id="79ff-a150-2d36-d894" name="Equipment" hidden="false" collective="false" import="true" targetId="fbf9-a8cf-8878-d88c" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbe4-dd09-949d-cd65" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f790-6bba-4084-3488" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="bf9c-ba8f-304a-9f98" name="Champion" hidden="false" collective="false" import="true" targetId="a611-d372-39bf-320a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbe4-dd09-949d-cd65" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f790-6bba-4084-3488" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0cc8-f90b-f2bf-9f85" name="Heraldry" hidden="false" collective="false" import="true" targetId="941c-c282-47e2-2497" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f790-6bba-4084-3488" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed5e-2ea6-34b4-769d" name="Darnati Warriors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cf70-a805-f131-4d7f" name="Darnati Warriors" hidden="false" typeId="d30b-0349-297b-76db" typeName="Unit">
+          <characteristics>
+            <characteristic name="Defense" typeId="7cf7-db3d-20b4-3ee8">1</characteristic>
+            <characteristic name="Wound Threshold" typeId="aa47-e393-e539-b8e5">1</characteristic>
+            <characteristic name="Ranged Die" typeId="8dc7-1ab7-4083-38cb">-</characteristic>
+            <characteristic name="Melee Die" typeId="9cf6-3b5e-3c94-0ef4">3 Blue</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="074a-eba2-34e0-96c5" name="Darnati Warriors- Melee Ability" hidden="false">
+          <description>After rerolls, you must remove 1 die.</description>
+        </rule>
+        <rule id="64bf-55e3-2a84-7d5d" name="Darnati Warriors - Melee Surge Ability" hidden="false">
+          <description>Gain Lethal 1 for this Melee Attack.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="da94-14ed-e66f-45ef" name="Infantry" hidden="false" targetId="98a3-99cd-95be-3334" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="767e-d2d6-d528-ce32" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="af18-03e3-295f-f1bc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa91-723d-6f98-30be" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e8d-ca62-a225-5599" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="af18-03e3-295f-f1bc" name="2x1 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="19.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5cef-254c-99d0-954d" name="2x2 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="31.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b62-053c-60ff-ffcb" name="2x3 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="43.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f62b-4a5d-4127-a1b8" name="3x3 Trays" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="60.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dbd2-ad94-df62-9a75" name="Equipment" hidden="false" collective="false" import="true" targetId="fbf9-a8cf-8878-d88c" type="selectionEntryGroup"/>
+        <entryLink id="e4a3-2079-28e1-80cb" name="Training" hidden="false" collective="false" import="true" targetId="7ce3-2779-7e4d-f307" type="selectionEntryGroup"/>
+        <entryLink id="1708-b14a-87dd-c1db" name="Champion" hidden="false" collective="false" import="true" targetId="a611-d372-39bf-320a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cef-254c-99d0-954d" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f62b-4a5d-4127-a1b8" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b62-053c-60ff-ffcb" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="4fed-dbe6-62a1-b842" name="Music" hidden="false" collective="false" import="true" targetId="0119-8ce9-6160-0307" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b62-053c-60ff-ffcb" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f62b-4a5d-4127-a1b8" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="0d1d-e38f-8fef-42c7" name="Heraldry" hidden="false" collective="false" import="true" targetId="941c-c282-47e2-2497" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b62-053c-60ff-ffcb" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f62b-4a5d-4127-a1b8" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="aad2-a54a-3163-aaff" name="Heavy" hidden="false" collective="false" import="true" targetId="debc-b0d9-4bb7-75a2" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f62b-4a5d-4127-a1b8" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="3f1e-e822-2fd4-1f72" name="High Circle at Lithelin" hidden="false" collective="false" import="true" targetId="627c-dbd5-8f9b-1b54" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="eec9-41b4-b794-8076" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="7ce3-2779-7e4d-f307" name="Training" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1382-a597-1004-c139" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b2ce-0b00-7063-097b" name="Training - Latari" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="661a-dcd6-e976-463e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d7b7-8410-413d-fa9f" name="Hunter&apos;s Guile" publicationId="3020-d7c0-pubN68519" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="6574-416b-c50f-a28b" name="Hunter&apos;s Guile - Melee / Ranged Ability" hidden="false">
+                  <description>If you are at range 1-[Natural Rune] of overgrown terrain, you may replace1 of your dice with a white die.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="a9c3-e194-6e44-148a" name="New InfoLink" hidden="false" targetId="7772-9dfb-42df-376e" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Overgrow [1]"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0d89-6f27-9a8c-c46a" name="Flank Fire" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="5d88-4b4d-8de8-5b27" name="Flank Fire - Passive Ability" hidden="false">
+                  <description>You can draw line of sight and perform Ranged Attacks using your side firing arcs.</description>
+                </rule>
+                <rule id="17e3-b898-a44b-372d" name="Flank Fire - Ranged Ability" hidden="false">
+                  <description>If you drew line of sight from your side firing arc or terrain you occupy, your threat is equal to the number of your partial and full ranks. Also, your number of ranks for rerolls is equal to the number of trays in your front rank.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d7ec-d367-3750-c219" name="Hedge Shroud" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="cf9b-4a35-0f19-09b9" name="Hedge Shroud - Passive Ability" hidden="false">
+                  <description>While defending at range 1-[Unnatural Rune] of overgrown terrain, you may exhaust this card to treat your defense as [Natural Rune].</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c37d-9e87-79a0-8132" name="Lay of the Land" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="c862-1696-7325-7ff0" name="Lay of the Land - Passive Ability" hidden="false">
+                  <description>After you perform a Shift, you may perform a speed-1 Shift. This Shift cannot be used to disengage. Limit once per round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4b02-dc10-19d9-734d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="993b-5c86-de69-2f9d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0119-8ce9-6160-0307" name="Music" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="381f-fb94-214a-46ec" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ee6-aec1-910b-c8c6" name="Music - Latari" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f55-2b8f-4b98-1b85" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3666-2a73-4440-3abf" name="Marching Starling" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="1d4a-55dd-2d23-bde6" name="Marching Starling" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">2</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="b277-87f1-2435-30b6" name="Marching Starling - Passive Ability" hidden="false">
+                  <description>When you perform a March, you may treat it as modified by a Turn.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f122-2347-29d4-fdf5" name="Rallying Starling" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="945a-d3cb-337b-6a52" name="Rallying Starling - Skill Ability" hidden="false">
+                  <description>Each other ally at range 1-3 may choose to either remove 1 bane or ready 1 upgrade card.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0902-f656-154f-14c9" name="Tactical Starling" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="b6d0-3ed1-1611-be52" name="Tactical Starling" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">4</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="2756-6b72-16fd-fd0d" name="Tactical Starling - Passive Ability" hidden="false">
+                  <description>You do not receive panic tokens for disengaging from enemies.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5a59-86d2-ecb1-4ce0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="4228-c1b3-e02a-f5f5" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="941c-c282-47e2-2497" name="Heraldry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f575-945e-0f10-1387" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1b83-cd86-f930-345f" name="Heraldry - Latari" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd91-d00a-ddc0-d0b7" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="df43-58a6-d16d-5b7b" name="Greenwatch Herald" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="3b97-bda0-a2ae-1c83" name="Greenwatch Herald" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">1</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="e4a4-1923-c744-3bfa" name="Greenwatch Herald - Passive Ability" hidden="false">
+                  <description>You may exhaust this card while an ally at range 1-[Natural Rune] of overgrown terrain is attacking to cause that ally to reroll 1 die.
+
+After deployment, place 1 overgrowth token at range 3-5 of your unit. Abilities treat this token as overgrown terrain, even if this card is exhausted. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9615-71b2-b375-f528" name="Herald of the Twisting Gale" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="c53b-ae56-9df7-6dba" name="Herald of the Twisting Gale" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">3</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="a54a-4e8a-ca88-b233" name="Herald of the Twisting Gale - Passive Ability" hidden="false">
+                  <description>When you collide with an enemy or an enemy collides with you, you may exhaust this card to preform a Reform.</description>
+                </rule>
+                <rule id="aaa9-478d-cb76-7f01" name="Herald of the Twisting Gale - Skill Ability" hidden="false">
+                  <description>Choose another ally at range 1-3. You may exhaust this card to cause that ally to preform a Reform.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cdab-86d7-4a65-7c62" name="Warsong Herald" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="4b11-b62e-9eec-3d8f" name="Warsong Herald" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">4</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="4f2b-6fed-bfd0-d1fd" name="Warsong Herald - Passive Ability" hidden="false">
+                  <description>When another ally is attacking an enemy you are engaged with, that ally may reroll 1 die.
+
+You do not suffer the morale test for being engaged with the defender of a Ranged Attack.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0101-1ea9-b6bf-9ae0" name="Honor Markings" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2cc7-a84f-a61e-6c1c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="5421-f049-1c9b-16f6" name="Steadfast [X]" hidden="false" targetId="94ec-3f37-454f-92ad" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Steadfast [Fear]"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2cab-b239-1fa0-fdf9" name="New EntryLink" hidden="false" collective="false" import="true" targetId="dafc-f19e-db1b-2401" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a611-d372-39bf-320a" name="Champion" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e3a-842a-6f91-d30b" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ffe5-973b-c899-2c0e" name="Champion - Latari" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edfc-fb3e-5c41-df8c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c9bf-8534-7932-657d" name="Maegan Cyndewin (Infantry Upgrade)" publicationId="3020-d7c0-pubN69522" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="d0d2-8102-f6c7-eced" value="0.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2fe0-01ce-8fcb-1879" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6f42-b191-8f40-5c99" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d0d2-8102-f6c7-eced" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c228-dd6d-ff8a-b2ef" name="Maegan Cyndewin (Cavalry Upgrade)" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">2</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="ab9a-0313-ac88-6f40" name="Maegan Cyndewin - Melee / Ranged Ability" hidden="false">
+                  <description>For this attack, you may gain either:
+-Surge+: Each enemy at range 1-[Unstable Rune] of the defender suffers 1 damage per Surge spent.
+-Lethal [Natural Rune]</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2fe0-01ce-8fcb-1879" name="Maegan Cyndewin (Cavalry Upgrade)" publicationId="3020-d7c0-pubN69522" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2cc7-a84f-a61e-6c1c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="f645-6be0-ad7e-e4f4" value="0.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6f42-b191-8f40-5c99" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9bf-8534-7932-657d" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f645-6be0-ad7e-e4f4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="27bc-a1c3-78bc-6871" name="Maegan Cyndewin (Infantry Upgrade)" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">2</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="f856-ac8f-c702-90d4" name="Maegan Cyndewin - Melee / Ranged Ability" hidden="false">
+                  <description>For this attack, you may gain either:
+-Surge+: Each enemy at range 1-[Unstable Rune] of the defender suffers 1 damage per Surge spent.
+-Lethal [Natural Rune]</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6d37-9caa-6046-ca3f" name="Aliana of Sumersong (Cavalry Upgrade)" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="225e-88aa-eafa-f96e" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ffa5-c0cf-1983-3d64" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2cc7-a84f-a61e-6c1c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="225e-88aa-eafa-f96e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9209-de4e-03c0-5a00" name="Aliana of Sumersong (Cavalry Upgrade)" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">3</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7afa-6230-9eab-e851" name="Latari Champion" publicationId="3020-d7c0-pubN69975" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="f6a8-ea1a-2957-89fa" name="Latari Champion" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">4</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="d609-e573-4190-b5f6" name="Latari Champion - Skill Ability" hidden="false">
+                  <description>Choose an enemy at range 1-3 and in light of sight. That enemy must perform a speed-1 March.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4492-f37c-43db-94c5" name="Avenger of Latariana" publicationId="3020-d7c0-pubN68205" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="d568-9eb2-e5cb-afbc" name="Avenger of Latariana" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">3</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="8dbc-9e92-a2b7-00aa" name="Avenger of Latariana - Passive Ability" hidden="false">
+                  <description>After defending against a Melee Attack, if your command tool is unrevealed, you may exhaust this card to perform a Melee Attack. If you do, reveal your command tool and you cannot activate during this round. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f4f5-f96c-965f-e2ab" name="Blackthorn Assasin" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="e288-6053-9102-cc37" name="Blackthorn Assasin" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">1</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="f50f-dfbb-c094-7efa" name="Blackthorn Assasin - Passive Ability" hidden="false">
+                  <description>After deployment, place 3 blight tokens on this card.</description>
+                </rule>
+                <rule id="268b-454f-acca-a8d0" name="Blackthorn Assasin - Melee / Ranged Ability" hidden="false">
+                  <description>You may remove 1 blight token from this card. If you do, the defender receives 1 blight token.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7927-70b9-af27-3a89" name="Firstblade of Lord Aenoth" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="eea6-0000-2c3a-7f63" name="Firstblade of Lord Aenoth" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">4</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="2539-df95-5b5f-f5c5" name="Firstblade of Lord Aenoth - Skill Ability" hidden="false">
+                  <description>Choose an enemy at range 1-3 and in line of sight. That enemy must perform a speed-1 March.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d05a-98c1-cc7a-829a" name="Prince Faolan (Infantry Upgrade)" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="92f5-3751-5835-a8c5" value="0.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0405-934c-c4ce-987c" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e35d-3cfb-066c-381b" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92f5-3751-5835-a8c5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2e43-460e-3cac-0c63" name="Prince Faolan (Infantry Upgrade)" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">2</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="314f-2100-192f-b001" name="Prince Faolan (Infantry Upgrade) - Melee Ranged Ability" hidden="false">
+                  <description>You may replace 1 die with a white die.</description>
+                </rule>
+                <rule id="cd1e-4605-0a74-8323" name="Prince Faolan (Infantry Upgrade) - Passive Ability" hidden="false">
+                  <description>During your activation, you may treat your first March as modified by 1 of the following: Turn, Wheel, or Charge. If you do, you cannot disengage during this activation.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="17.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e35d-3cfb-066c-381b" name="Prince Faolan (Cavalry Upgrade)" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="51dc-e8f9-77ca-8e5b" value="0.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0405-934c-c4ce-987c" type="atLeast"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d05a-98c1-cc7a-829a" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2cc7-a84f-a61e-6c1c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51dc-e8f9-77ca-8e5b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8b31-891a-76af-eef3" name="Prince Faolan (Cavalry Upgrade)" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">2</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="66dc-ff78-e284-e30d" name="Prince Faolan (Cavalry Upgrade) - Melee Ranged Ability" hidden="false">
+                  <description>You may replace 1 die with a white die.</description>
+                </rule>
+                <rule id="177b-f33b-5b38-3850" name="Prince Faolan (Cavalry Upgrade) - Passive Ability" hidden="false">
+                  <description>During your activation, you may treat your first March as modified by 1 of the following: Turn, Wheel, or Charge. If you do, you cannot disengage during this activation.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="17.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2460-7d30-f80e-d80c" name="Storm Sorceress" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="8267-f3a3-fde7-d617" name="Storm Sorceress" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">2</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="3534-3582-d735-599f" name="Storm Sorceress - Skill Ability" hidden="false">
+                  <description>Roll 1 blue die. For each Surge, choose an enemy at range 1-3. Each chosen enemy suffers [Unstable Rune] damage.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0054-7b53-1c98-44f7" name="Verdant Sorceress" publicationId="3020-d7c0-pubN68205" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="c27c-e843-ae41-df69" name="Verdant Sorceress" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">3</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="536a-3703-772f-6833" name="Verdant Sorceress - Skill ability" hidden="false">
+                  <description>Choose an ally at range 1-[Natural Rune] of overgrown terrain. That ally may remove up to [Natural Rune] banes.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="5a09-d6bb-c1b9-3dfd" name="Overgrow [X]" hidden="false" targetId="7772-9dfb-42df-376e" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Overgrow 2"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2f81-267f-8840-df31" name="Dreamweaver Sorceress" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="0167-7bc1-0cae-d45f" name="Dreamweaver Sorceress" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">2</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="333a-2808-3b55-e573" name="Dreamweaver Sorceress - Skill Ability" hidden="false">
+                  <description>Exhaust this card to choose an enemy at range 1-3. That enemy receives 1 stun token.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b93-f309-19c9-9ce0" name="Warden of Horn and Branch" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="9f01-8d1b-8ed7-7b48" name="Warden of Horn and Branch - Skill Ability" hidden="false">
+                  <description>Choose an enemy at range 1-5 and in line of sight. Roll 1 blue die for each other &quot;Ventala&quot; ally at range 1-3 of that enemy that has line of sight to that enemy. For each Surge, that enemy suffers 2 damage.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d268-caef-273e-ed76" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b7ba-cdfe-eac7-f299" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7a5a-8b20-2b14-6adf" name="Artifact" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1ab-335e-7f9a-aabf" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aa3f-bf35-4d0b-dcbc" name="Artifact - Latari" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b2a-a045-5aee-cf53" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cb54-b0ef-cfe4-162c" name="Packleader&apos;s Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2499-c449-812b-6b9e" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a1a3-de8b-eea0-1e77" name="Packleader&apos;s Spear - Melee Ability" hidden="false">
+                  <description>You may exhaust this card to gain Lethal 3 for this Melee Attack.</description>
+                </rule>
+                <rule id="ed5b-ef02-a104-2276" name="Packleader&apos;s Spear - Passive Ability" hidden="false">
+                  <description>If this card is exhausted, after an enemy engaged with you is destroyed, ready this card. This card cannot be readied otherwise</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cfd5-5b5b-1617-dee7" name="Malcorne&apos;s Bequest" publicationId="3020-d7c0-pubN67134" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5f25-1d64-422e-ebd3" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="29a4-e300-e407-4785" name="Malcorne&apos;s Bequest - Passive Ability" hidden="false">
+                  <description>After energy tokens are cast during setup and the End Phase, you may recast 1 energy token with active or inactive [Unstable Rune] runes. Then, you may exhaust this card to recast 1 energy token. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d906-d008-69df-cbdd" name="The Spirit Sword" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e6c-26d5-80fd-b03d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2270-0b94-1acf-1d4d" name="The Spirit Sword - Melee Surge Ability" hidden="false">
+                  <description>2 Surges: Receive 1 inspiration token.</description>
+                </rule>
+                <rule id="0055-a542-0380-d40a" name="The Spirit Sword - Passive Ability" hidden="false">
+                  <description>While you are defending, you may spend 1 of your inspiration tokens to remove 1 dice icon of your choice.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ad86-6066-7608-8e41" name="New EntryLink" hidden="false" collective="false" import="true" targetId="d666-4b2a-f65e-0e17" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4fca-54ca-3f54-cec4" name="Unique" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb35-2e7f-fea6-13ea" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6ad7-2d7c-a8a7-0d68" name="Unique - Latari" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09bf-61ab-df59-6e7f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ae8d-18da-2be3-189f" name="Fertile Soil" publicationId="3020-d7c0-pubN70823" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="437e-b390-fb3e-224b" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="fecc-531b-0b47-e326" name="Fertile Soil - Passive Ability" hidden="false">
+                  <description>Before each End Phase, if [Natural Rune] is 2 or more, you may remove 1 wound.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="611f-acd8-4ce2-72ad" name="Ambush Predator" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="ffa5-c0cf-1983-3d64" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="07fc-066a-8643-fc8e" name="Ambush Predator - Passive Ability" hidden="false">
+                  <description>Enemy Ranged Attack cannot target you.</description>
+                </rule>
+                <rule id="43f1-a270-22cd-cdc9" name="Ambush Predator - Melee Ability" hidden="false">
+                  <description>If this is your first Melee Attack, you gain Lethal X for this Melee Attack, where X is the current round. Then, discard this card.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d781-663e-8966-38c0" name="Martial Magic" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6f42-b191-8f40-5c99" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="3c13-4878-7834-345e" name="Martial Magic - Passive Ability" hidden="false">
+                  <description>Your Ranged Attack can target enemies at range 1-3 only.
+Your defense is increased by 1.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e610-3408-01dc-45fd" name="Vicious Roots" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="437e-b390-fb3e-224b" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="6d55-9caa-cc65-0c43" name="Vicious Roots - Melee / Ranged Ability" hidden="false">
+                  <description>If the defender is at range 1-3, you may discard this card and receive 1 immobilize token. If you do, the defender discards all boons, then receives 1 immobilize token.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="382f-aed4-3db0-ee00" name="Wildcall&apos;s Instinct" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="ffa5-c0cf-1983-3d64" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="8fa7-5637-3c98-de9f" name="Wildcall&apos;s Instinct - Passive Ability" hidden="false">
+                  <description>When you perform a March or Shift, you may treat it as modified by a Turn.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dbb7-cb69-b00b-f7e1" name="Arcane Mastery" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6f42-b191-8f40-5c99" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="def2-49a9-fd66-fb41" name="Arcane Mastery - Skill Ability" hidden="false">
+                  <description>Choose an enemy at range 1-[Unstable Rune]. That enemy receives 1 panic token. Choose an enemy at range 1-[Natural Rune]. Remove 1 boon from that enemy. Choose an enemy at range 1-[Stable Rune]. That enemy receives 1 stun token. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8020-b9ca-425d-92b4" name="Etharyon of the Ailatar" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0405-934c-c4ce-987c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="588a-d33d-7d0a-31f0" name="Etharyon of the Ailatar - Skill Ability" hidden="false">
+                  <description>Choose an ally at range 1-3. That unit may perform a Reform or a speed-1 Shift. It may treat this shift as modified by a turn.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0f80-51a5-a053-191b" name="Legendary Prowess" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0405-934c-c4ce-987c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="ef60-a978-8f3d-be15" name="Legendary Prowess - Melee Ability" hidden="false">
+                  <description>If the defender is not engaged with other units, you may replace 1 die with a white or red die.</description>
+                </rule>
+                <rule id="87d3-0735-ea30-45d3" name="Legendary Prowess - Passive Ability" hidden="false">
+                  <description>While you are defending, enemies do not add an extra die for flanking you.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0819-8fa4-5464-af0d" name="Valor of the Fallen" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0405-934c-c4ce-987c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="6571-030e-7daa-126f" name="Valor of the Fallen - Skill Ability" hidden="false">
+                  <description>Choose 1 ally at range 1-5. If you have at least 1 inspiration token, that unit receives 1 inspiration token.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="1ea7-80b3-f078-ae6a" name="Steadfast [X]" hidden="false" targetId="94ec-3f37-454f-92ad" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Steadfast [Fear]"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="22d3-c67d-677b-e65c" name="Unique - Common" hidden="false" collective="false" import="true" targetId="0e94-cfca-f649-6686" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fbf9-a8cf-8878-d88c" name="Equipment" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7930-4dc8-b61d-f770" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4e99-b883-0076-b3c2" name="Equipment - Latari" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d93-69b4-d195-4d9d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3b00-d06a-48bc-d70b" name="Pathwalker&apos;s Amulet" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="e775-7c07-af1a-0809" name="Pathwalker&apos;s Amulet - Passive Ability" hidden="false">
+                  <description>While defending, you may discard this card to gain Protected [Natural Rune] for this attack.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cd8b-98a7-da43-5ceb" name="Bolo Nets" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="ad5c-5f1b-6880-c868" name="Bolo Nets - Skill Ability" hidden="false">
+                  <description>Discard this card to choose an unengaged enemy at range 1-3 and in line of sight. That unit receives 1 immobilize token.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="db91-41a8-eee3-6b98" name="Equipment - Common" hidden="false" collective="false" import="true" targetId="5cf1-ff93-7471-c1b5" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="debc-b0d9-4bb7-75a2" name="Heavy" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9840-ab54-6e2d-2fc7" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="82fc-7e85-c6b5-696a" name="Heavy - Latari" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b3e5-27e3-4974-c13b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="00d5-2701-7978-b851" name="Frontline Aymhelin Scion" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="4012-9df0-7175-3ba7" name="Frontline Aymhelin Scion" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">1 + [Stable Rune]</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="3834-3dae-dfef-a27a" name="Frontline Aymhelin Scion - Melee / Ranged Ability" hidden="false">
+                  <description>You may exhaust this card to cause the defender to receive 1 stun token.</description>
+                </rule>
+                <rule id="a4d4-d077-5f44-ccc6" name="Frontline Aymhelin Scion - Surge Ability" hidden="false">
+                  <description>If this card is exhausted, ready this card.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="77f2-eda6-fe08-f636" name="Support Aymhelin Scion" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="8bf9-00fd-cc4a-9478" name="Support Aymhelin Scion" hidden="false" typeId="f9ab-8b42-328f-3746" typeName="Figure Upgrade">
+                  <characteristics>
+                    <characteristic name="Defence" typeId="1523-b236-6620-1be9">1 + [Stable Rune]</characteristic>
+                    <characteristic name="Wound Threshold" typeId="478e-fdd9-620e-774b">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="381b-1b22-c40a-e44d" name="Support Aymhelin Scion - Passive Ability" hidden="false">
+                  <description>You must deploy this figure to your back rank.
+
+After your activation, if you are at range 1-[Natural Rune] of overgrown terrain, you may perform a speed-1 Shift. This Shift cannot be used to disengage.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="daa9-998d-79b1-360c" name="Overgrow [X]" hidden="false" targetId="7772-9dfb-42df-376e" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Overgrow 1"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="eec9-41b4-b794-8076" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6a18-9ee6-bd3e-9ec9" name="Heavy - Common" hidden="false" collective="false" import="true" targetId="5a32-3406-87f9-36d3" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="627c-dbd5-8f9b-1b54" name="High Circle at Lithelin" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98a3-99cd-95be-3334" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f42-b191-8f40-5c99" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb8d-1c62-a8f2-825f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cd7e-6b25-fa36-35c0" name="Verdant Sorceress" hidden="false" collective="false" import="true" targetId="2dbe-d94a-465c-5810" type="selectionEntry"/>
+        <entryLink id="c5db-8942-0554-45a5" name="Dreamweaver Sorceress" hidden="false" collective="false" import="true" targetId="a0ea-4b8e-5fcb-4bcb" type="selectionEntry"/>
+        <entryLink id="fbd4-fd4f-0fcc-f791" name="Storm Sorceress" hidden="false" collective="false" import="true" targetId="f94d-2acd-66fe-a61f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="7772-9dfb-42df-376e" name="Overgrow [X]" hidden="false">
+      <description>Make [X] terrain overgrown?</description>
+    </rule>
+  </sharedRules>
+</catalogue>
